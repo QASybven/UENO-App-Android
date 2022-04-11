@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El menú principal en Android contiene los siguientes elementos:</description>
+   <name>35 Pantalla Menú Principal - Android - Estructura del Menú</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>c701cfaf-aa1c-459f-8f2b-04ca944924da</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 Pantalla de bienvenida (Hola) con inicio de sesion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5941302b-5947-48d7-8295-9b21b819397a</testCaseGuid>
+</TestCaseEntity>

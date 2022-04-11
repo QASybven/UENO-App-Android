@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El ícono de acceso al menú hamburguesa estará presente solo en las siguientes pantallas:</description>
+   <name>34 Pantalla Menú Principal - Android - Disponibilidad de Acceso al menú</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>df09a7b9-ee2f-4e73-a04d-3a163b75297c</testCaseGuid>
+</TestCaseEntity>

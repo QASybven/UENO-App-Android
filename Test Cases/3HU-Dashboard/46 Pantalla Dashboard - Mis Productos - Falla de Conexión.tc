@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>En caso de falla de conexión, al intentar ingresar a la Pantalla Dashboard, se mostrará un alert nativo del SO con los siguientes elementos:</description>
+   <name>46 Pantalla Dashboard - Mis Productos - Falla de Conexión</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>817e1c5f-5a5b-4a59-a1e3-033967a4801f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Para ver esta pantalla, el usuario debe desplegar la slider Resumen de saldos, en la Pantalla Dashboard.</description>
+   <name>53 Pantalla Resumen de Saldos - Acceso</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>9de0e211-8d00-4611-86bb-89472df14942</testCaseGuid>
+</TestCaseEntity>

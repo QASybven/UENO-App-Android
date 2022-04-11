@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El campo Número de celular muestra el texto de ayuda “Ejemplo: 0981748291”.
+
+Al posicionar el focus en el campo, se mantiene el texto de ayuda y se despliega el teclado numérico nativo del sistema operativo.
+
+Al ingresar datos en el campo, se borra el texto de ayuda.
+
+Para el caso de iOS se muestra el botón “x” alineado a la derecha del campo que permite borrar todos los datos</description>
+   <name>03 Número de celular (Campo de texto)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4f203e3-d5bc-4405-bc21-0ee9fb26fbe4</testCaseGuid>
+</TestCaseEntity>

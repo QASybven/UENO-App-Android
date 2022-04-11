@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Al seleccionar la opción Productos desde el menú principal de la App, se muestra la Pantalla Dashboard.</description>
+   <name>44 Pantalla Dashboard - Mis Productos - Acceso desde la opción Productos</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>7286a794-393c-49d7-9a5c-218a5a08faa9</testCaseGuid>
+</TestCaseEntity>
