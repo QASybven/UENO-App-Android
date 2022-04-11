@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>La Pantalla del Dashboard tiene los siguientes elementos:</description>
-   <name>48 Pantalla Dashboard - Mis Productos - Estructura de la pantalla</name>
-   <tag>Dashboard</tag>
-   <comment></comment>
-   <testCaseGuid>111cf31b-efa0-4f84-81a0-e447cbb16371</testCaseGuid>
-</TestCaseEntity>

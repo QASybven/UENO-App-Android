@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>La pantalla cuenta con los siguientes elementos:</description>
+   <name>55 Pantalla Resumen de Saldos - Estructura de la Pantalla</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>cd896c4d-8e05-4633-8691-41f95d8bcb04</testCaseGuid>
+</TestCaseEntity>

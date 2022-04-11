@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Las siguientes opciones de la Pantalla Dashboard se mostrarán inhabilitadas para este sprint:</description>
-   <name>52 Pantalla Dashboard - Mis Productos - Otras Consideraciones</name>
-   <tag>Dashboard</tag>
-   <comment></comment>
-   <testCaseGuid>be55a0ed-4536-4352-b88c-2b09fb32e01f</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>El encabezado debe tener el nombre que identifica a la pantalla “Soporte”</description>
-   <name>16 Ingresa a la Pantalla Soporte desde la opción Soporte del menú principal de la App</name>
-   <tag>Pantalla de Soporte</tag>
-   <comment></comment>
-   <testCaseGuid>5c920d58-f9da-4a01-9ac1-996aa2640be6</testCaseGuid>
-</TestCaseEntity>

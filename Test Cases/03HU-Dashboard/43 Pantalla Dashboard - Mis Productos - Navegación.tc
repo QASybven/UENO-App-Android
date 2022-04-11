@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El usuario podrá hacer scroll en la pantalla para ver todos los productos.</description>
+   <name>43 Pantalla Dashboard - Mis Productos - Navegación</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8327fec-3035-4ee9-be26-a2ba843f48d8</testCaseGuid>
+</TestCaseEntity>

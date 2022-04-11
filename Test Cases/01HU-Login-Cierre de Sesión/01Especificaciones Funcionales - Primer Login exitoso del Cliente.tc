@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.</description>
+   <name>01Especificaciones Funcionales - Primer Login exitoso del Cliente</name>
+   <tag>TET-918</tag>
+   <comment></comment>
+   <testCaseGuid>6f8d3db1-1539-416d-82ab-e7d63ca29d32</testCaseGuid>
+</TestCaseEntity>
