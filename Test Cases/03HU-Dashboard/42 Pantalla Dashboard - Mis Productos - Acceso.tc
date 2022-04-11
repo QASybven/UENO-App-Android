@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Para acceder a esta pantalla el usuario debe hacer login exitoso con sus credenciales.</description>
+   <name>42 Pantalla Dashboard - Mis Productos - Acceso</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>d95008af-03f5-4516-b3c7-5021ebf4e2ac</testCaseGuid>
+</TestCaseEntity>

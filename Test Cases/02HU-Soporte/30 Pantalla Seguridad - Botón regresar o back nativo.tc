@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Botón de flecha para regresar. debe regresa al usuario a la Pantalla Soporte.</description>
+   <name>30 Pantalla Seguridad - Botón regresar o back nativo</name>
+   <tag>Soporte</tag>
+   <comment></comment>
+   <testCaseGuid>58144c46-144c-4b79-88e8-27f4c03b127d</testCaseGuid>
+</TestCaseEntity>

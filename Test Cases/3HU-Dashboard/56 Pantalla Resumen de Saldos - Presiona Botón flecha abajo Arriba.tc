@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Para desplegar la slider Balance de productos de la Pantalla Dashboard el usuario debe seleccionar el botón de flecha hacia abajo.</description>
-   <name>56 Pantalla Resumen de Saldos - Presiona Botón flecha abajo Arriba</name>
-   <tag>Dashboard</tag>
-   <comment></comment>
-   <testCaseGuid>d3040be7-8611-46e1-8587-37d712639b42</testCaseGuid>
-</TestCaseEntity>

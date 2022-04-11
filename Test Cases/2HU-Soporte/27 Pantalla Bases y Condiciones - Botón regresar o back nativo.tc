@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Para ingresar a esta pantalla el usuario debe seleccionar el renglón Bases y condiciones en la Pantalla Soporte.</description>
-   <name>27 Pantalla Bases y Condiciones - Botón regresar o back nativo</name>
-   <tag>Soporte</tag>
-   <comment></comment>
-   <testCaseGuid>4548d155-e2cf-4eb9-9fd2-b486983306aa</testCaseGuid>
-</TestCaseEntity>

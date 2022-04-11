@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Al ingresar por primera vez de forma exitosa a la App, se debe validar si el dispositivo tiene disponible algún método biométrico.</description>
+   <name>45 Pantalla Dashboard - Mis Productos - Acceso por primera vez - Biometría</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>fcfb86c5-f775-4b0e-b521-d0538e876398</testCaseGuid>
+</TestCaseEntity>

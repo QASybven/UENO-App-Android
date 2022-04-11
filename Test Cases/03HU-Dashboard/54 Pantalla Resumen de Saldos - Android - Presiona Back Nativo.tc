@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Para ver esta pantalla, el usuario debe desplegar la slider Resumen de saldos, en la Pantalla Dashboard.</description>
+   <name>54 Pantalla Resumen de Saldos - Android - Presiona Back Nativo</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>4be37342-2a6b-4f5a-ad25-de25b995c8c8</testCaseGuid>
+</TestCaseEntity>
