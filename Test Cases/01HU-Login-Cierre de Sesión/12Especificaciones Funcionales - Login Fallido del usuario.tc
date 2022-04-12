@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>recondiciones
-La cantidad de intentos fallidos y tiempo de bloqueo del usuario es configurada a través de Spotlight.
-
-Ingresar datos incorrectos que no supere las validaciones de Login
+   <description>Pasos a seguir
+Ingresar a la aplicación y validar las descripciones detalladas en el  resultado esperado.
 
 
-Datos utilizados</description>
+Resultado Esperado
+Si supera las validaciones front, se enviará la información al back y se aplicarán las validaciones correspondientes.
+
+Se debe validar que el usuario y contraseña sean correctos y coincidan.
+
+Si no coindicen, se mostrará un mensaje de error en ventana emergente de color Mensaje de error, en la parte superior de la pantalla, con el texto “El número de celular y/o la contraseña ingresados son incorrectos.”.
+
+Una vez iniciada la sesión se muestra la pantalla de dashboard
+
+Al ingresar a la sesión del usuario, de forma exitosa, el sistema recordará el Número de celular predeterminadamente.</description>
    <name>12Especificaciones Funcionales - Login Fallido del usuario</name>
-   <tag>TET-908</tag>
+   <tag>TET-909</tag>
    <comment></comment>
    <testCaseGuid>7e58c764-e1ae-4839-b6e7-2774a3a8a5ff</testCaseGuid>
 </TestCaseEntity>
