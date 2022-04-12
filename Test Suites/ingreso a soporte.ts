@@ -21,7 +21,7 @@
       <guid>69449cc9-84fa-475a-82de-e06a9db5cdc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/10 Switch Recuérdame</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/03Especificaciones funcionales - Botón Plano Olvidaste tu contraseña</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a809bcf5-2ab3-4277-8a1c-62dcf6cf2c2b</guid>

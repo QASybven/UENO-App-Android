@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
+    true)
+
+Mobile.setText(findTestObject('Object Repository/dasboard/android.widget.EditText - Ejemplo 0981123456'), '0982824191', 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/dasboard/android.widget.EditText'), 'Kony!12345', 0)
+
+Mobile.tap(findTestObject('Object Repository/dasboard/android.widget.Button - Ingresar'), 0)
+
+Mobile.closeApplication()
+
