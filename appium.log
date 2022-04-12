@@ -1,15 +1,14 @@
-<<<<<<< HEAD
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 52742
+[35m[Appium][39m   port: 59586
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\JOSE_A~1\AppData\Local\Temp\\Katalon\Appium\Temp1649712636611
-[35m[Appium][39m   chromedriverPort: 52743
+[35m[Appium][39m   tmpDir: C:\Users\JOSE_A~1\AppData\Local\Temp\\Katalon\Appium\Temp1649719363293
+[35m[Appium][39m   chromedriverPort: 59587
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 52743
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52742
+[35m[Appium][39m   chromedriverPort: 59587
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59586
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
@@ -19,14 +18,14 @@
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","noReset":true,"deviceName":"HUAWEI MRD-LX3 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ASJNW19409003146","systemPort":52748},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"HUAWEI MRD-LX3 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":52748,"appium:udid":"ASJNW19409003146"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","noReset":true,"deviceName":"HUAWEI MRD-LX3 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ASJNW19409003146","systemPort":59592},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"HUAWEI MRD-LX3 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":59592,"appium:udid":"ASJNW19409003146"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 430bc3de-44b5-4a75-b77e-d53a8d3b8907
+[35m[BaseDriver][39m Session created with session id: 8ad94f34-60c3-4870-be87-5ce267d562c4
 [35m[BaseDriver][39m Using local app 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
 [35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk' (newest first):
 [35m[ADB][39m     C:/Users/Jose_Arrieta/AppData/Local/Android/Sdk/build-tools/32.1.0-rc1
@@ -57,276 +56,39 @@
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.verticalapps.KonyMobileBanking/com.verticalapps.KonyMobileBanking.KonyMobileBankin and waiting for 'com.verticalapps.KonyMobileBanking/com.verticalapps.KonyMobileBanking.KonyMobileBankin'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 430bc3de-44b5-4a75-b77e-d53a8d3b8907 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14543 ms - 1449[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 8ad94f34-60c3-4870-be87-5ce267d562c4 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14723 ms - 1449[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907 [39m[32m200[39m [90m27 ms - 1403[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4 [39m[32m200[39m [90m40 ms - 1403[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907 [39m[32m200[39m [90m28 ms - 1403[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4 [39m[32m200[39m [90m38 ms - 1403[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4/timeouts [39m[32m200[39m [90m3 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (430bc3de)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ed4f48b9-a181-4bac-8642-59785259a662 with 430bc3de-44b5-4a75-b77e-d53a8d3b8907
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/source [39m[32m200[39m [90m205 ms - 3705[39m
+[35m[W3C (8ad94f34)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f50ab7ff-ae9c-40a2-ab28-180ac588eff4 with 8ad94f34-60c3-4870-be87-5ce267d562c4
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4/source [39m[32m200[39m [90m932 ms - 3705[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/screenshot [39m[32m200[39m [90m762 ms - 47194[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (430bc3de)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ed4f48b9-a181-4bac-8642-59785259a662 with 430bc3de-44b5-4a75-b77e-d53a8d3b8907
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/source [39m[32m200[39m [90m746 ms - 25467[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/screenshot [39m[32m200[39m [90m771 ms - 76634[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and @resource-id = 'com.verticalapps.KonyMobileBanking:id/action_bar_root' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/430bc3de-44b5-4a75-b77e-d53a8d3b8907/elements [39m[32m200[39m [90m1608 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-=======
-<<<<<<< HEAD
-[35m[Appium][39m Welcome to Appium v1.22.0
-[35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 52777
-[35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\JESUS_~1\AppData\Local\Temp\\Katalon\Appium\Temp1649705647899
-[35m[Appium][39m   chromedriverPort: 52778
-[35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
-[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 52778
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52777
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Jesus_Berbin\\Documents\\Cursos\\Sybven\\UENO\\crtopyinfinitymobilebanking-release.apk","noReset":true,"deviceName":"samsung SM-A105M (Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"R28M42G369B","systemPort":52785},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Jesus_Berbin\\Documents\\Cursos\\Sybven\\UENO\\crtopyinfinitymobilebanking-release.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A105M (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":52785,"appium:udid":"R28M42G369B"}]}}[39m
-[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
-[35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m   chromedriverPort
-[35m[Appium][39m Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
-[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
-[35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 5a15f1e3-74ce-41d5-8b48-83a98c118b3c
-[35m[BaseDriver][39m Using local app 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
-[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Jesus_Berbin\AppData\Local\Android\Sdk' (newest first):
-[35m[ADB][39m     C:/Users/Jesus_Berbin/AppData/Local/Android/Sdk/build-tools/31.0.0
-[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Jesus_Berbin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
-[35m[AndroidDriver][39m Retrieving device list
-[35m[AndroidDriver][39m Using device: R28M42G369B
-[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Jesus_Berbin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
-[35m[ADB][39m Getting device platform version
-[35m[UiAutomator2][39m Relaxing hidden api policy
-[35m[ADB][39m Package name: 'com.verticalapps.KonyMobileBanking'
-[35m[ADB][39m Main activity name: 'com.verticalapps.KonyMobileBanking.KonyMobileBankin'
-[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Jesus_Berbin\AppData\Local\Android\Sdk\build-tools\31.0.0\lib\apksigner.jar'
-[35m[ADB][39m 'C:\Users\Jesus_Berbin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' is signed with the default certificate
-[35m[ADB][39m 'C:\Users\Jesus_Berbin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
-[35m[UiAutomator2][39m Server packages are not going to be (re)installed
-[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[35m[ADB][39m 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk' is signed with a non-default certificate
-[35m[UiAutomator2][39m Starting UIAutomator2 server 4.24.0
-[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Jesus_Berbin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' and test from 'C:\Users\Jesus_Berbin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
-[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[35m[AndroidDriver][39m Screen already unlocked, doing nothing
-[35m[UiAutomator2][39m Starting 'com.verticalapps.KonyMobileBanking/com.verticalapps.KonyMobileBanking.KonyMobileBankin and waiting for 'com.verticalapps.KonyMobileBanking/com.verticalapps.KonyMobileBanking.KonyMobileBankin'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 5a15f1e3-74ce-41d5-8b48-83a98c118b3c added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15866 ms - 1362[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c [39m[32m200[39m [90m21 ms - 1316[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c [39m[32m200[39m [90m26 ms - 1316[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/timeouts[39m
-[35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (5a15f1e3)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8e06b075-037c-49bb-a337-52d62661ef2d with 5a15f1e3-74ce-41d5-8b48-83a98c118b3c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source [39m[32m200[39m [90m259 ms - 3705[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot [39m[32m200[39m [90m649 ms - 50044[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (5a15f1e3)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8e06b075-037c-49bb-a337-52d62661ef2d with 5a15f1e3-74ce-41d5-8b48-83a98c118b3c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source [39m[32m200[39m [90m323 ms - 25470[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot [39m[32m200[39m [90m656 ms - 75308[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (5a15f1e3)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8e06b075-037c-49bb-a337-52d62661ef2d with 5a15f1e3-74ce-41d5-8b48-83a98c118b3c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source [39m[32m200[39m [90m1401 ms - 11610[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot [39m[32m200[39m [90m1499 ms - 263020[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (5a15f1e3)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8e06b075-037c-49bb-a337-52d62661ef2d with 5a15f1e3-74ce-41d5-8b48-83a98c118b3c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source [39m[32m200[39m [90m573 ms - 19065[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot [39m[32m200[39m [90m1146 ms - 122826[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (5a15f1e3)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 8e06b075-037c-49bb-a337-52d62661ef2d with 5a15f1e3-74ce-41d5-8b48-83a98c118b3c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/source [39m[32m200[39m [90m221 ms - 19072[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/screenshot [39m[32m200[39m [90m692 ms - 122564[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.verticalapps.KonyMobileBanking:id/imgKonyLogo' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/5a15f1e3-74ce-41d5-8b48-83a98c118b3c/elements [39m[32m200[39m [90m655 ms - 139[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ad94f34-60c3-4870-be87-5ce267d562c4/screenshot [39m[32m200[39m [90m805 ms - 46850[39m
 [35m[HTTP][39m [90m[39m
 [35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
 [35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session '5a15f1e3-74ce-41d5-8b48-83a98c118b3c' from our master session list
+[35m[Appium][39m Removing session '8ad94f34-60c3-4870-be87-5ce267d562c4' from our master session list
 [35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\Jose_Arrieta\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s ASJNW19409003146 forward --remove tcp\:59592' exited with code 1'; Command output: adb.exe: error: listener 'tcp:59592' not found
+[35m[UiAutomator2][39m 
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
-[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/7a7ac7db-b824-4588-a16a-8e3509da2063 [39m[32m200[39m [90m937 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-=======
-[35m[Appium][39m Welcome to Appium v1.22.3
-[35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 60315
-[35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\JOSE_A~1\AppData\Local\Temp\\Katalon\Appium\Temp1649710676557
-[35m[Appium][39m   chromedriverPort: 60316
-[35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
-[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 60316
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60315
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","noReset":true,"deviceName":"HUAWEI MRD-LX3 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ASJNW19409003146","systemPort":60321},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"HUAWEI MRD-LX3 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":60321,"appium:udid":"ASJNW19409003146"}]}}[39m
-[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
-[35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m   chromedriverPort
-[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
-[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
-[35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 60fa6a97-a529-43ff-bfb5-ebf2da43fb9b
-[35m[BaseDriver][39m Using local app 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
-[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk' (newest first):
-[35m[ADB][39m     C:/Users/Jose_Arrieta/AppData/Local/Android/Sdk/build-tools/32.1.0-rc1
-[35m[ADB][39m     C:/Users/Jose_Arrieta/AppData/Local/Android/Sdk/build-tools/32.0.0
-[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk\platform-tools\adb.exe'
-[35m[AndroidDriver][39m Retrieving device list
-[35m[AndroidDriver][39m Using device: ASJNW19409003146
-[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk\platform-tools\adb.exe'
-[35m[ADB][39m Getting device platform version
-[35m[UiAutomator2][39m Relaxing hidden api policy
-[35m[ADB][39m Package name: 'com.verticalapps.KonyMobileBanking'
-[35m[ADB][39m Main activity name: 'com.verticalapps.KonyMobileBanking.KonyMobileBankin'
-[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk\build-tools\32.1.0-rc1\lib\apksigner.jar'
-[35m[ADB][39m 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
-[35m[ADB][39m 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
-[35m[UiAutomator2][39m Server packages are not going to be (re)installed
-[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[35m[ADB][39m 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk' is signed with a non-default certificate
-[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
-[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
-[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[35m[AndroidDriver][39m Screen already unlocked, doing nothing
-[35m[UiAutomator2][39m Starting 'com.verticalapps.KonyMobileBanking/com.verticalapps.KonyMobileBanking.KonyMobileBankin and waiting for 'com.verticalapps.KonyMobileBanking/com.verticalapps.KonyMobileBanking.KonyMobileBankin'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 60fa6a97-a529-43ff-bfb5-ebf2da43fb9b added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14772 ms - 1449[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b [39m[32m200[39m [90m28 ms - 1403[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b [39m[32m200[39m [90m29 ms - 1403[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b/timeouts[39m
-[35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b/timeouts [39m[32m200[39m [90m2 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (60fa6a97)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId e25b5e49-9a1b-4572-a078-2d203f99fdc2 with 60fa6a97-a529-43ff-bfb5-ebf2da43fb9b
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b/source [39m[32m200[39m [90m525 ms - 3705[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/60fa6a97-a529-43ff-bfb5-ebf2da43fb9b/screenshot [39m[32m200[39m [90m799 ms - 47670[39m
-[35m[HTTP][39m [90m[39m
->>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android.git
->>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android.git
