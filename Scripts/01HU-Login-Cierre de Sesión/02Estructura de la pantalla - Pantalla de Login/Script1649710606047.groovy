@@ -22,9 +22,7 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-Banner = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.Banner'), '', 0)
-
-Mobile.verifyEqual(Banner, '')
+Mobile.verifyImagePresent('C:\\Users\\Jesus_Berbin\\Pictures\\5bec106708f3d9c6058b4567.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Hola = Mobile.getText(findTestObject('Login/android.widget.TextView - Hola'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -46,7 +44,7 @@ Mobile.verifyEqual(OlvidastetuContrasena, '¿Olvidaste tu contraseña?')
 
 BotonIngresar = Mobile.getText(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
-Mobile.verifyEqual(BotonIngresar, 'Ingresar')
+Mobile.verifyElementText(BotonIngresar, BotonIngresar)
 
 Registrarme = Mobile.getText(findTestObject('Login/android.widget.Button - Registrarme'), 0)
 
