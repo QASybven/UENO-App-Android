@@ -18,14 +18,21 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
+    true)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0999000745', FailureHandling.STOP_ON_FAILURE)
+Mobile.sendKeys(findTestObject('Object Repository/cierre de sesion/android.widget.EditText - 0982824191'), '0982824191')
 
-'Login Fallido'
-Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!1234', 0)
+Mobile.setText(findTestObject('Object Repository/cierre de sesion/android.widget.EditText'), 'Kony!12345', 0)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
+Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Button - Ingresar'), 0)
+
+Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Button - SI'), 0)
+
+Mobile.closeApplication()
 
