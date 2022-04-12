@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>recondiciones
+La cantidad de intentos fallidos y tiempo de bloqueo del usuario es configurada a través de Spotlight.
+
+Ingresar datos incorrectos que no supere las validaciones de Login
+
+
+Datos utilizados</description>
+   <name>12Especificaciones Funcionales - Login Fallido del usuario</name>
+   <tag>TET-908</tag>
+   <comment></comment>
+   <testCaseGuid>7e58c764-e1ae-4839-b6e7-2774a3a8a5ff</testCaseGuid>
+</TestCaseEntity>

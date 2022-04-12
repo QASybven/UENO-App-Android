@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07 Especificaciones Funcionales - Campo contraseña</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98b5662c-fc5d-4ba7-b436-f61400d88c47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79af25b6-b766-4742-94f6-9f486f09a5f2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'enmascarar'</defaultValue>
+      <description></description>
+      <id>79af25b6-b766-4742-94f6-9f486f09a5f2</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

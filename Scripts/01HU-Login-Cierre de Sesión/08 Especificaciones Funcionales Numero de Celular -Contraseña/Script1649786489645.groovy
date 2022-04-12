@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
+    false)
+
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982824191')
+
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!12345')
+
+'Validar que se habilite al ingresar usuario y contrasena'
+Mobile.checkElement(findTestObject('Login/android.widget.Button - Ingresar'), 0)
+

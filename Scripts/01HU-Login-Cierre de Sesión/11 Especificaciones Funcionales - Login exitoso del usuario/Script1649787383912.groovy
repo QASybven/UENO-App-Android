@@ -20,7 +20,11 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
     false)
 
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.checkElement(findTestObject(null), 0)
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0999000745', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!12345', 0)
+
+Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Precondiciones
+Número de celular comience con los dígitos “09”
+
+Número de celular sea seis (6), siete (7), ocho (8) o nueve (9).</description>
+   <name>10 Especificaciones Funcionales para el campo numero de Celular</name>
+   <tag>TET-911</tag>
+   <comment></comment>
+   <testCaseGuid>1dc18bea-0bfd-4ddd-85ed-be6fdbe50c03</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad62ab01-fadc-4377-b2e6-53355a1eb933</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0982824191'</defaultValue>
+      <description>usuario</description>
+      <id>ad62ab01-fadc-4377-b2e6-53355a1eb933</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

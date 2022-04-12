@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Precondiciones
+El campo que recibe la contraseña debe tener las siguientes características: (Se configuran en el Spotlight)
+a. Será de tipo alfanumérico.
+b. Límite mínimo de 07 caracteres.
+c. Límite máximo de 18 caracteres.
+d. Debe permitir solo los siguientes caracteres especiales: + * ¿ ¡ ! : ; , ? _.
+e. No debe permitir espacios en blanco.
+f. Sí debe ser sensible a mayúsculas y minúsculas.</description>
+   <name>09 Especificaciones Funcionales - Validaciones del Campo Contraseña</name>
+   <tag>TET-910</tag>
+   <comment></comment>
+   <testCaseGuid>67034b39-643f-4839-a6ee-5b00eb0b6347</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df237c05-b09a-4253-81e5-6095fa5f1fb2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'enmascarar'</defaultValue>
+      <description></description>
+      <id>df237c05-b09a-4253-81e5-6095fa5f1fb2</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

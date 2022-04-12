@@ -56,14 +56,20 @@
       <guid>734c6cb1-7037-4084-8465-8d2717132419</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/14 Pantalla de Cierre de sesión_Periodo de Inactividad</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/07 Especificaciones Funcionales - Campo contraseña</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>79af25b6-b766-4742-94f6-9f486f09a5f2</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ef87c95c-1a53-434a-8f4a-f20e90769edd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/15 Pantalla de Cierre de sesión_Autenticado y en la aplicación</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/08 Especificaciones Funcionales Numero de Celular -Contraseña</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
