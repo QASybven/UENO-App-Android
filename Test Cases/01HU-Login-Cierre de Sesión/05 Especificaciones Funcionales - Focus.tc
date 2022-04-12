@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>14 Pantalla de Cierre de sesión_Periodo de Inactividad</name>
+   <name>05 Especificaciones Funcionales - Focus</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>98b5662c-fc5d-4ba7-b436-f61400d88c47</testCaseGuid>
+   <testCaseGuid>bfc85984-6ddc-45e6-b800-0f3f9a6a8ec3</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+·         Para ver esta pantalla, el usuario debe seleccionar el Appicon de la aplicación, a continuación, se verá en pantalla el Splash por algunos segundos y posteriormente la Pantalla Login.
+
+
+Precondiciones
+Ninguna
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Al presionar el icono en el tablero, la app mostrará una imagen suministrada por el cliente, para posteriormente mostrar la pantalla del login
+
+
+Resultado Esperado
+Se debe visualizar correctamente el Splash antes del Login</description>
+   <name>04 Estructura de la pantalla - Splash</name>
+   <tag>TET-919</tag>
+   <comment></comment>
+   <testCaseGuid>786353b0-2463-48f6-9ac6-24d50ea04476</testCaseGuid>
+</TestCaseEntity>

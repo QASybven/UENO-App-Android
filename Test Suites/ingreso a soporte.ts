@@ -16,47 +16,61 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/02HU-Soporte/16 Ingresa a la Pantalla Soporte desde la opción Soporte del menú principal de la App</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>69449cc9-84fa-475a-82de-e06a9db5cdc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/03Especificaciones funcionales - Botón Plano Olvidaste tu contraseña</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a809bcf5-2ab3-4277-8a1c-62dcf6cf2c2b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/11 Falla de conexión</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/05 Especificaciones Funcionales - Focus</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>520780a2-a40a-47e4-8bd0-f4a3ca6315a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/12 Pantalla Splash</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/04 Estructura de la pantalla - Splash</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7ea988da-295e-4253-8179-72273438a149</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/13 Pantalla de Cierre de sesión_Presiona botón</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/06 Especificaciones Funcionales - Número de Celular</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2cc17795-4239-44ac-8ece-a460ca9dd2d4</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>734c6cb1-7037-4084-8465-8d2717132419</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/14 Pantalla de Cierre de sesión_Periodo de Inactividad</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ef87c95c-1a53-434a-8f4a-f20e90769edd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/15 Pantalla de Cierre de sesión_Autenticado y en la aplicación</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1fa40435-333e-4be3-befe-375403628cac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
