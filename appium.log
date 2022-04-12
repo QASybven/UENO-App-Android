@@ -158,3 +158,7 @@
 [35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\Jose_Arrieta\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s ASJNW19409003146 forward --remove tcp\:8219' exited with code 1'; Command output: adb.exe: error: listener 'tcp:8219' not found
 [35m[UiAutomator2][39m 
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/5e93a970-caa2-4f64-9a97-edbde987e790[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/5e93a970-caa2-4f64-9a97-edbde987e790 [39m[33m404[39m [90m13 ms - 2508[39m
+[35m[HTTP][39m [90m[39m
