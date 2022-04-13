@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>53 Scroll -Ingresar con un cliente que posea varias transacciones</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f04f8906-c939-4133-bb02-c9561cb17d1c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>51 Detalle de cuentas - Consulta de movimientos, cliente sin movimientos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f38a196-2799-4a00-aa29-5c6d8bc8c3b2</testCaseGuid>
+</TestCaseEntity>

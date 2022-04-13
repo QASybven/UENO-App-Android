@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El back nativo del sistema operativo Android regresa al usuario a la pantalla desde la que invocó la opción.</description>
+   <name>17 Especificaciones Funcionales - Compartir</name>
+   <tag>Pantalla de Soporte</tag>
+   <comment></comment>
+   <testCaseGuid>8c8b8001-a3ff-4603-829d-4b5a139f7f53</testCaseGuid>
+</TestCaseEntity>

@@ -24,6 +24,7 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0999000745', FailureHandling.STOP_ON_FAILURE)
 
+'Login Fallido'
 Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!1234', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)

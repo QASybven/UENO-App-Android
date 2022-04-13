@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;{color:#36b37e} *_La pantalla cuenta con los siguientes elementos:_*{color}
+
+* Encabezado de la pantalla con el texto que la identifica “Mis productos”.
+*  Slider 1:
+* Título “Mi dinero actual”.
+* Monto correspondiente a la sumatoria de todas las Cajas de ahorro, Cuentas Corrientes y Tarjetas Prepaga, en Gs.
+* Título “Mis ahorros”.
+* Saldo en alcancía.
+* Título “Mis deudas”.}
+* Monto correspondiente a la sumatoria de préstamos y tarjetas de crédito en Gs.  
+* Título “Resumen de saldos”.
+* Ícono de tres puntos.
+* Botón flecha hacia arriba.&quot;</description>
+   <name>36 Ingresar con un cliente que no posea deudas - Resumen de saldos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b83786c0-c437-484a-a243-9906ba93862f</testCaseGuid>
+</TestCaseEntity>

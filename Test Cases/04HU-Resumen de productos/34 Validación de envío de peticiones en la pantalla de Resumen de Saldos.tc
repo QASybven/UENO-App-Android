@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>34 Validación de envío de peticiones en la pantalla de Resumen de Saldos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2647efd8-ce1d-4a38-bcf6-d50ed432adee</testCaseGuid>
+</TestCaseEntity>

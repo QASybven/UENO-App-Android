@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Botón de flecha para regresar debe regresar al usuario a la Pantalla Soporte.</description>
-   <name>25 Pantalla Preguntas frecuentes - Botón flecha para regresar y Back nativo</name>
-   <tag>Soporte</tag>
-   <comment></comment>
-   <testCaseGuid>7259c410-fcb8-48d0-a9b8-028ad73ce47d</testCaseGuid>
-</TestCaseEntity>

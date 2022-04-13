@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Para ingresar a esta pantalla el usuario debe seleccionar el renglón Bases y condiciones en la Pantalla Soporte.</description>
-   <name>26 Pantalla Bases y Condiciones</name>
-   <tag>Soporte</tag>
-   <comment></comment>
-   <testCaseGuid>2ecb24e5-f9b2-425b-a0af-5a214f6783cb</testCaseGuid>
-</TestCaseEntity>
