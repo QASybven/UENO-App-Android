@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>54 Falla de Conexión en la pantalla Resumen de cuenta y Detalle de cuentas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe897247-a1e1-4ff2-bd85-6074366d4734</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El back nativo del sistema operativo, no tiene acción sobre el menú sino sobre la pantalla desde la que se desplegó el mismo.</description>
+   <name>21 Dashboard - Ingresar con un cliente que posea Caja de ahorro</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>cc29c91c-ab56-41f8-bd81-10afcab02cf9</testCaseGuid>
+</TestCaseEntity>

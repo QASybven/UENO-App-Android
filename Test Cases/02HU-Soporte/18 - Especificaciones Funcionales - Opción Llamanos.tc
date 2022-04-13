@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El botón de flecha para regresar regresa al usuario a la pantalla desde la que invocó la opción.</description>
+   <name>18 - Especificaciones Funcionales - Opción Llamanos</name>
+   <tag>Pantalla de Soporte</tag>
+   <comment></comment>
+   <testCaseGuid>dafe1ad3-ab3d-4c19-b5cd-afa33535fb8c</testCaseGuid>
+</TestCaseEntity>
