@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>n caso que la cuenta no tenga transacciones para mostrar, se mostrará un mensaje informativo con el siguiente texto “Sin movimientos” en forma de texto plano, en el centro de la pantalla.
+
+Todos los datos de las transacciones son retornados por el servicio.
+
+La información mostrada en el dato Descripción de la operación, dependerá de lo que retorne el servicio para ese campo.
+
+Las siguientes opciones de la Pantalla Resumen Certificado de ahorro (CDA) se mostrarán inhabilitadas para este sprint:
+
+a.    Barra de búsqueda (Corresponde al Sprint #2).
+
+b.    Búsqueda avanzada (Corresponde al Sprint #2).
+
+c.     Ver extractos (Botón) (Corresponde al Sprint #3).
+
+d.    Mas > Actualizar configuraciones de la cuenta. (Corresponde al Sprint #4).
+
+e.    Seleccionar una transacción para ver los detalles. (Corresponde al Sprint #2).</description>
+   <name>65 Consideraciones o validaciones - Pantalla Resumen de certificado de ahorro (CDA)</name>
+   <tag>TET-871</tag>
+   <comment></comment>
+   <testCaseGuid>55a67497-eac3-48ea-94cc-0ebe65e015d7</testCaseGuid>
+</TestCaseEntity>

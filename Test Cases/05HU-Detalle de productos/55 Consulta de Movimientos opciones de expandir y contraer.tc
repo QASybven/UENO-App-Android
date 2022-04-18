@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>odos los listados se muestran desplegados por defecto.
+1- Al seleccionar sobre el ícono de flecha hacia arriba, de cualquiera de las barras de subtítulo, se pliega el listado correspondiente, y el ícono de flecha cambia de dirección hacia abajo.
+1.1- El resto de los elementos, posteriores a esa barra, cambia de posición en pantalla.</description>
+   <name>55 Consulta de Movimientos opciones de expandir y contraer</name>
+   <tag>TET-887</tag>
+   <comment></comment>
+   <testCaseGuid>6c8a7e52-fa51-495e-b675-baec7b491fce</testCaseGuid>
+</TestCaseEntity>
