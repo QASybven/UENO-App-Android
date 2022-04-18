@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>En caso de falla de conexión, al intentar ingresar a la Pantalla Seguridad, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+2- Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+3- Botón Aceptar.
+El botón Aceptar cierra el alert y mantiene al usuario en la Pantalla Soporte.
+
+El back nativo del sistema operativo, regresa al usuario a la Pantalla Soporte.
+
+
+Resultado Obtenido</description>
+   <name>26 Falla de Conexión en la pantalla de Seguridad</name>
+   <tag>TET-824</tag>
+   <comment></comment>
+   <testCaseGuid>e284380a-07db-4494-9aa3-564dfa41cd9a</testCaseGuid>
+</TestCaseEntity>

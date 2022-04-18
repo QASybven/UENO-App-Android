@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1.1- Alias o nombre del producto.
+1.2- Monto correspondiente al producto, acompañado del tipo de moneda.
+1.2.1- Este monto será el mismo que se muestra en el listado de productos del Dashboard.
+2- Se mostrarán tantos productos como los que retorne el servicio.
+3- El usuario podrá hacer scroll en la pantalla en caso de ser requerido, para ver todos los productos de activos.
+3.1- El scroll solo se aplica al listado de productos, la sección superior con los balances, se muestra siempre en pantalla.</description>
+   <name>40 Seleccionar el botón de flecha hacia arriba-abajo - Resumen de saldo</name>
+   <tag>TET-952</tag>
+   <comment></comment>
+   <testCaseGuid>a8030812-b98f-45d3-8b06-fa8300ac6a72</testCaseGuid>
+</TestCaseEntity>

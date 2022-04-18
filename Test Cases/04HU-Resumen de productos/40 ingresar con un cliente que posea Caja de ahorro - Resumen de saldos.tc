@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>40 ingresar con un cliente que posea Caja de ahorro - Resumen de saldos</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f9c9a5ac-6b6a-42c8-805c-b78719b5b78f</testCaseGuid>
-</TestCaseEntity>

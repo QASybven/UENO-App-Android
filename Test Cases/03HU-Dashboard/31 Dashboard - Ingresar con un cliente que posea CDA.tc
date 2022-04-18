@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Las siguientes opciones del menú se mostrarán inhabilitadas para este sprint:</description>
+   <name>31 Dashboard - Ingresar con un cliente que posea CDA</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>bf861525-bccc-452c-8e52-2b6371b1573a</testCaseGuid>
+</TestCaseEntity>

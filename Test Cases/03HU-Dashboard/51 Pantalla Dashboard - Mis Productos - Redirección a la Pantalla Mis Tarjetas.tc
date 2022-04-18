@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>En el caso de seleccionar una tarjeta de crédito o tarjeta prepaga, se muestra al usuario la Pantalla Principal Mis tarjetas con la tarjeta seleccionada, en el carrusel, junto con sus datos y opciones en el resto de la pantalla.</description>
-   <name>51 Pantalla Dashboard - Mis Productos - Redirección a la Pantalla Mis Tarjetas</name>
-   <tag>Dashboard</tag>
-   <comment></comment>
-   <testCaseGuid>73c35337-b2c4-47ba-abae-2541ce38dd73</testCaseGuid>
-</TestCaseEntity>

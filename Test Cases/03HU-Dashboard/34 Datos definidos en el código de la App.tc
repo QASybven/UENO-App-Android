@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Resultado Esperado
+La etiqueta que identifica el monto es definida en el código de la App, es decir no es retornada por el servicio.
+
+La etiqueta N° que acompaña el número de producto es definida en la App, es decir no es retornada por el servicio.</description>
+   <name>34 Datos definidos en el código de la App</name>
+   <tag>TET-832</tag>
+   <comment></comment>
+   <testCaseGuid>7286a794-393c-49d7-9a5c-218a5a08faa9</testCaseGuid>
+</TestCaseEntity>

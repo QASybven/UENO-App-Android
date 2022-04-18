@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>La siguiente función se mostrará inhabilitada.</description>
-   <name>19 Falla de Conexión en la pantalla de Seguridad</name>
-   <tag>Pantalla de Soporte</tag>
-   <comment></comment>
-   <testCaseGuid>7306803d-876a-45e9-9dd9-91024bd43b76</testCaseGuid>
-</TestCaseEntity>

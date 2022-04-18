@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>39 Ingresar con un cliente que posea deudas - Resumen de saldos</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a0a220c5-7b90-4bed-a791-cd5fd11ab6f2</testCaseGuid>
-</TestCaseEntity>

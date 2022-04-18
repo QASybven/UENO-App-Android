@@ -28,3 +28,7 @@ Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
+Mobile.checkElement(findTestObject(null), 0)
+
+Mobile.getAttribute(findTestObject(null), '', 0)
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>*La pantalla cuenta con los siguientes elementos:*
+
+Encabezado de la pantalla con el texto que la identifica “Mis productos”.
+
+ Slider 1:
+
+Título “Mi dinero actual”.
+
+Monto correspondiente a la sumatoria de todas las Cajas de ahorro, Cuentas Corrientes y Tarjetas Prepaga, en Gs.
+
+Título “Mis ahorros”.
+
+Saldo en alcancía.
+
+Título “Mis deudas”.}
+
+Monto correspondiente a la sumatoria de préstamos y tarjetas de crédito en Gs.  
+
+Título “Resumen de saldos”.
+
+Ícono de tres puntos. (No va para el sprint)
+
+Botón flecha hacia arriba.</description>
+   <name>38 - Estructura de Pantalla - Resumen de Saldos</name>
+   <tag>TET-954</tag>
+   <comment></comment>
+   <testCaseGuid>ae6b1591-d5fc-47fa-8a27-34ebfc9762d3</testCaseGuid>
+</TestCaseEntity>

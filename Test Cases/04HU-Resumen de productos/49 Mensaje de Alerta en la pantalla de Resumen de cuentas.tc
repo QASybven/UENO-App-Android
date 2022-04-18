@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>49 Mensaje de Alerta en la pantalla de Resumen de cuentas</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>dbe8ce68-35d5-4da8-ac5a-5bc8eea79ad4</testCaseGuid>
-</TestCaseEntity>

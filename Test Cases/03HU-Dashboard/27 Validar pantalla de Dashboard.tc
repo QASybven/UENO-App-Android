@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>La pantalla cuenta con los siguientes elementos:
+
+Header de la pantalla con el texto que la identifica “Mis productos”.
+
+Slider principal, contiene los siguientes elementos:
+
+Slider 1.
+
+Botón flecha hacia abajo 1.
+
+Barra de subtítulos “Todos mis productos”.
+
+Listado de productos asociados al usuario</description>
+   <name>27 Validar pantalla de Dashboard</name>
+   <tag>TET-842</tag>
+   <comment></comment>
+   <testCaseGuid>572c6c08-7272-46cd-a166-3bf9e630b689</testCaseGuid>
+</TestCaseEntity>
