@@ -9,4 +9,17 @@ El botón Aceptar cierra el alert, cierra la sesión del usuario y muestra la Pa
    <tag>TET-832</tag>
    <comment></comment>
    <testCaseGuid>d95008af-03f5-4516-b3c7-5021ebf4e2ac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>134b322c-ff81-476d-99d4-f716a1be05a7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'\r\nUps! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo'</defaultValue>
+      <description>Falla de conexion</description>
+      <id>134b322c-ff81-476d-99d4-f716a1be05a7</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>

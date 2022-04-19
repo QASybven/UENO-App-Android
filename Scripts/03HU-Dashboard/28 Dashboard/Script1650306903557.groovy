@@ -28,3 +28,5 @@ Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
+Mobile.doubleTap(findTestObject('dasboard/android.widget.TextView - Gs. 31.536.429 saldo actual'), 0)
+

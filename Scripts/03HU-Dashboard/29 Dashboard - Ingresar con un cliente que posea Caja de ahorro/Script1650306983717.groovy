@@ -28,13 +28,9 @@ Mobile.setText(findTestObject('Object Repository/Caja de ahorros/android.widget.
 
 Mobile.tap(findTestObject('Object Repository/Caja de ahorros/android.widget.Button - Ingresar'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - Caja de Ahorro'), 0)
-
 Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - N'), 0)
 
 Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - Gs. 0'), 0)
-
-Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - Saldo disponible'), 0)
 
 Mobile.closeApplication()
 
