@@ -26,15 +26,15 @@ Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.Button - Sop
 
 Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.TextView - Preguntas frecuentes (1)'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Back Preguntas Frecuentes'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.TextView - Bases y condiciones (1)'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Back Bases y Condiciones'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.TextView - Seguridad'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Back Seguridad'), 0)
 
 Mobile.closeApplication()
 
