@@ -24,3 +24,15 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Soporte'), 0)
 
+Mobile.getText(findTestObject('Soporte/android.widget.TextView - Soporte encabezado'), 0)
+
+Mobile.verifyEqual(findTestObject('Soporte/android.widget.TextView - Soporte encabezado'), variable)
+
+Mobile.getText(findTestObject('Soporte/android.widget.TextView - Bases y condiciones'), 0)
+
+Mobile.verifyEqual(findTestObject('Soporte/android.widget.TextView - Bases y condiciones'), 0)
+
+WebUI.getText(findTestObject('Soporte/android.widget.TextView - Preguntas frecuentes'))
+
+Mobile.verifyEqual(findTestObject('Soporte/android.widget.TextView - Preguntas frecuentes'), 0)
+

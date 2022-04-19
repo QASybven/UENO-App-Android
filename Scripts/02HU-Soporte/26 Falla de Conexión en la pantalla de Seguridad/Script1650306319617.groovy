@@ -24,3 +24,7 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Soporte'), 0)
 
+Mobile.toggleAirplaneMode('modo avion', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('Soporte/android.widget.TextView - Seguridad'), 0)
+

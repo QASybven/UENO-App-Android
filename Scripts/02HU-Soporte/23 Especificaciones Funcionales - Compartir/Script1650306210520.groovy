@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
+    true)
+
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject(''), 0)
+
+Mobile.tap(findTestObject(''), 0)
+
+Mobile.takeScreenshot('C:\\Users\\JOSE_A~1\\AppData\\Local\\Temp\\screenshot6735915950223521392.png')
+
+Mobile.closeApplication()
+
