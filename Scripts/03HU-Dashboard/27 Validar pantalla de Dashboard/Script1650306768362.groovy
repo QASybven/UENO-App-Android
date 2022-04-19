@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
+    true)
+
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0994391003')
+
+Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!12345', 0)
+
+Mis productos = Mobile.getText(findTestObject('dasboard/android.widget.TextView - Mis productos titulo pantalla'), 0)
+
+Mobile.verifyEqual(Mis productos, 'Mis productos')
+
+Todos mis productos = Mobile.getText(findTestObject('dasboard/android.widget.TextView - Todos mis productos'), 0)
+
+Mobile.verifyEqual(Todos mis productos, 'Todos mis productos')
+
