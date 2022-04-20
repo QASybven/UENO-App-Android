@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>&quot;{color:#36b37e} *_La pantalla cuenta con los siguientes elementos:_*{color}
-
-* Encabezado de la pantalla con el texto que la identifica “Mis productos”.
-*  Slider 1:
-* Título “Mi dinero actual”.
-* Monto correspondiente a la sumatoria de todas las Cajas de ahorro, Cuentas Corrientes y Tarjetas Prepaga, en Gs.
-* Título “Mis ahorros”.
-* Saldo en alcancía.
-* Título “Mis deudas”.}
-* Monto correspondiente a la sumatoria de préstamos y tarjetas de crédito en Gs.  
-* Título “Resumen de saldos”.
-* Ícono de tres puntos.
-* Botón flecha hacia arriba.&quot;</description>
+   <description>Al momento de pulsar repetidamente sobre alguna opcion, solamente debe ejercer una acción a la cual se corresponda</description>
    <name>37 Validación de envío de peticiones en la pantalla de Resumen de Saldos</name>
-   <tag></tag>
+   <tag>TET-955</tag>
    <comment></comment>
-   <testCaseGuid>b83786c0-c437-484a-a243-9906ba93862f</testCaseGuid>
+   <testCaseGuid>ff377b1e-04ac-4224-959b-50408d395301</testCaseGuid>
 </TestCaseEntity>
