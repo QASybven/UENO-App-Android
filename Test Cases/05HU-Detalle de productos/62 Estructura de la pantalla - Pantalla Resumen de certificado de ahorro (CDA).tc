@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>La pantalla cuenta con los siguientes elementos:
+
+Header de la pantalla con el alias o nombre del CDA, seguido de los cuatro (04) últimos dígitos del número de CDA.
+
+Botón de flecha para regresar.
+
+Icono de información.
+
+Información resumen del CDA
+
+Título “Capital”.
+
+Monto del capital invertido. 
+
+Título “Total intereses:”.
+
+Intereses retornados por el capital en el plazo correspondiente.
+
+Título “Fecha de vencimiento:”
+
+Fecha en que caduca el CDA.
+
+Barra de subtítulos con el texto “Capitalizaciones de intereses”.
+
+Listado de intereses retornados por el capital invertido.</description>
+   <name>62 Estructura de la pantalla - Pantalla Resumen de certificado de ahorro (CDA)</name>
+   <tag>TET-874</tag>
+   <comment></comment>
+   <testCaseGuid>fb61136e-fb4f-4608-a0cc-b8a91de42a79</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>58 Validación de envío de peticiones en la pantalla de Detalle de cuentas</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>da03099a-bf5b-4a97-841f-3530489cac8a</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Al seleccionar cualquiera de los productos listados, se muestra al usuario la Pantalla Resumen de cuenta, según el producto.</description>
-   <name>50 Pantalla Dashboard - Mis Productos - Redirección a la Pantalla Resumen de producto</name>
-   <tag>Dashboard</tag>
-   <comment></comment>
-   <testCaseGuid>b1b694d8-5633-4e55-ba2a-85137d4d1b3d</testCaseGuid>
-</TestCaseEntity>

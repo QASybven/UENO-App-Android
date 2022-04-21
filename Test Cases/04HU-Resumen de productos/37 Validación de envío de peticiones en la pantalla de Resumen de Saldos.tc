@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Al momento de pulsar repetidamente sobre alguna opcion, solamente debe ejercer una acción a la cual se corresponda</description>
+   <name>37 Validación de envío de peticiones en la pantalla de Resumen de Saldos</name>
+   <tag>TET-955</tag>
+   <comment></comment>
+   <testCaseGuid>ff377b1e-04ac-4224-959b-50408d395301</testCaseGuid>
+</TestCaseEntity>

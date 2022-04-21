@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Para ingresar a esta pantalla el usuario debe seleccionar el botón plano Soporte presente en la Pantalla Login, o seleccionar la opción Soporte en el menú principal de la App.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Ninguna
+
+Resultado Esperado
+·         La pantalla cuenta con los siguientes elementos:
+
+ Header con el nombre que la identifica “Soporte”.
+
+Botón de flecha para regresar.
+
+Lista de opciones disponibles:
+
+Preguntas frecuentes.
+
+ Bases y condiciones.
+
+Seguridad.
+
+Texto informativo con los datos de la App y del dispositivo</description>
+   <name>20 Estructura de la pantalla - Pantalla de Soporte</name>
+   <tag>TET-830</tag>
+   <comment></comment>
+   <testCaseGuid>5c920d58-f9da-4a01-9ac1-996aa2640be6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>032c0ffe-9d03-468c-9f94-7fff16c109b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Soporte'</defaultValue>
+      <description>Titulo</description>
+      <id>032c0ffe-9d03-468c-9f94-7fff16c109b8</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

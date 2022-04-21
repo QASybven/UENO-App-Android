@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>n caso de falla de conexión, al seleccionar el botón Ingresar, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+2- Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+3- Botón Aceptar.</description>
+   <name>18 Validaciones Funcionales - Intentar iniciar sesión con falla de conexión</name>
+   <tag>TET-906</tag>
+   <comment></comment>
+   <testCaseGuid>de193935-9eef-4970-a094-d8283d3c66b0</testCaseGuid>
+</TestCaseEntity>

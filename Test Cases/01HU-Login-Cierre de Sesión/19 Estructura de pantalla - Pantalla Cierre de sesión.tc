@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a pantalla cuenta con los siguientes elementos:
+
+ Encabezado de la pantalla con banner principal (logotipo del banco).
+
+Icono de confirmación en color verde.
+
+ Texto informativo 1.
+
+  Texto informativo 2.
+
+ Ingresar (Botón).</description>
+   <name>19 Estructura de pantalla - Pantalla Cierre de sesión</name>
+   <tag>TET-901</tag>
+   <comment></comment>
+   <testCaseGuid>b1ae98b4-6b0e-47de-a138-6c5df28aedf5</testCaseGuid>
+</TestCaseEntity>

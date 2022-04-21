@@ -22,9 +22,11 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Olvidaste tu contrasea'), 0)
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982159800')
 
-Mobile.getText(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!12345', 0)
 
-Mobile.verifyEqual(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
+Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
+
+Mobile.takeScreenshot('Capturar campos', FailureHandling.CONTINUE_ON_FAILURE)
 

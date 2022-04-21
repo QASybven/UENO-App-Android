@@ -18,13 +18,23 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
+    true)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Olvidaste tu contrasea'), 0)
+Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.Button - Soporte'), 0)
 
-Mobile.getText(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
+Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.TextView - Preguntas frecuentes (1)'), 0)
 
-Mobile.verifyEqual(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Back Preguntas Frecuentes'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.TextView - Bases y condiciones (1)'), 0)
+
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Back Bases y Condiciones'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Soporte/android.widget.TextView - Seguridad'), 0)
+
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Back Seguridad'), 0)
+
+Mobile.closeApplication()
 

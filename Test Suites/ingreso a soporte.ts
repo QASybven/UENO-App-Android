@@ -15,8 +15,14 @@
       <guid>ab3195a6-bc77-4b73-b31b-7a1a7d65d140</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/02HU-Soporte/15 Estructura de la pantalla - Pantalla de Soporte</testCaseId>
+      <testCaseId>Test Cases/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>032c0ffe-9d03-468c-9f94-7fff16c109b8</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>69449cc9-84fa-475a-82de-e06a9db5cdc7</guid>

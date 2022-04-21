@@ -22,9 +22,5 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Olvidaste tu contrasea'), 0)
-
-Mobile.getText(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
-
-Mobile.verifyEqual(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
+Mobile.tap(findTestObject('Soporte/android.widget.Button - Soporte pantalla de inicio'), 0)
 

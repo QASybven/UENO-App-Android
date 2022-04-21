@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>27 Validar pantalla de Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>572c6c08-7272-46cd-a166-3bf9e630b689</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e442aefe-b875-42ac-a7ac-94a3484a79a4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Mis productos'</defaultValue>
+      <description>Encabezado</description>
+      <id>e442aefe-b875-42ac-a7ac-94a3484a79a4</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

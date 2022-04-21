@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>La pantalla cuenta con los siguientes elementos:
+
+Header de la pantalla con el alias o nombre del CDA, seguido de los cuatro (04) últimos dígitos del número de CDA.
+
+Botón de flecha para regresar.
+
+Editar (Botón).
+
+Barra de subtítulo con el texto “Resumen de saldos”
+
+Listado de datos de balances y saldos del CDA consultados.
+
+Barra de subtítulos con el texto “Datos del CDA”.
+
+Listado de datos del CDA consultado
+
+Barra de subtítulo con el texto “Costos y beneficios”.
+
+Listado de datos referentes a costos y beneficios relacionados con el CDA consultado.</description>
+   <name>66 Estructura de la pantalla - Pantalla Detalle de certificado de ahorro (CDA)</name>
+   <tag>TET-870</tag>
+   <comment></comment>
+   <testCaseGuid>c85f5c2e-b56e-46ec-ba21-0f391145e85b</testCaseGuid>
+</TestCaseEntity>

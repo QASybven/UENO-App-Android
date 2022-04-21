@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>66 Falla de conexión - Pantalla Detalle de certificado de ahorro (CDA)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>93ae22c2-c75a-42fd-a20b-d9a4ce6055d1</testCaseGuid>
-</TestCaseEntity>

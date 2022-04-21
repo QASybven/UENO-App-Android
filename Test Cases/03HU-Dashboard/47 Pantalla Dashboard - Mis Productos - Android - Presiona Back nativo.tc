@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>El back nativo del sistema operativo muestra un alert con los siguientes elementos:</description>
-   <name>47 Pantalla Dashboard - Mis Productos - Android - Presiona Back nativo</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>60c9865e-0b7c-44bc-8254-d4f6c2673af4</testCaseGuid>
-</TestCaseEntity>
