@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>122 Falla de conexión - Pantalla Filtrar tarjetas</name>
+   <tag>TET-970</tag>
+   <comment></comment>
+   <testCaseGuid>73bf537e-3bb3-42f0-b310-5ef375654d64</testCaseGuid>
+</TestCaseEntity>
