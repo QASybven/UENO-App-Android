@@ -27,5 +27,5 @@ Botón flecha hacia arriba.</description>
    <name>39 Ingresar con un cliente que no posea deudas - Resumen de saldos</name>
    <tag>TET-953</tag>
    <comment></comment>
-   <testCaseGuid>ee5ce2be-c8c6-48b0-99aa-8150c5fefdc1</testCaseGuid>
+   <testCaseGuid>46216d3d-15be-47da-bd04-8901c1418197</testCaseGuid>
 </TestCaseEntity>
