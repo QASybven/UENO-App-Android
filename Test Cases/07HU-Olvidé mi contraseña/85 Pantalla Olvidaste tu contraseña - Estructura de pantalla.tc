@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+ En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”
+
+Indica el número de la cuota consultada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+  Etiqueta con el texto “Capital:”.
+
+Indica el monto de la cuota consultada que corresponde al capital, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Interés:”.
+Indica el monto de la cuota consultada que corresponde a intereses, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cargos:”.
+
+Indica el monto de la cuota consultada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total a pagar:”. 
+
+Indica la sumatoria de todos los montos de la cuota: capital + interés + cargos, acompañado del tipo de moneda.
+
+
+Precondiciones
+Ingresar con un cliente que posea cuotas  vencidas</description>
+   <name>85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</name>
+   <tag>TET-859</tag>
+   <comment></comment>
+   <testCaseGuid>b502d869-d99c-48a9-943a-0cf961e809c4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+El campo CI númerodebe tener las siguientes características:
+
+a.    Debe ser de tipo numérico
+
+b.    Límite mínimo de 04 caracteres.
+
+c.     Límite máximo de 08 caracteres.
+
+d.    No debe permitir caracteres especiales ni espacios en blanco.
+
+El campo Nro. de celular con el que te registrastedebe tener las siguientes características:
+
+a.    Será de tipo numérico.
+
+b.    Longitud máxima de 10 caracteres.
+
+c.     Longitud mínima de 10 caracteres.
+
+d.    No debe permitir ningún caracter espacial ni espacios en blanco.
+
+e.    Los primeros dos (02) dígitos ingresados deben ser “09”.
+
+f.      El tercer dígito ingresado debe ser seis (6), siete (7), ocho (8) o nueve (9).
+
+El campo Correo electrónico con el que te registrastedebe tener las siguientes características:
+
+a.    No debe tener límite máximo de caracteres.
+
+b.    Debe contener formato de correo electrónico, es decir que incluya datos alfanuméricos, carácter “@” y punto (.) del dominio.
+
+c.     Debe permitir todos los caracteres especiales.
+
+No debe permitir espacios en blanco</description>
+   <name>88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</name>
+   <tag>TET-856</tag>
+   <comment></comment>
+   <testCaseGuid>c670841c-3e41-4f6d-b4d3-aef30de1fdf4</testCaseGuid>
+</TestCaseEntity>

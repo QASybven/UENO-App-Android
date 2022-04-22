@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>124 Falla de conexión - Pantalla Detalles de la tarjeta</name>
+   <tag>TET-875</tag>
+   <comment></comment>
+   <testCaseGuid>cf373010-ce45-4ff6-bea4-633d00d103f0</testCaseGuid>
+</TestCaseEntity>
