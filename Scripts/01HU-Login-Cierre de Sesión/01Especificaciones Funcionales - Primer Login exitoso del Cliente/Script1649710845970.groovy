@@ -22,13 +22,11 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982159800', FailureHandling.STOP_ON_FAILURE)
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982159800', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!12345', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
-Mobile.checkElement(findTestObject(null), 0)
-
-Mobile.getAttribute(findTestObject(null), '', 0)
+Mobile.setText(findTestObject('Login/android.widget.TextView - Hola'), 'Hola', Hola)
 
