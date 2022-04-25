@@ -17,16 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    true)
-
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.sendKeys(findTestObject('Object Repository/Caja de ahorros/android.widget.EditText - 0982159800'), '0982159800')
-
-Mobile.setText(findTestObject('Object Repository/Caja de ahorros/android.widget.EditText'), 'Kony!12345', 0)
-
-Mobile.tap(findTestObject('Object Repository/Caja de ahorros/android.widget.Button - Ingresar'), 0)
+WebUI.callTestCase(findTestCase('01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente'), 
+    [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - N'), 0)
 
