@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test1" time="0.616" tests="1" failures="0" errors="1">
+   <testsuite name="test1" tests="1" failures="0" errors="1" time="0.616" skipped="0" timestamp="2022-04-22 09:52:30" hostname="Jose_Arrieta - Jose-Arrieta" id="Test Suites/test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\Reports\\20220422_095226\\test1\\20220422_095226"/>
+         <property name="logFiles" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\Reports\\20220422_095226\\test1\\20220422_095226\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jose_Arrieta - Jose-Arrieta"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.011" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650635551475.groovy: 25: expecting ')', found 'de' @ line 25, column 98.
+   ro de celular login'), Numero de celular
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-22 09:52:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650635551475.groovy: 25: expecting ')', found 'de' @ line 25, column 98.
+   ro de celular login'), Numero de celular
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-22 09:52:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650635551475.groovy: 25: expecting ')', found 'de' @ line 25, column 98.
+   ro de celular login'), Numero de celular
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-22 09:52:30 - [TEST_SUITE][ERROR] - test1: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650635551361.groovy: 25: expecting ')', found 'de' @ line 25, column 98.
+   ro de celular login'), Numero de celular
+                                 ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2022-04-22 09:52:30 - [TEST_SUITE][ERROR] - test1: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650635551361.groovy: 25: expecting ')', found 'de' @ line 25, column 98.
+   ro de celular login'), Numero de celular
+                                 ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>
