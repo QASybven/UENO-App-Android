@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fe16ba9-fd64-49a2-b8e0-4ebf97743b19</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>237e1257-e67e-4be7-9bd4-c4cceca03b3e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b008282e-5c35-47d0-b3df-18ba2ed2d9f0</guid>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,,,,2022-04-23 21:07:48,2022-04-23 21:08:03,"14,863s",FAILED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-23 21:07:49,2022-04-23 21:08:03,"14,436s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", false)",,,,2022-04-23 21:07:49,2022-04-23 21:07:53,"3,853s",FAILED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-23 21:07:53,2022-04-23 21:08:03,"10,032s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - Numero de celular login""), numerocelular, 0)",,,,2022-04-23 21:08:03,2022-04-23 21:08:03,"0,109s",PASSED
