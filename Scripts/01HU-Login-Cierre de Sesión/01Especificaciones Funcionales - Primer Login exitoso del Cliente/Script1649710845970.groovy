@@ -21,18 +21,16 @@ Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< HEAD
+
 Mobile.setText(findTestObject('Login/android.widget.EditText - NumeroCelular'), numerocelular, 0)
-=======
+
 Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982159800', FailureHandling.CONTINUE_ON_FAILURE)
->>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android.git
+
 
 Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), contrasena, 0)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
-<<<<<<< HEAD
-=======
+
 
 Mobile.setText(findTestObject('Login/android.widget.TextView - Hola'), 'Hola', Hola)
->>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android.git
 

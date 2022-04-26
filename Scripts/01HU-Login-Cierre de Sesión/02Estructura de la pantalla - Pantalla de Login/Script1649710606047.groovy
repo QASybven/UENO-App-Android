@@ -24,7 +24,7 @@ Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyImagePresent('C:\\Users\\Jesus_Berbin\\Pictures\\5bec106708f3d9c6058b4567.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
-Hola = Mobile.getText(findTestObject('Login/android.widget.TextView - Hola'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Hola = Mobile.getText(findTestObject('Login/android.widget.TextView - Holanuevo'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyEqual(Hola, '¡Hola!')
 
@@ -34,7 +34,7 @@ Mobile.verifyEqual(NumerodeCelular, 'Número de celular:')
 
 Contrasena = Mobile.getText(findTestObject('Login/android.widget.TextView - Contrasea'), 0)
 
-Mobile.verifyEqual(Contrasena, 'Contraseña: ')
+Mobile.verifyEqual(Contrasena, 'Contraseña:')
 
 Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.IconoMostrarContraseña'), '', 0)
 
@@ -42,7 +42,7 @@ OlvidastetuContrasena = Mobile.getText(findTestObject('Login/android.widget.Text
 
 Mobile.verifyEqual(OlvidastetuContrasena, '¿Olvidaste tu contraseña?')
 
-BotonIngresar = Mobile.getText(findTestObject('Login/android.widget.Button - Ingresar'), 0)
+BotonIngresar = Mobile.getAttribute(findTestObject('Login/android.widget.Button - Ingresar'), '', 0)
 
 Mobile.verifyElementText(BotonIngresar, BotonIngresar)
 

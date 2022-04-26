@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="0.81" tests="9" failures="0" errors="9">
+   <testsuite name="Test" tests="9" failures="0" errors="9" time="0.81" skipped="0" timestamp="2022-04-25 20:53:31" hostname="Jesus_Berbin - Ender-Lobo" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220425_205323\\Test\\20220425_205323"/>
+         <property name="logFiles" value="C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220425_205323\\Test\\20220425_205323\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jesus_Berbin - Ender-Lobo"/>
+         <property name="hostAddress" value="192.168.17.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.036" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411811.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411811.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411811.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.011" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411898.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411898.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411898.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.009" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411951.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411951.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411951.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.008" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411998.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411998.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:31 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411998.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.008" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412044.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412044.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412044.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.009" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412093.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412093.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412093.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.007" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412135.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412135.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412135.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.008" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412174.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412174.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412174.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="0.007" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="ERROR">
+         <error type="ERROR" message="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412222.groovy: 24: unexpected token: &lt;&lt; @ line 24, column 1.
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412222.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2022-04-25 20:53:32 - [TEST_CASE][ERROR] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934412222.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-25 20:53:31 - [TEST_SUITE][ERROR] - Test: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411811.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2022-04-25 20:53:31 - [TEST_SUITE][ERROR] - Test: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1650934411811.groovy: 24: unexpected token: << @ line 24, column 1.
+   <<<<<<< HEAD
+   ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>
