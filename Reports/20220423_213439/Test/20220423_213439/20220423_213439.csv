@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,,,,2022-04-23 21:34:41,2022-04-23 21:36:52,"2m - 10,976s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-23 21:34:42,2022-04-23 21:35:14,"32,036s",PASSED
+"startApplication(""C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk"", false)",,,,2022-04-23 21:34:42,2022-04-23 21:34:59,"16,525s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-23 21:34:59,2022-04-23 21:35:09,"10,037s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-23 21:35:09,2022-04-23 21:35:11,"1,985s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-23 21:35:11,2022-04-23 21:35:12,"1,426s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-23 21:35:12,2022-04-23 21:35:14,"1,628s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-23 21:35:14,2022-04-23 21:35:39,"25,061s",PASSED
+"startApplication(""C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk"", false)",,,,2022-04-23 21:35:14,2022-04-23 21:35:24,"10,337s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-23 21:35:24,2022-04-23 21:35:34,"10,018s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-23 21:35:34,2022-04-23 21:35:36,"1,815s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-23 21:35:36,2022-04-23 21:35:37,"1,418s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-23 21:35:37,2022-04-23 21:35:39,"1,463s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-23 21:35:39,2022-04-23 21:36:04,"24,996s",PASSED
+"startApplication(""C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk"", false)",,,,2022-04-23 21:35:39,2022-04-23 21:35:49,"9,842s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-23 21:35:49,2022-04-23 21:35:59,"10,002s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-23 21:35:59,2022-04-23 21:36:01,"2,271s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-23 21:36:01,2022-04-23 21:36:02,"1,451s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-23 21:36:02,2022-04-23 21:36:04,"1,421s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-23 21:36:04,2022-04-23 21:36:28,"24,437s",PASSED
+"startApplication(""C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk"", false)",,,,2022-04-23 21:36:04,2022-04-23 21:36:14,"9,797s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-23 21:36:14,2022-04-23 21:36:24,"10,002s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-23 21:36:24,2022-04-23 21:36:25,"1,741s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-23 21:36:25,2022-04-23 21:36:27,"1,462s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-23 21:36:27,2022-04-23 21:36:28,"1,428s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-23 21:36:28,2022-04-23 21:36:52,"23,966s",PASSED
+"startApplication(""C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk"", false)",,,,2022-04-23 21:36:28,2022-04-23 21:36:38,"9,847s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-23 21:36:38,2022-04-23 21:36:48,"10,017s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-23 21:36:48,2022-04-23 21:36:49,"1,225s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-23 21:36:49,2022-04-23 21:36:51,"1,450s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-23 21:36:51,2022-04-23 21:36:52,"1,419s",PASSED

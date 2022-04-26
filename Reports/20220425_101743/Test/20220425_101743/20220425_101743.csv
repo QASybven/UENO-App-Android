@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,,,,2022-04-25 10:17:53,2022-04-25 10:20:14,"2m - 20,360s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-25 10:17:54,2022-04-25 10:18:29,"35,723s",PASSED
+"startApplication(URL, false)",,,,2022-04-25 10:17:54,2022-04-25 10:18:15,"20,871s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-25 10:18:15,2022-04-25 10:18:25,"10,036s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-25 10:18:25,2022-04-25 10:18:27,"1,953s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-25 10:18:27,2022-04-25 10:18:28,"1,597s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-25 10:18:28,2022-04-25 10:18:29,"0,844s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-25 10:18:29,2022-04-25 10:18:57,"28,039s",PASSED
+"startApplication(URL, false)",,,,2022-04-25 10:18:29,2022-04-25 10:18:42,"13,103s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-25 10:18:42,2022-04-25 10:18:52,"10,005s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-25 10:18:52,2022-04-25 10:18:54,"1,805s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-25 10:18:54,2022-04-25 10:18:56,"1,446s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-25 10:18:56,2022-04-25 10:18:57,"1,670s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-25 10:18:57,2022-04-25 10:19:23,"25,536s",PASSED
+"startApplication(URL, false)",,,,2022-04-25 10:18:57,2022-04-25 10:19:09,"11,346s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-25 10:19:09,2022-04-25 10:19:19,"10,013s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-25 10:19:19,2022-04-25 10:19:21,"1,795s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-25 10:19:21,2022-04-25 10:19:22,"1,453s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-25 10:19:22,2022-04-25 10:19:23,"0,920s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-25 10:19:23,2022-04-25 10:19:49,"26,224s",PASSED
+"startApplication(URL, false)",,,,2022-04-25 10:19:23,2022-04-25 10:19:34,"11,216s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-25 10:19:34,2022-04-25 10:19:44,"10,011s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-25 10:19:44,2022-04-25 10:19:45,"1,134s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-25 10:19:45,2022-04-25 10:19:47,"1,697s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-25 10:19:47,2022-04-25 10:19:49,"2,157s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.",TET-918,2022-04-25 10:19:49,2022-04-25 10:20:14,"24,326s",PASSED
+"startApplication(URL, false)",,,,2022-04-25 10:19:49,2022-04-25 10:19:59,"10,083s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-04-25 10:19:59,2022-04-25 10:20:09,"10,015s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - NumeroCelular""), numerocelular, 0)",,,,2022-04-25 10:20:09,2022-04-25 10:20:11,"1,766s",PASSED
+"setText(findTestObject(""Login/android.widget.EditText - tipear contrasea""), contrasena, 0)",,,,2022-04-25 10:20:11,2022-04-25 10:20:13,"1,458s",PASSED
+"tap(findTestObject(""Login/android.widget.Button - Ingresar""), 0)",,,,2022-04-25 10:20:13,2022-04-25 10:20:14,"0,990s",PASSED

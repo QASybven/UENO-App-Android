@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="130.976" tests="5" failures="0" errors="0">
+   <testsuite name="Test" tests="5" failures="0" errors="0" time="130.976" skipped="0" timestamp="2022-04-23 21:34:41" hostname="Jesus_Berbin - Ender-Lobo" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value="samsung SM-A105M (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220423_213439\\Test\\20220423_213439"/>
+         <property name="logFiles" value="C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220423_213439\\Test\\20220423_213439\\appium.log, C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220423_213439\\Test\\20220423_213439\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jesus_Berbin - Ender-Lobo"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-A105M"/>
+         <property name="hostAddress" value="192.168.17.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R28M42G369B"/>
+         <property name="deviceName" value="samsung SM-A105M (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="32.036" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="PASSED">
+         <system-out><![CDATA[2022-04-23 21:34:42 - [TEST_CASE][PASSED] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente
+
+2022-04-23 21:34:42 - [TEST_STEP][PASSED] - startApplication("C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk", false): Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:34:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-04-23 21:34:44 - [MESSAGE][INFO] - Appium server started on port 56.226
+
+2022-04-23 21:34:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:34:59 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-04-23 21:35:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-04-23 21:35:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - NumeroCelular"), numerocelular, 0): Text '0982159800' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:35:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:35:11 - [MESSAGE][PASSED] - Text '0982159800' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:35:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - tipear contrasea"), contrasena, 0): Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:35:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:35:12 - [MESSAGE][PASSED] - Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:35:12 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Ingresar"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar'
+
+2022-04-23 21:35:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:35:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="25.061" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="PASSED">
+         <system-out><![CDATA[2022-04-23 21:35:14 - [TEST_CASE][PASSED] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente
+
+2022-04-23 21:35:14 - [TEST_STEP][PASSED] - startApplication("C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk", false): Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:35:24 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:35:24 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-04-23 21:35:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-04-23 21:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - NumeroCelular"), numerocelular, 0): Text '971728920' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:35:36 - [MESSAGE][PASSED] - Text '971728920' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - tipear contrasea"), contrasena, 0): Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:35:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:35:37 - [MESSAGE][PASSED] - Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:35:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Ingresar"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar'
+
+2022-04-23 21:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:35:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="24.996" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="PASSED">
+         <system-out><![CDATA[2022-04-23 21:35:39 - [TEST_CASE][PASSED] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente
+
+2022-04-23 21:35:39 - [TEST_STEP][PASSED] - startApplication("C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk", false): Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:35:49 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:35:49 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-04-23 21:35:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-04-23 21:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - NumeroCelular"), numerocelular, 0): Text '982824191' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:01 - [MESSAGE][PASSED] - Text '982824191' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - tipear contrasea"), contrasena, 0): Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:02 - [MESSAGE][PASSED] - Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:36:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Ingresar"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar'
+
+2022-04-23 21:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="24.437" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="PASSED">
+         <system-out><![CDATA[2022-04-23 21:36:04 - [TEST_CASE][PASSED] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente
+
+2022-04-23 21:36:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk", false): Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:36:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:36:14 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-04-23 21:36:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-04-23 21:36:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - NumeroCelular"), numerocelular, 0): Text '981476691' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:36:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:25 - [MESSAGE][PASSED] - Text '981476691' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:36:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - tipear contrasea"), contrasena, 0): Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:36:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:27 - [MESSAGE][PASSED] - Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:36:27 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Ingresar"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar'
+
+2022-04-23 21:36:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" time="23.966" classname="Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente" status="PASSED">
+         <system-out><![CDATA[2022-04-23 21:36:28 - [TEST_CASE][PASSED] - Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente
+
+2022-04-23 21:36:28 - [TEST_STEP][PASSED] - startApplication("C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk", false): Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:36:38 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-23 21:36:38 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-04-23 21:36:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-04-23 21:36:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - NumeroCelular"), numerocelular, 0): Text '981410102' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:49 - [MESSAGE][PASSED] - Text '981410102' has been set to element 'Object Repository/Login/android.widget.EditText - NumeroCelular'
+
+2022-04-23 21:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - tipear contrasea"), contrasena, 0): Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:36:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:51 - [MESSAGE][PASSED] - Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-23 21:36:51 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Ingresar"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar'
+
+2022-04-23 21:36:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 21:36:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-23 21:34:41 - [TEST_SUITE][PASSED] - Test: Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
