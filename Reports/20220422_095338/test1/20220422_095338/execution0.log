@@ -520,10 +520,7 @@ script1650635623639.groovy: 25: expecting &apos;)&apos;, found &apos;de&apos; @ 
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2022-04-22T15:12:38</date>
   <millis>1650654758381</millis>
