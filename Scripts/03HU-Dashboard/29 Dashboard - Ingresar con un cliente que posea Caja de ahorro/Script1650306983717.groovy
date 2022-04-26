@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente'), 
+WebUI.callTestCase(findTestCase('null'), 
     [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - N'), 0)

@@ -18,17 +18,37 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
+    true)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login/android.widget.TextView - Nmero de celular'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Hola = Mobile.getText(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.TextView - Hola Primer Login'), 
+    0)
 
-Mobile.tap(findTestObject('Login/android.widget.EditText - tipear contrasea'), 0)
+Mobile.verifyEqual(Hola, '¡Hola!')
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Olvidaste tu contrasea'), 0)
+Mobile.setText(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.EditText - Ejemplo 0981123456 (1)'), 
+    NumeroCelular, 0)
 
-Mobile.tap(findTestObject('Olvido Contrasena/android.widget.ImageView Boton Back superior'), 0)
+Mobile.setText(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.EditText (2)'), Contrasena, 
+    0)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Soporte'), 0)
+Mobile.tap(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.Button - Ingresar (2)'), 
+    0)
+
+Mobile.getText(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.TextView - Te gustara activar tu huella digital como mtodo de acceso predeterminado (1)'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.Button - NO (1)'), 0)
+
+Mobile.tap(findTestObject('Inicio primera vez y cierre de sesion/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('cierre de sesion/android.widget.ImageView Icono salir superior'), 0)
+
+Mobile.tap(findTestObject('Inicio primera vez y cierre de sesion/android.widget.Button - SI'), 0)
+
+NombredeUsuario = Mobile.getText(findTestObject('Inicio primera vez y cierre de sesion/android.widget.TextView -  ADRIANA'), 
+    0)
+
+Mobile.verifyEqual(NombredeUsuario, NombredeUsuarioEsperado)
 

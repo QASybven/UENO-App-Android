@@ -1,0 +1,947 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62062
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\JOSE_A~1\AppData\Local\Temp\\Katalon\Appium\Temp1650984188052
+[35m[Appium][39m   chromedriverPort: 62063
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 62063
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62062
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m13 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","noReset":false,"appWaitActivity":"*","deviceId":"","deviceName":"HUAWEI MRD-LX3 (Android 9)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ASJNW19409003146","systemPort":62061},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"HUAWEI MRD-LX3 (Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":62061,"appium:udid"...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[BaseDriver][39m Using local app 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/Jose_Arrieta/AppData/Local/Android/Sdk/build-tools/32.1.0-rc1
+[35m[ADB][39m     C:/Users/Jose_Arrieta/AppData/Local/Android/Sdk/build-tools/32.0.0
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: ASJNW19409003146
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.verticalapps.KonyMobileBanking'
+[35m[ADB][39m Main activity name: 'com.verticalapps.KonyMobileBanking.KonyMobileBankin'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Jose_Arrieta\AppData\Local\Android\Sdk\build-tools\32.1.0-rc1\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk' is signed with a non-default certificate
+[35m[ADB][39m com.verticalapps.KonyMobileBanking was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'crtopyinfinitymobilebanking-release (8).apk' took 32118ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Jose_Arrieta\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.verticalapps.KonyMobileBanking/com.verticalapps.KonyMobileBanking.KonyMobileBankin and waiting for 'com.verticalapps.KonyMobileBanking/*'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session d101fdad-44f8-4a63-953b-bb1f46837c70 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m73339 ms - 1521[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70 [39m[32m200[39m [90m38 ms - 1475[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70 [39m[32m200[39m [90m27 ms - 1475[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/screenshot [39m[32m200[39m [90m1223 ms - 46218[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m56 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/appium/device/system_bars [39m[32m200[39m [90m170 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m44 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '¡Hola!' or . = '¡Hola!') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeMessage']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m2442 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000020/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000020/location [39m[32m200[39m [90m528 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000020/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000020/text [39m[32m200[39m [90m41 ms - 70[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m49 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Ejemplo: 0981123456' or . = 'Ejemplo: 0981123456') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/tbxUsername']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m814 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000030/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000030/location [39m[32m200[39m [90m54 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000030/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff00000030"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000030/clear [39m[32m200[39m [90m72 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000030/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff00000030","text":"0972875200","value":["0","9","7","2","8","7","5","2","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000030/value [39m[32m200[39m [90m1353 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m59 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.verticalapps.KonyMobileBanking:id/tbxPassword' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m1489 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000032/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000032/location [39m[32m200[39m [90m204 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000032/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff00000032"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000032/clear [39m[32m200[39m [90m50 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000032/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff00000032","text":"Kony!12345","value":["K","o","n","y","!","1","2","3","4","5"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000032/value [39m[32m200[39m [90m580 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m26 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Ingresar' or . = 'Ingresar') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/btnLogIn']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m980 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000036/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000036/location [39m[32m200[39m [90m51 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000036/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff00000036"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff00000036/click [39m[32m200[39m [90m150 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m93 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m1092 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m261 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m326 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m348 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m277 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m290 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m266 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m260 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m207 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m237 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m227 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m243 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m290 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m264 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m254 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m317 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m328 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m296 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m360 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m211 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m212 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m172 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m178 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m205 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m182 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m223 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m238 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m255 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m350 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m144 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m235 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m328 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m247 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m169 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m183 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m162 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m266 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m190 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m165 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m249 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m184 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m160 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m185 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m218 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m186 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m175 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m146 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m161 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m196 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m172 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m186 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m213 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m288 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m470 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m175 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m136 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m199 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m171 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m134 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m145 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m159 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m456 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m1568 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Te gustaría activar tu huella digital como método de acceso predeterminado?' or . = 'Te gustaría activar tu huella digital como método de acceso predeterminado?')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m4831 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007b/location [39m[32m200[39m [90m765 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007b/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007b/text [39m[32m200[39m [90m35 ms - 140[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m28 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'NO' or . = 'NO') and @resource-id = 'android:id/button2']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m178 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007e/location [39m[32m200[39m [90m37 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-003b-ffff-ffff0000007e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-003b-ffff-ffff0000007e/click [39m[32m200[39m [90m46 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m38 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.verticalapps.KonyMobileBanking:id/imgMore' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m1141 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff000000ae/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d101fdad)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId b987f7f2-fa83-4a0e-87d3-bb980cb1ce89 with d101fdad-44f8-4a63-953b-bb1f46837c70
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff000000ae/location [39m[32m200[39m [90m30 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff000000ae/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff000000ae"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/element/00000000-0000-0030-ffff-ffff000000ae/click [39m[32m200[39m [90m50 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m25 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m2190 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m652 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m608 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m575 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m492 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m452 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m460 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m558 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m526 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m506 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m429 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m432 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m434 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m430 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m442 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m435 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m491 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m472 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m465 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m431 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m415 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m459 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m414 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m438 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m421 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m446 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m446 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m484 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m942 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m415 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m460 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m441 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m440 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m456 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m450 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m455 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m440 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m443 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m446 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m468 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m768 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m437 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m408 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m412 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m450 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m469 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m880 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m420 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m455 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m425 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m444 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m465 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m409 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m475 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m458 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m476 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'SI' or . = 'SI') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m840 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/window/rect [39m[32m200[39m [90m33 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m532 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m458 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m735 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m405 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m402 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m407 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m440 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m451 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m409 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m406 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m487 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m448 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m413 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m437 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m409 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m443 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m452 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m417 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m445 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m465 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m410 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m456 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m478 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m522 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m606 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m605 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m607 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m596 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m602 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m586 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m560 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m630 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m200[39m [90m735 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = ' ADRIANA' or . = ' ADRIANA') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/lblWelcomeName']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d101fdad-44f8-4a63-953b-bb1f46837c70/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m

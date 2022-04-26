@@ -12,25 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>2b68d1c7-b495-4f48-b4b6-2644b10a0884</testSuiteGuid>
    <testCaseLink>
-      <guid>d0f950f0-c0a0-48f2-957d-c8d279a89511</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/01Especificaciones Funcionales - Primer Login exitoso del Cliente</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1fe16ba9-fd64-49a2-b8e0-4ebf97743b19</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>237e1257-e67e-4be7-9bd4-c4cceca03b3e</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b008282e-5c35-47d0-b3df-18ba2ed2d9f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

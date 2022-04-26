@@ -27,9 +27,9 @@ Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'
 
 Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Button - Ingresar'), 0)
 
-Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 0)
 
-Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView Icono salir superior'), 0)
 
 Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Button - SI'), 0)
 
