@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Precondiciones
+El campo Número de celular debe tener las siguientes características:
+a. Será de tipo numérico.
+b. Longitud máxima de 10 caracteres.
+c. Longitud mínima de 10 caracteres.
+d. No debe permitir ningún carácter especial ni espacios en blanco.
+e. Los primeros dos (02) dígitos ingresados deben ser “09”.
+f. El tercer dígito ingresado debe ser seis (6), siete (7), ocho (8) o nueve (9).</description>
+   <name>06 Especificaciones Funcionales - Validaciones del campo Número de Celular</name>
+   <tag>TET-916</tag>
+   <comment></comment>
+   <testCaseGuid>2962da62-9574-4c76-b89b-b4986e5a8ff3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2cc17795-4239-44ac-8ece-a460ca9dd2d4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0982824191'</defaultValue>
+      <description>usuario</description>
+      <id>2cc17795-4239-44ac-8ece-a460ca9dd2d4</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

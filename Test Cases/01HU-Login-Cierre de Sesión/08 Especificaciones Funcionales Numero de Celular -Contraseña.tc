@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b6f665b6-f968-49fa-8a12-59d5cdecf2dc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52640321-d8b7-4c0b-93af-6f3ca596565a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>685ec57b-56d1-4f72-923e-8f3d67630b6e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Usuarios').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>52640321-d8b7-4c0b-93af-6f3ca596565a</id>
+      <masked>false</masked>
+      <name>NumeroCelular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>685ec57b-56d1-4f72-923e-8f3d67630b6e</id>
+      <masked>false</masked>
+      <name>Contrasena</name>
+   </variable>
 </TestCaseEntity>

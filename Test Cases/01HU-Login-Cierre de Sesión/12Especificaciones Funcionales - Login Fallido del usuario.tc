@@ -1,21 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Pasos a seguir
-Ingresar a la aplicación y validar las descripciones detalladas en el  resultado esperado.
-
-
-Resultado Esperado
-Si supera las validaciones front, se enviará la información al back y se aplicarán las validaciones correspondientes.
-
-Se debe validar que el usuario y contraseña sean correctos y coincidan.
-
+   <description>Resultado Esperado
 Si no coindicen, se mostrará un mensaje de error en ventana emergente de color Mensaje de error, en la parte superior de la pantalla, con el texto “El número de celular y/o la contraseña ingresados son incorrectos.”.
 
-Una vez iniciada la sesión se muestra la pantalla de dashboard
+ La aplicación permitirá tres (03) intentos fallidos de autenticación. Luego de cada intento fallido se mostrará el mensaje de error en ventana emergente de color Mensaje de error, en la parte superior de la pantalla, con el texto “El número de celular y/o la contraseña ingresados son incorrectos.”.
 
-Al ingresar a la sesión del usuario, de forma exitosa, el sistema recordará el Número de celular predeterminadamente.</description>
+Al cuarto intento fallido, el sistema bloqueará el usuario y mostrará un mensaje de error en ventana emergente de color Mensaje de error, en la parte superior de la pantalla, con el texto “Ups! Se bloqueó tu contraseña. Para poder reingresar podés restaurarla.”.
+
+El usuario deberá completar el flujo de ¿Olvidaste tu contraseña? para restaurar la contraseña y poder ingresar.</description>
    <name>12Especificaciones Funcionales - Login Fallido del usuario</name>
-   <tag>TET-909</tag>
+   <tag>TET-908</tag>
    <comment></comment>
    <testCaseGuid>7e58c764-e1ae-4839-b6e7-2774a3a8a5ff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ff85a7d-6eff-4135-b259-a026e6b24917</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>640a2e76-02fb-4233-b63d-dfc0519919f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6259302-b02e-4fd2-955d-e47c8b05e7fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b7903610-f309-4048-b860-84789d843787</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Usuarios').getValue(1, 10)</defaultValue>
+      <description></description>
+      <id>8ff85a7d-6eff-4135-b259-a026e6b24917</id>
+      <masked>false</masked>
+      <name>NumeroCelular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>640a2e76-02fb-4233-b63d-dfc0519919f9</id>
+      <masked>false</masked>
+      <name>Contrasena</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d6259302-b02e-4fd2-955d-e47c8b05e7fc</id>
+      <masked>false</masked>
+      <name>numerocontrasenaincorrecto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b7903610-f309-4048-b860-84789d843787</id>
+      <masked>false</masked>
+      <name>UsuarioBloqueado</name>
+   </variable>
 </TestCaseEntity>

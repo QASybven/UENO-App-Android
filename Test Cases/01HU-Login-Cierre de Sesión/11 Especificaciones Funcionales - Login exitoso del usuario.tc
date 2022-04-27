@@ -31,17 +31,17 @@ Al ingresar a la sesión del usuario, de forma exitosa, el sistema recordará el
       <variableId>7056b8e8-b170-4b35-a211-c04471a9c3a9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Hola'</defaultValue>
+      <defaultValue>findTestData('Usuarios').getValue(1, 1)</defaultValue>
       <description>Saludoinicial</description>
       <id>fa40e843-545b-4268-94a5-a91d36206b7f</id>
       <masked>false</masked>
-      <name>Hola</name>
+      <name>NumeroCelular</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Usuarios')</defaultValue>
+      <defaultValue>findTestData('Usuarios').getValue(2, 1)</defaultValue>
       <description>Nombre del Cliente</description>
       <id>7056b8e8-b170-4b35-a211-c04471a9c3a9</id>
       <masked>false</masked>
-      <name>NombredelCliente</name>
+      <name>Contrasena</name>
    </variable>
 </TestCaseEntity>

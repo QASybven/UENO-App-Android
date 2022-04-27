@@ -17,51 +17,52 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    true)
+Mobile.startApplication(GlobalVariable.URL, true)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasena Pantalla de inicio'), 
+OlvidastetuContrasena = Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasena Pantalla de inicio'), 
     0)
 
-Olvidastetucontrasena = Mobile.verifyEqual(Olvidastetucontraseña,'Olvidaste tu contraseña')
+Mobile.verifyEqual(OlvidastetuContrasena, '¿Olvidaste tu contraseña?')
 
-Mobile.tap(findTestObject('Olvidaste tu contraseña'), 0)
+Mobile.tap(findTestObject('Login/android.widget.Button - Olvidaste tu contrasea'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasea (pantalla Olvido)'), 
+Titulo = Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasea (pantalla Olvido)'), 
     0)
 
-Olvidastetucontraseña0=Mobile.verifyEqual(Olvidastetucontraseña Titulo, 'Olvidaste tu Contraseña')
+Mobile.verifyEqual(Titulo, '¿Olvidaste tu contraseña?')
 
-Mobile.getText(findTestObject('Olvido Contrasena/android.widget.TextView - CI nmero'), 0)
+NumeroCedula = Mobile.getText(findTestObject('Olvido Contrasena/android.widget.TextView - CI nmero'), 0)
 
-Mobile.verifyEqual(CI número, 'CI número:')
+Mobile.verifyEqual(NumeroCedula, 'CI número:')
 
-Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.EditText - Ejemplo 1234567'), 0)
+TextoAyuda = Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.EditText - Ejemplo 1234567'), 
+    0)
 
-Mobile.verifyEqual(Ejemplo: 1234567, 'Ejemplo: 1234567')
+Mobile.verifyEqual(TextoAyuda, 'Ejemplo: 1234567')
 
-Mobile.getText(findTestObject('Olvido Contrasena/android.widget.TextView - Nro. de celular con el que te registraste'), 
+Nrodecelularconelqueteregistraste = Mobile.getText(findTestObject('Olvido Contrasena/android.widget.TextView - Nro. de celular con el que te registraste'), 
     0)
 
 Mobile.verifyEqual(Nrodecelularconelqueteregistraste, 'Nro. de celular con el que te registraste:')
 
-Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.EditText - Ejemplo 0981123456'), 0)
-
-Mobile.verifyEqual(Ejemplo:981123456, 'Ejemplo: 0981123456')
-
-Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.TextView - Correo electrnico con el que te registraste'), 
+TextoAyuda1 = Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.EditText - Ejemplo 0981123456'), 
     0)
 
-Mobile.verifyEqual(Correoelectronicoconelqueteregistraste, 'Correo electronico con el que te registraste:')
+Mobile.verifyEqual(TextoAyuda1, 'Ejemplo: 0981123456')
 
-Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.EditText - Ejemplo ejemplogmail.com'), 
+Correoelectronicoconelqueteregistraste = Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.TextView - Correo electrnico con el que te registraste'), 
     0)
 
-Mobile.verifyEqual(Ejemplo:Ejemplo, 'Ejemplo: ejemplo@gmail.com')
+Mobile.verifyEqual(Correoelectronicoconelqueteregistraste, 'Correo electrónico con el que te registraste:')
 
-Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.Button - Continuar'), 0)
+Ejemplo = Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.EditText - Ejemplo ejemplogmail.com'), 
+    0)
+
+Mobile.verifyEqual(Ejemplo, 'Ejemplo: ejemplo@gmail.com')
+
+Continuar = Mobile.getText(findTestObject('Object Repository/Olvido Contrasena/android.widget.Button - Continuar'), 0)
 
 Mobile.verifyEqual(Continuar, 'Continuar')
 
@@ -70,6 +71,4 @@ Mobile.tap(findTestObject('Object Repository/Olvido Contrasena/android.widget.Im
 Mobile.tap(findTestObject('Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasena Pantalla de inicio'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Olvido Contrasena/android.widget.ImageView (boton x)'), 0)
-
-Mobile.closeApplication()
 

@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2022-04-27 18:25:28,2022-04-27 18:26:23,"55,187s",PASSED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión,,"Precondiciones
+La pantalla de cierre de sesión se muestran en dos momentos: 
+
+ Para ver esta pantalla el usuario debe cerrar sesión a través del botón Cerrar sesión ubicado en la parte superior del menú lateral de Android o en la parte superior de la opción Menú de iOS.
+
+La pantalla se presenta cuando se cumple el tiempo de inactividad y el sistema cierra la sesión de forma automática
+
+·         No se muestra ningún mensaje informativo o pop up de confirmación antes de ejecutar el cierre de sesión.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Cerrar sesión del cliente de manera manual
+
+Validar el tiempo de inactividad.
+
+
+Resultado Esperado
+·         El ícono de confirmación es una imagen definida para este fin.
+
+·         El texto informativo 1 indica lo siguiente: “Sesión cerrada correctamente”.
+
+·         El texto informativo 2 indica lo siguiente “Por favor ingresá nuevamente”.
+
+·         Al seleccionar el botón Ingresar se muestra la Pantalla Login.
+
+·         El back nativo del sistema operativo muestra un pop up con los siguientes elementos:
+
+Mensaje con el texto “¿Estás seguro de querer salir de la aplicación?”.
+
+ Botón No.    Botón Sí.
+
+ El botón No mantiene al usuario en la Pantalla Cierre de sesión.
+
+ El botón Sí, se cierra la aplicación móvil.",TET-900,2022-04-27 18:25:28,2022-04-27 18:26:23,"54,895s",PASSED
+"callTestCase(findTestCase(""01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-04-27 18:25:28,2022-04-27 18:26:03,"34,290s",PASSED
+"tap(findTestObject(""Object Repository/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior""), 0)",,,,2022-04-27 18:26:03,2022-04-27 18:26:20,"17,401s",PASSED
+"tap(findTestObject(""Object Repository/cierre de sesion/android.widget.ImageView Icono salir superior""), 0)",,,,2022-04-27 18:26:20,2022-04-27 18:26:21,"1,488s",PASSED
+"tap(findTestObject(""Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)""), 0)",,,,2022-04-27 18:26:21,2022-04-27 18:26:22,"0,286s",PASSED
+closeApplication(),,,,2022-04-27 18:26:22,2022-04-27 18:26:23,"1,051s",PASSED

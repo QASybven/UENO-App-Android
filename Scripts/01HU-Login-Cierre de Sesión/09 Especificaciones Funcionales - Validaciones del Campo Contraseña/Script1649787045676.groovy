@@ -22,11 +22,10 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0972875200', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), NumeroCelular, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Validar imagen de mostrar contrasena'
-Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), findTestData(null).getValue(Contraseña, 
-        1), 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), Contrasena, 0)
 
-Mobile.verifyElementText(findTestObject('Login/android.widget.EditText - tipear contrasea'), '')
+Mobile.verifyElementChecked(findTestObject('Login/android.widget.EditText - tipear contrasea'), 0)
 

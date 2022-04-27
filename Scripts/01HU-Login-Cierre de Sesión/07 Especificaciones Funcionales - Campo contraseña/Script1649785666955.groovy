@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
+Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0972875200', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), NumeroCelular, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.setEncryptedText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'vVuR1lbMRpqOCV1FhGBGxw==', 
-    0)
+Mobile.sendKeys(findTestObject('Login/android.widget.EditText - tipear contrasea'), Contrasena, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/android.view.ViewGroup Ojito Ver contrasea'), 0)
 

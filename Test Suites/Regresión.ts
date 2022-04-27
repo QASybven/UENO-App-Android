@@ -84,6 +84,60 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/03Especificaciones funcionales - Botón Plano Olvidaste tu contraseña</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c17cd66b-482c-4683-b8a1-e04a3498c5ad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8342f07c-4fc5-4729-a67c-7d28f81ba520</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6cb77ab9-e651-488e-a8b9-7a823912c3b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c25c4629-9a77-4347-abb1-a75a6822a626</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53d9f0cb-4ee1-4bef-8f7e-6524a52aca0e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1610d3eb-8d00-41c4-ba44-b8d5674203ce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1da7883-ded0-402b-844c-544cb732358a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0bb9dc96-897a-4b96-aec9-e92964e5718b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>404ba2ee-933f-4088-bc78-2e2b6ab271ac</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>72db500c-74a0-4e71-b42d-48be8911b156</guid>
@@ -91,6 +145,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/04 Estructura de la pantalla - Splash</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea3790ef-4fd9-4452-8e5a-94aaeed840e0</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c532e642-95c0-4a9d-a03b-c7321010c7a8</guid>
@@ -103,7 +163,7 @@
       <guid>6e505738-1347-4c47-94fe-e112f0d7fa4a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/06 Especificaciones Funcionales - Número de Celular</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/06 Especificaciones Funcionales - Validaciones del campo Número de Celular</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -124,6 +184,12 @@
          <value></value>
          <variableId>79af25b6-b766-4742-94f6-9f486f09a5f2</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>86198ec9-b8c9-4e36-94af-a51dffd09a8b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4412914e-e968-425b-b5d7-a3ba71c99be0</guid>
@@ -131,6 +197,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/08 Especificaciones Funcionales Numero de Celular -Contraseña</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>52640321-d8b7-4c0b-93af-6f3ca596565a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>685ec57b-56d1-4f72-923e-8f3d67630b6e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9a7afab7-4433-4ac2-8dd5-d2b4cb00f706</guid>
@@ -144,6 +222,12 @@
          <value></value>
          <variableId>df237c05-b09a-4253-81e5-6095fa5f1fb2</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e73de688-3c40-4aec-92b1-bb8ba0e657f9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>95222072-69de-4cff-b4d2-844bf4fd5485</guid>
@@ -156,6 +240,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>ad62ab01-fadc-4377-b2e6-53355a1eb933</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4fe543c-671d-4ad3-9326-38e9f6303532</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -183,6 +273,30 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/12Especificaciones Funcionales - Login Fallido del usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ff85a7d-6eff-4135-b259-a026e6b24917</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>640a2e76-02fb-4233-b63d-dfc0519919f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d6259302-b02e-4fd2-955d-e47c8b05e7fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7903610-f309-4048-b860-84789d843787</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a20d980d-edf5-436a-b8a1-bacc490e5c68</guid>

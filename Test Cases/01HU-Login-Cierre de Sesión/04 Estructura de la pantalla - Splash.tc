@@ -20,4 +20,17 @@ Se debe visualizar correctamente el Splash antes del Login</description>
    <tag>TET-919</tag>
    <comment></comment>
    <testCaseGuid>786353b0-2463-48f6-9ac6-24d50ea04476</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea3790ef-4fd9-4452-8e5a-94aaeed840e0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea3790ef-4fd9-4452-8e5a-94aaeed840e0</id>
+      <masked>false</masked>
+      <name>Imagen</name>
+   </variable>
 </TestCaseEntity>
