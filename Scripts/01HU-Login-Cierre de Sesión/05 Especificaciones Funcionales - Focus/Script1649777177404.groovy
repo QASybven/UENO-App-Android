@@ -22,13 +22,19 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Login/android.widget.TextView - Nmero de celular'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Login/android.widget.TextView - Nmero de celular'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Login/android.widget.EditText - tipear contrasea'), 0)
+Mobile.tap(findTestObject('Login/android.widget.EditText - tipear contrasea'), 0)
 
-Mobile.verifyElementExist(findTestObject('Login/android.widget.Button - Olvidaste tu contrasea'), 0)
+Mobile.tap(findTestObject('Login/android.widget.Button - Olvidaste tu contrasea'), 0)
 
-Mobile.verifyElementExist(findTestObject('Login/android.widget.Button - Registrarme'), 0)
+Mobile.tap(findTestObject('Olvido Contrasena/android.widget.ImageView Boton Back superior'), 0)
 
-Mobile.verifyElementExist(findTestObject('Login/android.widget.Button - Soporte'), 0)
+Mobile.tap(findTestObject('Login/android.widget.Button - Soporte'), 0)
+
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Back Pantalla Soporte'), 0)
+
+Mobile.tap(findTestObject('Login/android.widget.Button - Registrarme'), 0)
+
+Mobile.pressBack()
 

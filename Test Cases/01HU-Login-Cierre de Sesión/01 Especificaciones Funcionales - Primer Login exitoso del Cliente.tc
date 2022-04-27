@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.
+El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.
+
+
+Precondiciones
+El primer nombre del cliente será retornado por el servicio.
+
+
+Datos utilizados
+Cliente: 477726   Numero de documento: 3456789
+
+LUIS AUGUSTO EMMANUEL DUARTE SANCHEZ
+
+
+Pasos a seguir
+Ingresar datos correctos del cliente, e iniciar sesión
+
+
+Resultado Esperado
+Al ingresar por primera vez en la aplicación, el texto de bienvenida expresa “¡Hola!”.
+
+Si el usuario hace login exitoso, al cerrar sesión podrá ver en la Pantalla Login, el texto “¡Hola &lt;Primer nombre del cliente>!”.</description>
+   <name>01 Especificaciones Funcionales - Primer Login exitoso del Cliente</name>
+   <tag>TET-918</tag>
+   <comment></comment>
+   <testCaseGuid>7a332803-c003-4a12-8b5b-2347f57bebaa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9cf4846b-4b1a-4226-8d6b-e8239ff02515</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>525617b1-5971-4fe1-be66-eac0e700569a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0d7f390-ad23-4e3a-b43e-d8b930786e13</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cc2c0d7-86bd-45c9-bee6-5b81f469303a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79c5fe12-b97c-4f10-b8f7-421980f417d8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Hola primer login</description>
+      <id>9cf4846b-4b1a-4226-8d6b-e8239ff02515</id>
+      <masked>false</masked>
+      <name>Hola</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Nombre del Cliente</description>
+      <id>525617b1-5971-4fe1-be66-eac0e700569a</id>
+      <masked>false</masked>
+      <name>NombredeUsuario</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios')</defaultValue>
+      <description>Numero celular</description>
+      <id>e0d7f390-ad23-4e3a-b43e-d8b930786e13</id>
+      <masked>false</masked>
+      <name>NumeroCelular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios')</defaultValue>
+      <description>Contrasena</description>
+      <id>3cc2c0d7-86bd-45c9-bee6-5b81f469303a</id>
+      <masked>false</masked>
+      <name>Contrasena</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios')</defaultValue>
+      <description></description>
+      <id>79c5fe12-b97c-4f10-b8f7-421980f417d8</id>
+      <masked>false</masked>
+      <name>NombredeUsuarioEsperado</name>
+   </variable>
+</TestCaseEntity>
