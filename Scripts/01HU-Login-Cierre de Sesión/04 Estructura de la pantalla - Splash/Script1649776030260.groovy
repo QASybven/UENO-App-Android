@@ -22,3 +22,7 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.getAttribute(findTestObject('Login/android.widget.ImageView Splash'), 'falta ubicacion de imagen', 0)
 
+Mobile.checkElement(findTestObject(null), 0)
+
+Mobile.toggleAirplaneMode('', FailureHandling.CONTINUE_ON_FAILURE)
+
