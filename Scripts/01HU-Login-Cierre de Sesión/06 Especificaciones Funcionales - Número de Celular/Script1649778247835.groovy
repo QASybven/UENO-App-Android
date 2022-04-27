@@ -17,25 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.URL, false)
+Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
+    false)
 
 WebUI.delay(10)
 
 'a. Será de tipo numérico.'
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), 'abcdefghij')
+Mobile.verifyElementText(findTestObject('Login/android.widget.EditText - Numero de celular login'), 'abcdefghij', FailureHandling.CONTINUE_ON_FAILURE)
 
 'b. Longitud máxima de 10 caracteres.'
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982824191111')
+Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982824191111', 0)
 
 'c. Longitud mínima de 10 caracteres.'
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '098')
+Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '098', 0)
 
 'd. No debe permitir ningún carácter especial ni espacios en blanco.'
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0555//*2551')
+Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0555//*2551', 0)
 
 'e. Los primeros dos (02) dígitos ingresados deben ser “09”.'
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0882824191')
+Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '', 0)
 
 'f. El tercer dígito ingresado debe ser seis (6), siete (7), ocho (8) o nueve (9)'
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '09475899555')
+Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '09475899555', 0)
 
