@@ -23,6 +23,36 @@
          <value></value>
          <variableId>032c0ffe-9d03-468c-9f94-7fff16c109b8</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>944d75ae-f3fb-4f38-824c-bc6926016d00</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48abe65d-d892-45d3-bceb-b596527a6615</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b06e5ed5-dc7f-4249-9292-282030863f3d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d87c3db9-d362-4ba4-b6ad-df13c4dabdce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75eeee5a-b9e6-40b6-beac-838eaf599af1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8c0be5d9-51b0-4988-9b67-5ebb7cb18d8d</guid>
@@ -44,6 +74,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/02HU-Soporte/23 Especificaciones Funcionales - Compartir</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f19787c-d8f3-4ee7-9f74-b0fffcbe6a57</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9da8ed17-da27-4ed0-b174-2de573e700b2</guid>
@@ -58,6 +94,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ebcabb8e-e5d8-43f2-9da5-26d587d64d8b</guid>
@@ -65,5 +107,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>271da891-d778-46fc-89da-703f1158de1e</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

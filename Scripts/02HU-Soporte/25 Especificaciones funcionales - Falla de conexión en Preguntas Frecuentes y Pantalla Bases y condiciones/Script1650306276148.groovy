@@ -28,3 +28,8 @@ Mobile.toggleAirplaneMode('', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Soporte/android.widget.TextView - Preguntas frecuentes'), 0)
 
+Mobile.getText(findTestObject('Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'), 
+    0)
+
+Mobile.verifyEqual(Falladeconexion, ' Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones')
+

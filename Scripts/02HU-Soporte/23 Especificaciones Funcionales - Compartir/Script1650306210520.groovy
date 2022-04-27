@@ -22,11 +22,12 @@ Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automa
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Soporte/android.widget.Button - Soporte pantalla de inicio'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView boton compartir'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\JOSE_A~1\\AppData\\Local\\Temp\\screenshot6735915950223521392.png')
+Mobile.getText(findTestObject('Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo'), 
+    0)
 
-Mobile.closeApplication()
+Mobile.verifyEqual(Textocompartir, 'Se copió la información de esta versión en tu dispositivo')
 

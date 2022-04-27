@@ -5,4 +5,17 @@
    <tag>Pantalla de Soporte</tag>
    <comment></comment>
    <testCaseGuid>8c8b8001-a3ff-4603-829d-4b5a139f7f53</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f19787c-d8f3-4ee7-9f74-b0fffcbe6a57</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Se copió la información de esta versión en tu dispositivo'</defaultValue>
+      <description>Texto Compartir</description>
+      <id>0f19787c-d8f3-4ee7-9f74-b0fffcbe6a57</id>
+      <masked>false</masked>
+      <name>Textocompartir</name>
+   </variable>
 </TestCaseEntity>

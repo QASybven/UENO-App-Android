@@ -28,3 +28,8 @@ Mobile.toggleAirplaneMode('modo avion', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Soporte/android.widget.TextView - Seguridad'), 0)
 
+Mobile.getText(findTestObject('Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'), 
+    0)
+
+Mobile.verifyEqual(Falladeconexion, 'Ups Hubo una falla en la conexión. Por favor, verificá y probá de nuevo')
+

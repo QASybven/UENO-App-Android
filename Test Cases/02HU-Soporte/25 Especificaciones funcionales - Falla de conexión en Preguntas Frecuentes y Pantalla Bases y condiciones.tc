@@ -7,4 +7,17 @@ El sistema copiará el texto con la versión de la App y la información del SO 
    <tag>TET-825</tag>
    <comment></comment>
    <testCaseGuid>faabb44a-1703-441a-8cc5-4ad728e1c602</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>' Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones'</defaultValue>
+      <description></description>
+      <id>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</id>
+      <masked>false</masked>
+      <name>Falladeconexion</name>
+   </variable>
 </TestCaseEntity>
