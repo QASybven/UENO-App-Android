@@ -22,7 +22,9 @@ Mobile.startApplication('C:\\Users\\Jesus_Berbin\\Documents\\Cursos\\Sybven\\UEN
 
 Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyImagePresent('C:\\Users\\Jesus_Berbin\\Pictures\\5bec106708f3d9c6058b4567.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+Banner = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.Banner'), 'class', 0)
+
+Mobile.verifyMatch(Banner, 'android.widget.ImageView', false)
 
 Hola = Mobile.getText(findTestObject('Login/android.widget.TextView - Holanuevo'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -36,25 +38,28 @@ Contrasena = Mobile.getText(findTestObject('Login/android.widget.TextView - Cont
 
 Mobile.verifyEqual(Contrasena, 'Contraseña:')
 
-Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.IconoMostrarContraseña'), '', 0)
+IconoContrasena = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.IconoMostrarContraseña'), 'class', 
+    0)
+
+Mobile.verifyMatch(IconoContrasena, 'android.widget.ImageView', false)
 
 OlvidastetuContrasena = Mobile.getText(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
 
 Mobile.verifyEqual(OlvidastetuContrasena, '¿Olvidaste tu contraseña?')
 
-BotonIngresar = Mobile.getAttribute(findTestObject('Login/android.widget.Button - Ingresar'), '', 0)
+BotonIngresar = Mobile.getAttribute(findTestObject('Login/android.widget.Button - Ingresar'), 'text', 0)
 
-Mobile.verifyElementText(BotonIngresar, BotonIngresar)
+Mobile.verifyEqual(BotonIngresar, 'Ingresar')
 
-Registrarme = Mobile.getText(findTestObject('Login/android.widget.Button - Registrarme'), 0)
+Registrarme = Mobile.getAttribute(findTestObject('Login/android.widget.Button - Registrarme'), 'text', 0)
 
-Mobile.verifyEqual(Registrame, 'Registrarme')
+Mobile.verifyEqual(Registrarme, 'Registrarme')
 
-Soporte = Mobile.getText(findTestObject('Login/android.widget.Button - Soporte'), 0)
+Soporte = Mobile.getAttribute(findTestObject('Login/android.widget.Button - Soporte'), 'text', 0)
 
 Mobile.verifyEqual(Soporte, 'Soporte')
 
-TextoAyuda = Mobile.getText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), 0)
+TextoAyuda = Mobile.getAttribute(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), 'text', 0)
 
-Mobile.verifyEqual(TextoAyuda, 'Ejemplo: 0981748291')
+Mobile.verifyEqual(TextoAyuda, 'Ejemplo: 0981123456')
 
