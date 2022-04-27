@@ -9,4 +9,39 @@
       <initValue>'C:\\Users\\Jesus_Berbin\\Documents\\Cursos\\Sybven\\UENO\\crtopyinfinitymobilebanking-release.apk'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cierre por Inactividad</description>
+      <initValue>findTestObject('cierre de sesion/android.widget.TextView - Sesin cerrada por inactividad. Ingres de nuevo')</initValue>
+      <name>CierreInactividad</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cierre por falla de conexion</description>
+      <initValue>findTestObject('falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo')</initValue>
+      <name>Falladeconexion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk'</initValue>
+      <name>APKjose</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>texto falla de conexion</description>
+      <initValue>'Ups Hubo una falla en la conexión. Por favor, verificá y probá de nuevo'</initValue>
+      <name>Mensajefallaconexion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mensaje Inactividad</description>
+      <initValue>'Sesión cerrada por inactividad. Ingresá de nuevo'</initValue>
+      <name>MensajeInactividad</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Objeto Huella</description>
+      <initValue>findTestObject('dasboard/android.widget.TextView - Te gustara activar tu huella digital como mtodo de acceso predeterminado')</initValue>
+      <name>ActivarHuella</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Etiqueta texto</description>
+      <initValue>'Te gustara activar tu huella digital como método de acceso predeterminado'</initValue>
+      <name>Textoactivarhuella</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -183,6 +183,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/12Especificaciones Funcionales - Login Fallido del usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57ac8371-751c-4911-bb17-201164881dfe</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a20d980d-edf5-436a-b8a1-bacc490e5c68</guid>
@@ -197,6 +203,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/14 Cierre de Sesion - Tiempo de Inactividad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fe72b9bd-5c26-4a8e-935b-b80cc506dbab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85724bda-865d-42ad-b537-99cf7b2757f1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8d5aeb22-137d-4850-8d45-a1b09bf302b8</guid>

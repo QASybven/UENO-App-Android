@@ -15,67 +15,46 @@
       <guid>b008282e-5c35-47d0-b3df-18ba2ed2d9f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/02Estructura de la pantalla - Pantalla de Login</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/01 Especificaciones Funcionales - Primer Login exitoso del Cliente</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>abce727c-608e-470f-a9d1-43bdbc972980</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Usuarios</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e2d72b0d-e6b7-4466-a995-1e903a3d0df4</variableId>
+         <variableId>9cf4846b-4b1a-4226-8d6b-e8239ff02515</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e2404252-aade-41f7-8aa1-ec65c27e8ec1</variableId>
+         <variableId>525617b1-5971-4fe1-be66-eac0e700569a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6f84db75-9519-47c1-abac-4f37cfdc31a6</variableId>
+         <variableId>e0d7f390-ad23-4e3a-b43e-d8b930786e13</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d92a8353-e5b8-4e5b-913b-8800d0958cc1</variableId>
+         <variableId>3cc2c0d7-86bd-45c9-bee6-5b81f469303a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4bc503f9-d2f9-4d65-8ef8-a56f43527431</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a9f7a5f0-287d-44df-a51d-cb2ce64f950f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8f8a2dee-2d54-4151-8771-ea8092988a28</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0d7b2f94-1881-4e66-be42-b0d4e8e65f8a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d25b4150-19b4-4c7b-8bb1-22dec99f7719</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2cf998bb-5b81-4e2f-bcf5-490bcf7a43a7</variableId>
+         <variableId>79c5fe12-b97c-4f10-b8f7-421980f417d8</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -183,6 +162,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/12Especificaciones Funcionales - Login Fallido del usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57ac8371-751c-4911-bb17-201164881dfe</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>e0e9d804-0213-4a0e-991c-7c87ce289564</guid>
@@ -197,6 +182,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/14 Cierre de Sesion - Tiempo de Inactividad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fe72b9bd-5c26-4a8e-935b-b80cc506dbab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85724bda-865d-42ad-b537-99cf7b2757f1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b0ef7d48-dbb9-4c57-b822-66f8c70639ea</guid>

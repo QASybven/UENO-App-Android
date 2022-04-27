@@ -32,3 +32,8 @@ Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Ima
 
 Mobile.delay(300, FailureHandling.CONTINUE_ON_FAILURE)
 
+Mobile.getText(findTestObject('cierre de sesion/android.widget.TextView - Sesin cerrada por inactividad. Ingres de nuevo'), 
+    0)
+
+Mobile.verifyEqual(GlobalVariable.MensajeInactividad, 'Sesión cerrada por inactividad. Ingresá de nuevo')
+

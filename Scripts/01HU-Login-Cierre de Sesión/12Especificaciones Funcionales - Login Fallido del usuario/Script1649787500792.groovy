@@ -32,7 +32,7 @@ Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 numerocontraseñaincorrecto = Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - El nmero de celular yo la contrasea ingresados son incorrectos'), 
     0)
 
-Mobile.verifyEqual(numerocontraseñaincorrecto, '"El número de celular y/o la contraseña ingresados son incorrectos.”.')
+Mobile.verifyEqual(Datoincorrecto, '"El número de celular y/o la contraseña ingresados son incorrectos.”.')
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 

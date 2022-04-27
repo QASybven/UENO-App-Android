@@ -18,4 +18,17 @@ Al ingresar a la sesión del usuario, de forma exitosa, el sistema recordará el
    <tag>TET-909</tag>
    <comment></comment>
    <testCaseGuid>7e58c764-e1ae-4839-b6e7-2774a3a8a5ff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57ac8371-751c-4911-bb17-201164881dfe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57ac8371-751c-4911-bb17-201164881dfe</id>
+      <masked>false</masked>
+      <name>Datoincorrecto</name>
+   </variable>
 </TestCaseEntity>
