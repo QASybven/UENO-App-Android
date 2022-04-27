@@ -24,9 +24,6 @@ Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0972875200', FailureHandling.CONTINUE_ON_FAILURE)
 
-'Validar imagen de mostrar contrasena'
-Mobile.findImageElements('', FailureHandling.CONTINUE_ON_FAILURE)
-
 Mobile.setEncryptedText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'vVuR1lbMRpqOCV1FhGBGxw==', 
     0)
 

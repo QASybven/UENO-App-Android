@@ -30,7 +30,7 @@ Mis productos = Mobile.getText(findTestObject('dasboard/android.widget.TextView 
 
 Mobile.verifyEqual(Mis productos, 'Mis productos')
 
-Todos mis productos = Mobile.getText(findTestObject('dasboard/android.widget.TextView - Todos mis productos'), 0)
+Todosmisproductos = Mobile.getText(findTestObject('dasboard/android.widget.TextView - Todos mis productos'), 0)
 
-Mobile.verifyEqual(Todos mis productos, 'Todos mis productos')
+Mobile.verifyEqual(Todosmisproductos, 'Todos mis productos')
 

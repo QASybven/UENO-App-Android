@@ -18,4 +18,30 @@ Al ingresar a la sesión del usuario, de forma exitosa, el sistema recordará el
    <tag>TET-909</tag>
    <comment></comment>
    <testCaseGuid>b324677d-d22c-4455-8e81-11792bcb4573</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa40e843-545b-4268-94a5-a91d36206b7f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7056b8e8-b170-4b35-a211-c04471a9c3a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hola'</defaultValue>
+      <description>Saludoinicial</description>
+      <id>fa40e843-545b-4268-94a5-a91d36206b7f</id>
+      <masked>false</masked>
+      <name>Hola</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios')</defaultValue>
+      <description>Nombre del Cliente</description>
+      <id>7056b8e8-b170-4b35-a211-c04471a9c3a9</id>
+      <masked>false</masked>
+      <name>NombredelCliente</name>
+   </variable>
 </TestCaseEntity>

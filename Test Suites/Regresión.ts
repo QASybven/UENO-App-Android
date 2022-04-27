@@ -164,6 +164,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa40e843-545b-4268-94a5-a91d36206b7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7056b8e8-b170-4b35-a211-c04471a9c3a9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0c96ea3f-1e16-4279-a38a-a7dd042e4ad0</guid>
@@ -233,6 +245,36 @@
          <value></value>
          <variableId>032c0ffe-9d03-468c-9f94-7fff16c109b8</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>944d75ae-f3fb-4f38-824c-bc6926016d00</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48abe65d-d892-45d3-bceb-b596527a6615</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b06e5ed5-dc7f-4249-9292-282030863f3d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d87c3db9-d362-4ba4-b6ad-df13c4dabdce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75eeee5a-b9e6-40b6-beac-838eaf599af1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>16b80396-f151-4151-a220-959688737549</guid>
@@ -254,6 +296,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/02HU-Soporte/23 Especificaciones Funcionales - Compartir</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f19787c-d8f3-4ee7-9f74-b0fffcbe6a57</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8eea192e-3d7c-4910-b1e4-a18cd83de345</guid>
@@ -268,6 +316,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c11b6954-a3e6-4895-ba0d-d8fd9cee094d</guid>
@@ -275,6 +329,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>271da891-d778-46fc-89da-703f1158de1e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c9cbf768-219b-4667-a97b-e24f35529b82</guid>
