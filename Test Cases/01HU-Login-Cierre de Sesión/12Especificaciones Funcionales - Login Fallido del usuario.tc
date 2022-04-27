@@ -24,11 +24,24 @@ Al ingresar a la sesión del usuario, de forma exitosa, el sistema recordará el
       <value></value>
       <variableId>57ac8371-751c-4911-bb17-201164881dfe</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f410f5e-2d40-43e0-8169-5ff0739905fb</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>57ac8371-751c-4911-bb17-201164881dfe</id>
       <masked>false</masked>
       <name>Datoincorrecto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f410f5e-2d40-43e0-8169-5ff0739905fb</id>
+      <masked>false</masked>
+      <name>UsuarioBloqueado</name>
    </variable>
 </TestCaseEntity>

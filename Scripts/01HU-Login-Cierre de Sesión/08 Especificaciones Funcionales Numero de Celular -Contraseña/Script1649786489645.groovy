@@ -29,3 +29,5 @@ Mobile.sendKeys(findTestObject('Login/android.widget.EditText - tipear contrasea
 'Validar que se habilite al ingresar usuario y contrasena'
 Mobile.checkElement(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
+Mobile.hideKeyboard()
+

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>El back nativo (dentro de la aplicación, es decir usuario logueado) del sistema operativo muestra un pop up con los siguientes elementos:</description>
+   <description>Al completar el mínimo de caracteres en los campos Número de celular y Contraseña, se activa el botón Ingresar.
+
+El botón Ingresar se muestra inactivo por defecto.
+
+Al seleccionar sobre el botón Ingresar se aplican las validaciones correspondientes del frontend de la aplicación.</description>
    <name>08 Especificaciones Funcionales Numero de Celular -Contraseña</name>
    <tag></tag>
    <comment></comment>

@@ -24,3 +24,5 @@ Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Soporte/android.widget.Button - Soporte pantalla de inicio'), 0)
 
+Mobile.tap(findTestObject('Soporte/android.widget.ImageView Boton Back'), 0)
+

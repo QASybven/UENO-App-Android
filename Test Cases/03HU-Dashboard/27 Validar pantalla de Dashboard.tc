@@ -11,11 +11,24 @@
       <value></value>
       <variableId>e442aefe-b875-42ac-a7ac-94a3484a79a4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f482a54f-23ba-4526-8f82-cb992774f0c4</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'Mis productos'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Encabezado</description>
       <id>e442aefe-b875-42ac-a7ac-94a3484a79a4</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>Misproductos</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f482a54f-23ba-4526-8f82-cb992774f0c4</id>
+      <masked>false</masked>
+      <name>Todosmisproductos</name>
    </variable>
 </TestCaseEntity>
