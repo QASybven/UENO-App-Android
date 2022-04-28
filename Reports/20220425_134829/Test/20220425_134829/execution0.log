@@ -3914,3 +3914,26 @@
   <escapedJava>false</escapedJava>
   <property name="deviceOSVersion">9</property>
 </record>
+<record>
+  <date>2022-04-27T18:37:05</date>
+  <millis>1651099025014</millis>
+  <sequence>1903</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>4639</thread>
+  <message>Cannot find any NATIVE to switch to</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:112)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:285)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:43)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+com.kms.katalon.composer.mobile.objectspy.util.MobileActionHelper.switchToNative(MobileActionHelper.java:313)
+com.kms.katalon.composer.mobile.recorder.components.MobileRecorderDialog$5$1.call(MobileRecorderDialog.java:653)
+com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.startThreadAndWait(ProgressMonitorDialogWithThread.java:36)
+com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.runAndWait(ProgressMonitorDialogWithThread.java:48)
+com.kms.katalon.composer.mobile.recorder.components.MobileRecorderDialog$5.run(MobileRecorderDialog.java:585)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+</property>
+</record>
