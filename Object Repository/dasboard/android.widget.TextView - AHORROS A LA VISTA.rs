@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.Button - Ingresar (1)</name>
+   <name>android.widget.TextView - AHORROS A LA VISTA</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -11,177 +11,169 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.Button</value>
-      <webElementGuid>ffca2127-20b9-4a20-834e-46541b9da74c</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>f79f45c9-8e83-4858-b508-52335b3a962b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1cfafbe7-2e43-496a-8b32-2b5760330758</webElementGuid>
+      <webElementGuid>9f8a1408-e549-4bec-9c25-5bc305b83c28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ingresar</value>
-      <webElementGuid>14ef46c8-9438-4865-8654-11a1aa247f41</webElementGuid>
+      <value>AHORROS A LA VISTA</value>
+      <webElementGuid>42d5ab72-9b90-41e6-8546-00e83c0e3d9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>resource-id</name>
-      <type>Main</type>
-      <value>com.verticalapps.KonyMobileBanking:id/btnLogIn</value>
-      <webElementGuid>8c372db7-70d7-42d2-9e14-58169fedb45c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
       <value>com.verticalapps.KonyMobileBanking</value>
-      <webElementGuid>0e74aa65-5b05-45a0-abc3-ed2d9ea35f10</webElementGuid>
+      <webElementGuid>1bf68713-fa28-40ea-b8ae-31b47e8a7b9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6b25bb11-03fb-4e72-8fdb-e8b42ee6de6a</webElementGuid>
+      <webElementGuid>5d6ff1dd-0aba-4340-9119-21c2a1018009</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c83bb7aa-a798-47cd-90c8-cd309507d3c4</webElementGuid>
+      <webElementGuid>e796860d-599a-41cf-8d4a-54def257dbf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>e730ed62-6dd6-46e3-9579-8da0ce3b3e84</webElementGuid>
+      <value>false</value>
+      <webElementGuid>76b36da3-83e9-4cae-85e2-e0fed205ee8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e3ad68a2-3c8d-4e11-bd09-db969951a85e</webElementGuid>
+      <webElementGuid>900cd04a-75c8-407b-b86b-5f3474316242</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>84d40bf0-76ea-4430-92a8-07f0c268d667</webElementGuid>
+      <value>false</value>
+      <webElementGuid>cfa3109a-6922-4e07-8d71-4be999bf8a5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>75d98852-0e3b-4624-9d46-9c56531a8b09</webElementGuid>
+      <webElementGuid>5fbbd330-aa43-4914-8dba-2764b38eca96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>46260c31-9ea9-4da2-bc79-313844e00c7d</webElementGuid>
+      <webElementGuid>61dfedfe-7ad4-49af-b3e9-23a435d93413</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>d3372895-ad78-4585-a109-257336b62a43</webElementGuid>
+      <value>false</value>
+      <webElementGuid>79e88d29-92e5-42a6-a6a3-353e77cecb3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6791c1b4-3ad5-4a22-942f-6c25b9987f6e</webElementGuid>
+      <webElementGuid>0f14e5f2-1fe0-4318-a0eb-dec811d4906e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fc84f049-1d30-432d-ba70-57f987614ffb</webElementGuid>
+      <webElementGuid>548eac42-0c09-444b-b3a9-b4a52df8e454</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>40</value>
-      <webElementGuid>dd78bfde-4329-4461-9339-41de6c36a6c3</webElementGuid>
+      <value>394</value>
+      <webElementGuid>51f9c5b9-03fa-42fa-9f43-17e89023a6cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>857</value>
-      <webElementGuid>160d3e21-d4e1-4d18-942a-3e6901ef2ade</webElementGuid>
+      <value>768</value>
+      <webElementGuid>cdb8e608-c1e3-430b-aa9b-a4985b3ef1ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>640</value>
-      <webElementGuid>f4ff037c-73df-4330-8e79-d49499dd0829</webElementGuid>
+      <value>288</value>
+      <webElementGuid>765a6c52-a825-4383-ab0a-f6649df3e13b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>80</value>
-      <webElementGuid>eeeadd54-338a-4679-a4b6-6c990692b6f1</webElementGuid>
+      <value>34</value>
+      <webElementGuid>158d5020-4c46-468e-a011-686d82643a34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[40,857][680,937]</value>
-      <webElementGuid>6e0ca3c6-72d7-4a91-a0d0-f3770caeb5ee</webElementGuid>
+      <value>[394,768][682,802]</value>
+      <webElementGuid>6a236bdd-00b5-4a22-a026-0bea64364942</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d3879636-eb16-4140-a272-0828df10f360</webElementGuid>
+      <webElementGuid>1df399bd-db4d-4442-a562-5715aefd3065</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[6]/android.widget.Button[1]</value>
-      <webElementGuid>ed7f9355-7785-43bc-9d94-d8e7815135e1</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]</value>
+      <webElementGuid>09dd2035-e147-4c78-9468-a34cd2b4d663</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.Button' and (@text = 'Ingresar' or . = 'Ingresar') and @resource-id = 'com.verticalapps.KonyMobileBanking:id/btnLogIn']</locator>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locator>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;AHORROS A LA VISTA&quot;)</locator>
+   <locatorStrategy>ANDROID_UI_AUTOMATOR</locatorStrategy>
 </MobileElementEntity>

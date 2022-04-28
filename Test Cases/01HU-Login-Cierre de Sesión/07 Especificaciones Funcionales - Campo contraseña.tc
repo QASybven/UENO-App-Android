@@ -11,11 +11,24 @@
       <value></value>
       <variableId>79af25b6-b766-4742-94f6-9f486f09a5f2</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86198ec9-b8c9-4e36-94af-a51dffd09a8b</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'enmascarar'</defaultValue>
+      <defaultValue>findTestData('Usuarios').getValue(1, 1)</defaultValue>
       <description></description>
       <id>79af25b6-b766-4742-94f6-9f486f09a5f2</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>NumeroCelular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>86198ec9-b8c9-4e36-94af-a51dffd09a8b</id>
+      <masked>false</masked>
+      <name>Contrasena</name>
    </variable>
 </TestCaseEntity>

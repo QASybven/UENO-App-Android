@@ -17,38 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
+Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0999000745', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.clearText(findTestObject('Login/android.widget.EditText - Numero de celular login - test10'), 0)
+
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), NumeroCelular, 0)
 
 'Login Fallido'
 Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!1234', 0)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
-numerocontraseñaincorrecto = Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - El nmero de celular yo la contrasea ingresados son incorrectos'), 
+numerocontrasenaincorrecto = Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - mensaje contrasena incorrecta'), 
     0)
 
+<<<<<<< HEAD
 Mobile.verifyEqual(Datoincorrecto, '"El número de celular y/o la contraseña ingresados son incorrectos.”.')
+=======
+Mobile.verifyEqual(numerocontrasenaincorrecto, 'El número de celular y/o la contraseña ingresados son incorrectos.')
+>>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
-Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - El nmero de celular yo la contrasea ingresados son incorrectos'), 
-    0)
-
-Mobile.tap(findTestObject('inicio fallido/android.widget.TextView - El nmero de celular yo la contrasea ingresados son incorrectos'), 
-    0)
-
-Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - El nmero de celular yo la contrasea ingresados son incorrectos'), 
-    0)
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
-Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - Ups Se bloque tu contrasea. Para poder reingresar pods restaurarla'), 
+UsuarioBloqueado = Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - Ups Se bloque tu contrasea. Para poder reingresar pods restaurarla'), 
     0)
 
-Mobile.verifyEqual(UsuarioBloqueado, '“Ups! Se bloqueó tu contraseña. Para poder reingresar podés restaurarla.”.')
+Mobile.verifyEqual(UsuarioBloqueado, 'Ups! Se bloqueó tu contraseña. Para poder reingresar podés restaurarla.')
 

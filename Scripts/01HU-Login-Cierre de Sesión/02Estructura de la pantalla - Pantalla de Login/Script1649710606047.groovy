@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jesus_Berbin\\Documents\\Cursos\\Sybven\\UENO\\crtopyinfinitymobilebanking-release.apk', 
-    false)
+Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-Banner = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.Banner'), 'class', 0)
+Banner = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.Banner'), 'resource-id', 0)
 
-Mobile.verifyMatch(Banner, 'android.widget.ImageView', false)
+Mobile.verifyMatch(Banner, 'com.verticalapps.KonyMobileBanking:id/imgKonyLogo', false)
 
 Hola = Mobile.getText(findTestObject('Login/android.widget.TextView - Holanuevo'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -38,10 +37,10 @@ Contrasena = Mobile.getText(findTestObject('Login/android.widget.TextView - Cont
 
 Mobile.verifyEqual(Contrasena, 'Contraseña:')
 
-IconoContrasena = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.IconoMostrarContraseña'), 'class', 
+IconoContrasena = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.IconoMostrarContraseña'), 'resource-id', 
     0)
 
-Mobile.verifyMatch(IconoContrasena, 'android.widget.ImageView', false)
+Mobile.verifyMatch(IconoContrasena, 'com.verticalapps.KonyMobileBanking:id/imgPwdVisiblityToggle', false)
 
 OlvidastetuContrasena = Mobile.getText(findTestObject('Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
 

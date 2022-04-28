@@ -44,4 +44,19 @@
       <initValue>'Te gustara activar tu huella digital como método de acceso predeterminado'</initValue>
       <name>Textoactivarhuella</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Numero celular</description>
+      <initValue>findTestData('Usuarios').getValue(1, 1)</initValue>
+      <name>Numerocelular</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Contrasena</description>
+      <initValue>findTestData('Usuarios').getValue(2, 1)</initValue>
+      <name>Contrasena</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Usuarios').getValue(4, 1)</initValue>
+      <name>Nombredeusuario</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

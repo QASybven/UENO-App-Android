@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
+Mobile.startApplication('C:\\Users\\Jesus_Berbin\\Documents\\Cursos\\Sybven\\UENO\\crtopyinfinitymobilebanking-release.apk', 
     false)
 
 WebUI.delay(10)
 
 'a. Será de tipo numérico.'
-Mobile.verifyElementText(findTestObject('Login/android.widget.EditText - Numero de celular login'), 'abcdefghij', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), 'Test', 0)
 
 'b. Longitud máxima de 10 caracteres.'
-Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982824191111', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), '0982824191111', 0)
 
 'c. Longitud mínima de 10 caracteres.'
-Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '098', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), '098', 0)
 
 'd. No debe permitir ningún carácter especial ni espacios en blanco.'
 Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0555//*2551', 0)

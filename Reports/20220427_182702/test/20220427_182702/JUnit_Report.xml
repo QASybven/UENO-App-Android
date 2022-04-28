@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="53.374" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="53.374" skipped="0" timestamp="2022-04-27 18:27:10" hostname="Jesus_Berbin - Ender-Lobo" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value="samsung SM-A105M (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220427_182702\\test\\20220427_182702"/>
+         <property name="logFiles" value="C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220427_182702\\test\\20220427_182702\\appium.log, C:\\Users\\Jesus_Berbin\\git\\UENO-App-Android\\Reports\\20220427_182702\\test\\20220427_182702\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jesus_Berbin - Ender-Lobo"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-A105M"/>
+         <property name="hostAddress" value="192.168.17.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R28M42G369B"/>
+         <property name="deviceName" value="samsung SM-A105M (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión" time="53.099" classname="Test Cases/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión" status="PASSED">
+         <system-out><![CDATA[2022-04-27 18:27:11 - [TEST_CASE][PASSED] - Test Cases/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión: Test Cases/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión
+
+2022-04-27 18:27:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario"), ["NumeroCelular":findTestData("Usuarios").getValue(1, 1), "Contrasena":findTestData("Usuarios").getValue(2, 1)], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario' successfully
+
+2022-04-27 18:27:12 - [TEST_CASE][PASSED] - Test Cases/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario: Test Cases/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario
+
+2022-04-27 18:27:12 - [TEST_STEP][PASSED] - startApplication(URL, false): Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-27 18:27:12 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-04-27 18:27:13 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-04-27 18:27:14 - [MESSAGE][INFO] - Appium server started on port 63.786
+
+2022-04-27 18:27:28 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jesus_Berbin\Documents\Cursos\Sybven\UENO\crtopyinfinitymobilebanking-release.apk'
+
+2022-04-27 18:27:28 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-04-27 18:27:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-04-27 18:27:38 - [TEST_STEP][PASSED] - clearText(findTestObject("Login/android.widget.EditText - Numero de celular login - test10"), 0): Element 'Object Repository/Login/android.widget.EditText - Numero de celular login - test10' text is cleared
+
+2022-04-27 18:27:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-27 18:27:39 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.widget.EditText - Numero de celular login - test10' text is cleared
+
+2022-04-27 18:27:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Ejemplo 0981123456"), NumeroCelular, 0): Text '0972875200' has been set to element 'Object Repository/Login/android.widget.EditText - Ejemplo 0981123456'
+
+2022-04-27 18:27:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-27 18:27:41 - [MESSAGE][PASSED] - Text '0972875200' has been set to element 'Object Repository/Login/android.widget.EditText - Ejemplo 0981123456'
+
+2022-04-27 18:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - tipear contrasea"), Contrasena, 0): Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-27 18:27:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-27 18:27:43 - [MESSAGE][PASSED] - Text 'Kony!12345' has been set to element 'Object Repository/Login/android.widget.EditText - tipear contrasea'
+
+2022-04-27 18:27:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Ingresar"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar'
+
+2022-04-27 18:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-27 18:27:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Ingresar'
+
+2022-04-27 18:27:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario' successfully
+
+2022-04-27 18:27:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior"), 0): Tapped on element 'Object Repository/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'
+
+2022-04-27 18:27:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-27 18:28:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'
+
+2022-04-27 18:28:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/cierre de sesion/android.widget.ImageView Icono salir superior"), 0): Tapped on element 'Object Repository/cierre de sesion/android.widget.ImageView Icono salir superior'
+
+2022-04-27 18:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-27 18:28:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cierre de sesion/android.widget.ImageView Icono salir superior'
+
+2022-04-27 18:28:03 - [TEST_STEP][PASSED] - tap(findTestObject("Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)"), 0): Tapped on element 'Object Repository/Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)'
+
+2022-04-27 18:28:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-27 18:28:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-27 18:27:10 - [TEST_SUITE][PASSED] - test: Test Cases/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

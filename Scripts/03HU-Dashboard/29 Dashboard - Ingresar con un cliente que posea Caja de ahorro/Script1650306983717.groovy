@@ -17,12 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('null'), 
-    [:], FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
+    false)
 
-Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - N'), 0)
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('Object Repository/Caja de ahorros/android.widget.TextView - Gs. 0'), 0)
+Mobile.clearText(findTestObject('Login/android.widget.EditText - Campo numero de celular en Blanco'), 0)
 
-Mobile.closeApplication()
+Mobile.setText(findTestObject('Login/android.widget.EditText - Campo numero de celular en Blanco'), '0972875200', 0)
+
+Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), 'Kony!12345', 0)
+
+Mobile.getText(findTestObject('Caja de ahorros/android.widget.TextView - Caja de Ahorro'), 0)
+
+Mobile.verifyEqual(Cajadeahorros, 'Caja de ahorros')
+
+Mobile.getText(findTestObject('dasboard/android.widget.TextView - 96912750 numero de cuenta'), 0)
+
+Mobile.verifyEqual(N, 'N°')
+
+Mobile.getText(findTestObject('Caja de ahorros/android.widget.TextView - Gs. 0'), 0)
+
+Mobile.verifyEqual(GS, 'GS.')
+
+Mobile.getText(findTestObject('dasboard/android.widget.TextView - Saldo disponible Etiqueta bajo saldo'), 0)
+
+Mobile.verifyEqual(Saldodisponible, 'Saldo Disponible')
 
