@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Al momento de pulsar repetidamente sobre alguna opcion, solamente debe ejercer una acción a la cual se corresponda</description>
-   <name>60 Validación de envío de peticiones en la pantalla de Detalle de cuentas</name>
-   <tag>TET-882</tag>
-   <comment></comment>
-   <testCaseGuid>7596dbf0-ae10-47d5-a4e6-065463bcedde</testCaseGuid>
-</TestCaseEntity>

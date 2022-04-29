@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>121 Botón Filtrar - Pantalla Filtrar tarjetas</name>
+   <tag>TET-971</tag>
+   <comment></comment>
+   <testCaseGuid>5c074b04-b258-44b1-a1ca-f1e58f0bc70c</testCaseGuid>
+</TestCaseEntity>

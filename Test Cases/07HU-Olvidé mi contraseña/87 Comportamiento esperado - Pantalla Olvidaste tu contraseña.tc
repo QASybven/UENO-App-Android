@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</name>
-   <tag>TET-857</tag>
-   <comment></comment>
-   <testCaseGuid>de9f7e7b-5a38-4656-aeb6-eef844334535</testCaseGuid>
-</TestCaseEntity>

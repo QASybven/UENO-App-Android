@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>110 Estructura de la pantalla - Administrar tarjetas Pantalla Principal Adm. Tarjetas</name>
-   <tag>TET-982</tag>
-   <comment></comment>
-   <testCaseGuid>19955954-94e4-47aa-ba33-133de1dd4306</testCaseGuid>
-</TestCaseEntity>

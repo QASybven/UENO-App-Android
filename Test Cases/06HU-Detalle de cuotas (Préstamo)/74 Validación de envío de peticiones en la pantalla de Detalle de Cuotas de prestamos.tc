@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>74 Validación de envío de peticiones en la pantalla de Detalle de Cuotas de prestamos</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c3ae2c39-7859-4876-bb40-3329398680d2</testCaseGuid>
-</TestCaseEntity>

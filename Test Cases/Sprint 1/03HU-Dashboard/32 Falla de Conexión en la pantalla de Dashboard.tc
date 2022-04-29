@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>En caso de falla de conexión, al intentar ingresar a la Pantalla Dashboard, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+2- Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+3- Botón Aceptar.
+El botón Aceptar cierra el alert, cierra la sesión del usuario y muestra la Pantalla Cierre de sesión.</description>
+   <name>32 Falla de Conexión en la pantalla de Dashboard</name>
+   <tag>TET-832</tag>
+   <comment></comment>
+   <testCaseGuid>d95008af-03f5-4516-b3c7-5021ebf4e2ac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>134b322c-ff81-476d-99d4-f716a1be05a7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'\r\nUps! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo'</defaultValue>
+      <description>Falla de conexion</description>
+      <id>134b322c-ff81-476d-99d4-f716a1be05a7</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

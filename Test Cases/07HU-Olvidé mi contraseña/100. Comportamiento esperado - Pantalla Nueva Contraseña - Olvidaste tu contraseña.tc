@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña</name>
-   <tag>TET-844</tag>
-   <comment></comment>
-   <testCaseGuid>70acb491-fc3b-4564-b46c-0fe7bd27ffb3</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+ *La pantalla cuenta con los siguientes elementos:*
+
+Encabezado de la pantalla con el texto que la identifica “Mis productos”.
+
+ Slider 1:
+
+Título “Mi dinero actual”.
+
+Monto correspondiente a la sumatoria de todas las Cajas de ahorro, Cuentas Corrientes y Tarjetas Prepaga, en Gs.
+
+Título “Mis ahorros”.
+
+Saldo en alcancía.
+
+Título “Mis deudas”.}
+
+Monto correspondiente a la sumatoria de préstamos y tarjetas de crédito en Gs.  
+
+Título “Resumen de saldos”.
+
+Ícono de tres puntos.
+
+Botón flecha hacia arriba.</description>
+   <name>39 Ingresar con un cliente que no posea deudas - Resumen de saldos</name>
+   <tag>TET-953</tag>
+   <comment></comment>
+   <testCaseGuid>46216d3d-15be-47da-bd04-8901c1418197</testCaseGuid>
+</TestCaseEntity>

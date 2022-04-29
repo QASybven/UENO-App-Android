@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>78 Ingresar con un cliente que posea cuotas pagadas - Detalle del movimiento de cuotas</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ce142a33-0a1a-4de8-a775-a948da7c5e20</testCaseGuid>
-</TestCaseEntity>

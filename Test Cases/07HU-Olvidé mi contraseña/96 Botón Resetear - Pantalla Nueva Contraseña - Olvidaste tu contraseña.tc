@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña</name>
-   <tag>TET-848</tag>
-   <comment></comment>
-   <testCaseGuid>d0f3d072-44a0-407d-8f5e-f8933e72e0eb</testCaseGuid>
-</TestCaseEntity>

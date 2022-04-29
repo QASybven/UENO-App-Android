@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</name>
-   <tag>TET-849</tag>
-   <comment></comment>
-   <testCaseGuid>d95bcfff-764c-4d6d-8ea9-cccd5691ee39</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El botón de flecha para regresar, regresa al usuario a la Pantalla Resumen de cuenta (Caja de ahorro/Cuenta corriente)desde donde invocó la pantalla Detalle de cuenta corriente.
+
+El botón Editarse mostrará como un ícono alusivo a un lápiz.
+
+El texto que corresponde al alias o nombre de la cuenta, junto con los últimos cuatro (04) dígitos del número de cuenta, serán retornados por el servicio.
+
+La estructura del texto es la siguiente “&lt;alias de la cuenta>…&lt;últimos cuatro dígitos del número de cuenta>”.
+
+En caso que el alias o nombre de la cuenta sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla.
+
+La pantalla cuenta con los siguientes elementos:
+1- Header de la pantalla.
+2- Botón de flecha para regresar.
+3- Editar (Botón).
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar el ícono de información, ubicado en la esquina superior derecha de la Pantalla Resumen de cuenta (Caja de ahorro/Cuenta corriente), cuando la cuenta consultada corresponde a una cuenta corriente</description>
+   <name>58 Validar la navegación - Pantalla de Detalle de cuentas de cuentas</name>
+   <tag>TET-884</tag>
+   <comment></comment>
+   <testCaseGuid>8634a7d2-0594-4fc1-8064-058c26bebca4</testCaseGuid>
+</TestCaseEntity>

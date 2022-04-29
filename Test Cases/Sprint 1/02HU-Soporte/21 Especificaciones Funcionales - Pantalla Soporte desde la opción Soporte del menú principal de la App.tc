@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El usuario debe poder ingresar a esta pantalla seleccionando el botón plano Soporte presente en la Pantalla Login, o seleccionando la opción Soporte en el menú principal de la App.</description>
+   <name>21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App</name>
+   <tag>Pantalla de Soporte</tag>
+   <comment></comment>
+   <testCaseGuid>f9d5cd05-fd27-48a8-9be9-25bafc3d82f6</testCaseGuid>
+</TestCaseEntity>

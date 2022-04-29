@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El texto que corresponde al alias o nombre de la cuenta, junto con los últimos cuatro (04) dígitos del número de cuenta, serán retornados por el servicio.
+
+ La estructura del texto es la siguiente “&lt;alias de la cuenta>…&lt;últimos cuatro dígitos del número de cuenta>”.
+
+En caso que el alias o nombre de la cuenta sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla.
+
+   El monto que acompaña la etiqueta de Saldo disponible corresponde al monto disponible en la cuenta y será retornado por el servicio.
+
+ El monto se muestra acompañado del tipo de moneda correspondiente.
+
+ El monto que acompaña la etiqueta Depósitos pendientes corresponde a la sumatoria de depósitos efectuados hacia la cuenta consultada, que aún no se han hecho efectivos y será retornado por el servicio.
+
+ El monto se muestra acompañado del tipo de moneda correspondiente.
+
+El monto que acompaña la etiqueta Extracciones pendientes corresponde a la sumatoria de retiros efectuados desde la cuenta consultada, que aún no se han hecho efectivos y será retornado por el servicio.
+
+ El monto se muestra acompañado del tipo de moneda correspondiente.
+
+El monto que acompaña la etiqueta Saldo Bloqueado : Corresponde al saldo que se bloquea administrativamente desde la entidad a la cuenta.
+
+Barra de subtítulos con el texto “Datos de la cuenta”:  Listado de datos de la cuenta consultada.
+
+Etiqueta con el texto “*Tipo de cuenta*:”.
+  Indica el tipo de la cuenta consultada (Caja de ahorro).
+
+Etiqueta con el texto “*Número de cuenta:*”.
+ Indica el número de la cuenta consultada, completo.
+
+  Etiqueta con el texto “*Titular:*”.
+  Indica el nombre del (los) titulares de la cuenta consultada.
+
+Etiqueta con el texto “*Fecha de apertura:*”.
+ Indica la fecha en que se abrió la cuenta consultada, en formato DD/MM/AAA.
+
+ *Bajo la barra de subtítulo* Costos y beneficios, se muestran los siguientes datos:
+
+ Etiqueta con el texto “*Tasa de interés:*”.                                                                                                               Indica porcentaje de tasa de interés de retorno de la caja de ahorro consultada.
+
+Etiqueta con el texto “*Saldo mínimo exigido:*”.
+
+Indica el monto mínimo a mantener en la cuenta mensualmente, acompañado del tipo de moneda.
+
+Etiqueta con el texto “*Transacciones ATM sin costo:*”.
+
+Muestra, en número, la cantidad de transacciones permitidas en ATMs sin generar costos.
+
+ Etiqueta con el texto “*Costo transacciones ATM Banco:*”.
+
+Indica el monto de las comisiones generadas por transacciones ejecutadas en ATMs del mismo banco,     acompañado del tipo de moneda.
+
+ Etiqueta con el texto “*Costo de transac. ATM otros Bancos:*”.
+
+Muestra el monto de las comisiones generadas por transacciones ejecutadas en ATMs de otros bancos, acompañado del tipo de moneda.</description>
+   <name>48 Resumen de cuentas - Icono de información Caja de ahorro</name>
+   <tag>TET-934</tag>
+   <comment></comment>
+   <testCaseGuid>f5472c33-fb12-4d35-a427-c6da32eca3ec</testCaseGuid>
+</TestCaseEntity>

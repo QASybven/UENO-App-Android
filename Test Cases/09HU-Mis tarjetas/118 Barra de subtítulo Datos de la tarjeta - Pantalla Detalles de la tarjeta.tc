@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>118 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta</name>
-   <tag>TET-973</tag>
-   <comment></comment>
-   <testCaseGuid>f73e29c4-25ad-4369-9aaa-27df5be710da</testCaseGuid>
-</TestCaseEntity>

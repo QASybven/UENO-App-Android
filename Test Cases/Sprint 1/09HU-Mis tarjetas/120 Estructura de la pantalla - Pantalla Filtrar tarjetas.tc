@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>120 Estructura de la pantalla - Pantalla Filtrar tarjetas</name>
+   <tag>TET-972</tag>
+   <comment></comment>
+   <testCaseGuid>a6d40ce1-6cc4-4cd8-ab85-970b8d0b4756</testCaseGuid>
+</TestCaseEntity>

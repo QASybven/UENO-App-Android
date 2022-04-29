@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Resultado Esperado
-Al momento de pulsar repetidamente sobre alguna opción,  en la pantalla de Detalle de cuentas ,  debe ejercer una acción a la cual se corresponda y no enviar varias peticiones al backend</description>
-   <name>59 Validación de envío de peticiones en la pantalla de Detalle de cuentas</name>
-   <tag>TET-883</tag>
-   <comment></comment>
-   <testCaseGuid>31e73323-3d8a-4137-b9b9-e29e37ad054b</testCaseGuid>
-</TestCaseEntity>

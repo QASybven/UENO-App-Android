@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña</name>
-   <tag>TET-852</tag>
-   <comment></comment>
-   <testCaseGuid>7d9ce14c-664a-458d-ab3b-92d2c89e3d33</testCaseGuid>
-</TestCaseEntity>

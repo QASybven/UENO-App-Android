@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>os datos de las transacciones listadas bajo las barras de subtítulos Operaciones programadas y Movimientos, que se muestran, son:
+1- Descripción de la operación.
+2- Fecha y hora de la operación.
+3- Monto de la operación, acompañado del tipo de moneda.
+
+
+Datos utilizados
+Código persona 63171    Número de documento: 63171 Cuenta: 0131009211
+
+Sin movimientos
+
+
+Pasos a seguir
+Ingresar a la aplicación con credenciales válidas
+
+Ingresar a la opción de resumen de cuentas
+
+
+Resultado Esperado
+Al ingresan a la pantalla se muestra un elemento showloading, en el centro de la pantalla, con el siguiente texto: Cargando movimientos…”.
+
+Una vez se cargan todos los datos y transacciones en los listados, se oculta el showloading.</description>
+   <name>51 Resumen de cuentas - Consulta de movimientos, cliente sin movimientos</name>
+   <tag>TET-931</tag>
+   <comment></comment>
+   <testCaseGuid>074cd901-fa32-434c-b98f-391a7df90776</testCaseGuid>
+</TestCaseEntity>

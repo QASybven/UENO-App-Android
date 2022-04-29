@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>107 Validar navegación en la pantalla Configuraciones</name>
-   <tag>TET-862</tag>
-   <comment></comment>
-   <testCaseGuid>b002ba56-8ff5-4a0b-bfb2-0bdf1a941ddb</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>109 Validar navegación en la Pantalla Método de acceso predeterminado Configuraciones</name>
+   <tag>TET-860</tag>
+   <comment></comment>
+   <testCaseGuid>bd20e452-cdbf-4e84-a9ec-7c50ce03cf4c</testCaseGuid>
+</TestCaseEntity>

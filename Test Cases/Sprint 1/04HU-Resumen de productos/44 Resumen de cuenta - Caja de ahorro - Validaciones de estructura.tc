@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Header de la pantalla
+
+Botón de flecha para regresar.
+
+ Ícono de información (Botón).
+
+ Texto con el alias o nombre de la cuenta, seguido de los cuatro (04) últimos dígitos del número de cuenta.
+
+Información resumen de la cuenta.
+
+Título “Saldo disponible”.
+
+Monto disponible en la cuenta para uso del cliente.
+
+Título “Depósitos pendientes:”.
+
+Monto de depósitos pendientes por ejecución.
+
+Título “Extracciones pendientes:”
+
+Monto de retiros pendientes por ejecución.
+
+Más opciones (Botón).
+
+Barra de subtítulos con el texto: “Operaciones programadas”.
+
+ Listado de transacciones programadas, pendientes por ejecutar.
+
+Barra de subtítulos con el texto “Movimientos”.
+
+Listado de operaciones ejecutadas.</description>
+   <name>44 Resumen de cuenta - Caja de ahorro - Validaciones de estructura</name>
+   <tag>TET-938</tag>
+   <comment></comment>
+   <testCaseGuid>8bc587c7-aed4-42ce-9868-f595fb0b5cf6</testCaseGuid>
+</TestCaseEntity>

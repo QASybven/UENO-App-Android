@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>113 La pestaña Opciones - Administrar tarjetas Pantalla Principal Adm. Tarjetas</name>
-   <tag>TET-979</tag>
-   <comment></comment>
-   <testCaseGuid>e3aca104-e535-40f6-b050-8698441cbd8b</testCaseGuid>
-</TestCaseEntity>

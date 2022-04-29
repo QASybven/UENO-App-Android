@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>116 Falla de conexión - Pantalla Principal Mis tarjetas</name>
-   <tag>TET-975</tag>
-   <comment></comment>
-   <testCaseGuid>65a199ef-d278-444e-b1e8-f7c841618a18</testCaseGuid>
-</TestCaseEntity>

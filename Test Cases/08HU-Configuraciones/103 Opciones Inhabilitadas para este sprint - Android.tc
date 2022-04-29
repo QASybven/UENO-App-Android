@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>103 Opciones Inhabilitadas para este sprint - Android</name>
-   <tag>TET-943</tag>
-   <comment></comment>
-   <testCaseGuid>5a7e1965-7b79-410c-a8dc-c3737f96ec46</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>102 Opciones disponibles - Pantalla perfil</name>
+   <tag>TET-944</tag>
+   <comment></comment>
+   <testCaseGuid>45bd6687-aef1-4268-beba-cf8ae00f6c56</testCaseGuid>
+</TestCaseEntity>

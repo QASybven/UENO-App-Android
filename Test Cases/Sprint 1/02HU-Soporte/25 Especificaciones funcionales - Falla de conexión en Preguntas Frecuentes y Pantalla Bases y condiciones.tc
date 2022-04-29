@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El botón Compartir se mostrará en forma de ícono alusivo.
+Al seleccionar el botón Compartir se mostrará una ventana emergente de color Mensaje de Info con el siguiente texto “Se copió la información de esta versión en tu dispositivo.”.
+El sistema copiará el texto con la versión de la App y la información del SO y el dispositivo, en el portapapeles del dispositivo.</description>
+   <name>25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones</name>
+   <tag>TET-825</tag>
+   <comment></comment>
+   <testCaseGuid>faabb44a-1703-441a-8cc5-4ad728e1c602</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>' Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones'</defaultValue>
+      <description></description>
+      <id>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</id>
+      <masked>false</masked>
+      <name>Falladeconexion</name>
+   </variable>
+</TestCaseEntity>
