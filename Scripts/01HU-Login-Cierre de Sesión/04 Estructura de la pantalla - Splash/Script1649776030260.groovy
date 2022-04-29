@@ -21,3 +21,7 @@ Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.verifyElementVisible(findTestObject('Login/android.widget.ImageView Splash'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+Mobile.checkElement(findTestObject(null), 0)
+
+Mobile.toggleAirplaneMode('', FailureHandling.CONTINUE_ON_FAILURE)
+

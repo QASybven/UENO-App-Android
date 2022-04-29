@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2788d07c-3999-42aa-8979-a6b771ed3382</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe72b9bd-5c26-4a8e-935b-b80cc506dbab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85724bda-865d-42ad-b537-99cf7b2757f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sesión cerrada por inactividad. Ingresá de nuevo'</defaultValue>
+      <description></description>
+      <id>fe72b9bd-5c26-4a8e-935b-b80cc506dbab</id>
+      <masked>false</masked>
+      <name>CierreInactividad</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85724bda-865d-42ad-b537-99cf7b2757f1</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>

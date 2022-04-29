@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>na vez realizado el login exitoso se debe visualizar la pantalla de Dashboard. o al seleccionar el menú Mis productos.
@@ -46,3 +47,53 @@ Listado de productos asociados al usuario</description>
       <name>Todosmisproductos</name>
    </variable>
 </TestCaseEntity>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>na vez realizado el login exitoso se debe visualizar la pantalla de Dashboard. o al seleccionar el menú Mis productos.
+
+La pantalla cuenta con los siguientes elementos:
+
+Header de la pantalla con el texto que la identifica “Mis productos”.
+
+Slider principal, contiene los siguientes elementos:
+
+Slider 1.
+
+Botón flecha hacia abajo 1.
+
+Barra de subtítulos “Todos mis productos”.
+
+Listado de productos asociados al usuario</description>
+   <name>27 Validar pantalla de Dashboard</name>
+   <tag>TET-842</tag>
+   <comment></comment>
+   <testCaseGuid>572c6c08-7272-46cd-a166-3bf9e630b689</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e442aefe-b875-42ac-a7ac-94a3484a79a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f482a54f-23ba-4526-8f82-cb992774f0c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Encabezado</description>
+      <id>e442aefe-b875-42ac-a7ac-94a3484a79a4</id>
+      <masked>false</masked>
+      <name>Misproductos</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Mis productos</description>
+      <id>f482a54f-23ba-4526-8f82-cb992774f0c4</id>
+      <masked>false</masked>
+      <name>Todosmisproductos</name>
+   </variable>
+</TestCaseEntity>
+>>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android.git

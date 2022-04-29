@@ -17,16 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    true)
-
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.sendKeys(findTestObject('Object Repository/Resumen de productos/android.widget.EditText - 0982159800'), '0982159800')
-
-Mobile.setText(findTestObject('Object Repository/Resumen de productos/android.widget.EditText'), 'Kony!12345', 0)
-
-Mobile.tap(findTestObject('Object Repository/Resumen de productos/android.widget.Button - Ingresar'), 0)
+WebUI.callTestCase(findTestCase('01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario'), 
+    [('NumeroCelular') : findTestData('Usuarios').getValue(1, 1), ('Contrasena') : findTestData('Usuarios').getValue(2, 
+            1)], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Resumen de productos/android.widget.TextView - Saldo disponible'), 0)
 
@@ -34,7 +27,8 @@ Mobile.tap(findTestObject('Object Repository/Resumen de productos/android.widget
 
 Mobile.tap(findTestObject('Object Repository/Resumen de productos/android.widget.ImageView lapiz editar'), 0)
 
-Mobile.getText(findTestObject('Object Repository/Resumen de productos/android.widget.TextView - Personalizar cuenta titulo'), 0)
+Mobile.getText(findTestObject('Object Repository/Resumen de productos/android.widget.TextView - Personalizar cuenta titulo'), 
+    0)
 
 Mobile.setText(findTestObject('Object Repository/Resumen de productos/android.widget.EditText - Ejemplo Mi cuenta salario'), 
     'prueba', 0)

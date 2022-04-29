@@ -30,3 +30,5 @@ Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
 Mobile.verifyElementVisible(findTestObject('cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 0)
 
+Mobile.hideKeyboard()
+
