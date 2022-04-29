@@ -33,3 +33,5 @@ Mobile.getText(findTestObject('Soporte/android.widget.TextView - Ups Hubo una fa
 
 Mobile.verifyEqual(Falladeconexion, ' Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones')
 
+Mobile.verifyElementHasAttribute(findTestObject(null), '', 0)
+
