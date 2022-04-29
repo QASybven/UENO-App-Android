@@ -32,7 +32,7 @@ Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Ima
 
 Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView Icono salir superior'), 0)
 
-Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Button - SI'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.closeApplication()
 

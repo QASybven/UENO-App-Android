@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>14 Cierre de Sesion - Tiempo de Inactividad</name>
+   <name>Cierre de sesion</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2788d07c-3999-42aa-8979-a6b771ed3382</testCaseGuid>
+   <testCaseGuid>86aece42-09b7-4882-a295-82613a615293</testCaseGuid>
 </TestCaseEntity>

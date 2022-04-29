@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2022-04-29 12:03:16,2022-04-29 12:03:57,"41,544s",FAILED
+,,,,,,,
+Test Cases/01HU-Login-Cierre de Sesión/14 Cierre de Sesion - Tiempo de Inactividad,,,,2022-04-29 12:03:47,2022-04-29 12:03:57,"10,101s",FAILED
+"startApplication(URL, false)",,,,2022-04-29 12:03:47,2022-04-29 12:03:47,"0,007s",FAILED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-04-29 12:03:47,2022-04-29 12:03:57,"10,002s",PASSED
+"clearText(findTestObject(""Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-04-29 12:03:57,2022-04-29 12:03:57,"0,069s",PASSED

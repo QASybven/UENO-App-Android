@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Mensaje Inactividad</description>
-      <initValue>'Sesión cerrada por inactividad. Ingresá de nuevo'</initValue>
+      <initValue>''</initValue>
       <name>MensajeInactividad</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

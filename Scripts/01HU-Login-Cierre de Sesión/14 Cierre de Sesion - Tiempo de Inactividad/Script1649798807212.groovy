@@ -17,25 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
+Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.clearText(findTestObject('Login/android.widget.EditText - Numero de celular login'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982824191', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!12345', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), GlobalVariable.Contrasena, 0)
 
 Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Button - Ingresar'), 0)
 
-Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 0)
-
 Mobile.delay(300, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('cierre de sesion/android.widget.TextView - Sesin cerrada por inactividad. Ingres de nuevo'), 
+MensajeInactividad = Mobile.getText(findTestObject('cierre de sesion/android.widget.TextView - Sesin cerrada por inactividad. Ingres de nuevo'), 
     0)
 
-Mobile.verifyEqual(GlobalVariable.MensajeInactividad, 'Sesión cerrada por inactividad. Ingresá de nuevo')
+Mobile.verifyEqual(GlobalVariable.MensajeInactividad, 'Sesión cerrada por inactividad. Ingresá de nuevo.')
 

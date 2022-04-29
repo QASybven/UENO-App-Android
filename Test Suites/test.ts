@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>fa739a0b-3984-4f84-a63c-6d74f00aadc5</testSuiteGuid>
    <testCaseLink>
-      <guid>986f15b0-df79-4fe6-b662-e4649513343c</guid>
+      <guid>86947098-00ad-4716-8861-5b55573398c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión</testCaseId>
+      <testCaseId>Test Cases/01HU-Login-Cierre de Sesión/14 Cierre de Sesion - Tiempo de Inactividad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

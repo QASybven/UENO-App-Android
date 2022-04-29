@@ -1,49 +1,8 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Al completar el mínimo de caracteres en los campos Número de celular y Contraseña, se activa el botón Ingresar.
-
-El botón Ingresar se muestra inactivo por defecto.
-
-Al seleccionar sobre el botón Ingresar se aplican las validaciones correspondientes del frontend de la aplicación.</description>
+   <description></description>
    <name>08 Especificaciones Funcionales Numero de Celular -Contraseña</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b6f665b6-f968-49fa-8a12-59d5cdecf2dc</testCaseGuid>
+   <testCaseGuid>e396fde2-bbdd-4d1d-9382-60f69033c656</testCaseGuid>
 </TestCaseEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>El back nativo (dentro de la aplicación, es decir usuario logueado) del sistema operativo muestra un pop up con los siguientes elementos:</description>
-   <name>08 Especificaciones Funcionales Numero de Celular -Contraseña</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b6f665b6-f968-49fa-8a12-59d5cdecf2dc</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>52640321-d8b7-4c0b-93af-6f3ca596565a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>685ec57b-56d1-4f72-923e-8f3d67630b6e</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>findTestData('Usuarios').getValue(1, 1)</defaultValue>
-      <description></description>
-      <id>52640321-d8b7-4c0b-93af-6f3ca596565a</id>
-      <masked>false</masked>
-      <name>NumeroCelular</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Usuarios').getValue(2, 1)</defaultValue>
-      <description></description>
-      <id>685ec57b-56d1-4f72-923e-8f3d67630b6e</id>
-      <masked>false</masked>
-      <name>Contrasena</name>
-   </variable>
-</TestCaseEntity>
->>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android
