@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>texto falla de conexion</description>
-      <initValue>'Ups Hubo una falla en la conexión. Por favor, verificá y probá de nuevo'</initValue>
+      <initValue>''</initValue>
       <name>Mensajefallaconexion</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

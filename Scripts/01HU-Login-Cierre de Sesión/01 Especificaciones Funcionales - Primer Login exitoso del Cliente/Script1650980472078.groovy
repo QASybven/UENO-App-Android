@@ -27,9 +27,9 @@ Hola = Mobile.getText(findTestObject('Object Repository/Inicio primera vez y cie
 Mobile.verifyEqual(Hola, '¡Hola!')
 
 Mobile.setText(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.EditText - Ejemplo 0981123456 (1)'), 
-    NumeroCelular, 0)
+    GlobalVariable.Numerocelular, 0)
 
-Mobile.setText(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.EditText (2)'), Contrasena, 
+Mobile.setText(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.EditText (2)'), GlobalVariable.Contrasena, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Inicio primera vez y cierre de sesion/android.widget.Button - Ingresar (2)'), 

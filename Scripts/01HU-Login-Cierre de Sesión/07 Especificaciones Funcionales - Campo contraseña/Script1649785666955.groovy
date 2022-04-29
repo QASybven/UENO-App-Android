@@ -21,9 +21,11 @@ Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), NumeroCelular, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.clearText(findTestObject('Login/android.widget.EditText - Numero de celular login'), 0)
 
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - tipear contrasea'), Contrasena, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 0)
+
+Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), GlobalVariable.Contrasena, 0)
 
 Mobile.tap(findTestObject('Login/android.view.ViewGroup Ojito Ver contrasea'), 0)
 

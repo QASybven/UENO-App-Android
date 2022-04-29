@@ -23,21 +23,19 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.clearText(findTestObject('Login/android.widget.EditText - Numero de celular login - test10'), 0)
 
-Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), NumeroCelular, 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 0)
 
 'Login Fallido'
-Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!1234', 0)
+Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), GlobalVariable.Contrasena, 0)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
 numerocontrasenaincorrecto = Mobile.getText(findTestObject('inicio fallido/android.widget.TextView - mensaje contrasena incorrecta'), 
     0)
 
-<<<<<<< HEAD
 Mobile.verifyEqual(Datoincorrecto, '"El número de celular y/o la contraseña ingresados son incorrectos.”.')
-=======
+
 Mobile.verifyEqual(numerocontrasenaincorrecto, 'El número de celular y/o la contraseña ingresados son incorrectos.')
->>>>>>> branch 'main' of https://github.com/QASybven/UENO-App-Android
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 

@@ -17,22 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
-
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.sendKeys(findTestObject('Login/android.widget.EditText - Numero de celular login'), '0982824191', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'), 'Kony!12345', 0)
-
-Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.Button - Ingresar'), 0)
+Mobile.callTestCase(findTestCase('01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario'), 
+    [('NumeroCelular') : findTestData('Usuarios').getValue(1, 1), ('Contrasena') : findTestData('Usuarios').getValue(2, 1)], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 0)
 
 Mobile.tap(findTestObject('Object Repository/cierre de sesion/android.widget.ImageView Icono salir superior'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+mensajecierresesion = Mobile.getText(findTestObject('cierre de sesion/android.widget.TextView - Ests seguro de querer salir'), 
+    0)
 
-Mobile.closeApplication()
+Mobile.verifyEqual(mensajecierresesion, '¿Estás seguro de querer salir?')
 

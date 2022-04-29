@@ -15,4 +15,17 @@ Icono de confirmación en color verde.
    <tag>TET-901</tag>
    <comment></comment>
    <testCaseGuid>b1ae98b4-6b0e-47de-a138-6c5df28aedf5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>310c6f2b-5916-4145-8ddd-b7e66f5375f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>310c6f2b-5916-4145-8ddd-b7e66f5375f5</id>
+      <masked>false</masked>
+      <name>mensajecierresesion</name>
+   </variable>
 </TestCaseEntity>

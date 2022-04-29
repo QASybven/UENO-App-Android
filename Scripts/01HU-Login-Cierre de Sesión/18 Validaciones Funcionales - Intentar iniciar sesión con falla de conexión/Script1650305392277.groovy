@@ -21,9 +21,7 @@ Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.toggleAirplaneMode('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.switchToLandscape()
+Mobile.toggleAirplaneMode('yes', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.clearText(findTestObject('Login/android.widget.EditText - Numero de celular login'), 0)
 
@@ -33,7 +31,9 @@ Mobile.setText(findTestObject('Login/android.widget.EditText - tipear contrasea'
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Ingresar'), 0)
 
-Mobile.checkElement(findTestObject(null), 0)
+Mensajefallaconexion = Mobile.getText(findTestObject('falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'), 
+    0)
 
-Mobile.getAttribute(findTestObject(null), '', 0)
+Mobile.verifyEqual(GlobalVariable.Mensajefallaconexion, 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
