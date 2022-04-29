@@ -25,7 +25,7 @@ Banner = Mobile.getAttribute(findTestObject('Login/android.widget.ImageView.Bann
 
 Mobile.verifyMatch(Banner, 'com.verticalapps.KonyMobileBanking:id/imgKonyLogo', false)
 
-Hola = Mobile.getText(findTestObject('Login/android.widget.TextView - Holanuevo'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Hola = Mobile.getText(findTestObject('Login/android.widget.TextView - Hola (1)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.verifyEqual(Hola, '¡Hola!')
 

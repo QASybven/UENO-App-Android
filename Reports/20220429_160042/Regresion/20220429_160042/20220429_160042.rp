@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestSuiteCollectionEntity>
+<ReportCollectionEntity>
    <description></description>
-   <name>Regresion</name>
+   <name>20220429_160042</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
-   <testSuiteRunConfigurations>
-      <TestSuiteRunConfiguration>
-         <configuration>
+   <displayName>20220429_160042</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220429_160042/01HU-Login-Cierre de Sesión/20220429_160049</reportLocation>
+         <runConfigDescription>
             <groupName>Mobile</groupName>
             <profileName>DEV</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -23,9 +22,9 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/01HU-Login-Cierre de Sesión</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-   </testSuiteRunConfigurations>
-</TestSuiteCollectionEntity>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Regresion</testSuiteCollectionId>
+</ReportCollectionEntity>
