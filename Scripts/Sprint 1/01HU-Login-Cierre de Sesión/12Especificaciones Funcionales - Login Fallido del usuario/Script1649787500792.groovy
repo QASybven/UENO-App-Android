@@ -21,21 +21,19 @@ Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login - test10'), 0)
+Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login'), 0)
 
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 0)
+Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), numerocelular, 0)
 
 'Login Fallido'
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), GlobalVariable.Contrasena, 0)
+Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), contrasena, 0)
 
 Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Ingresar'), 0)
 
 numerocontrasenaincorrecto = Mobile.getText(findTestObject('Sprint 1/inicio fallido/android.widget.TextView - mensaje contrasena incorrecta'), 
     0)
 
-Mobile.verifyEqual(Datoincorrecto, '"El número de celular y/o la contraseña ingresados son incorrectos.”.')
-
-Mobile.verifyEqual(numerocontrasenaincorrecto, 'El número de celular y/o la contraseña ingresados son incorrectos.')
+Mobile.verifyEqual(numerocontrasenaincorrecto, '"El número de celular y/o la contraseña ingresados son incorrectos.”.')
 
 Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Ingresar'), 0)
 

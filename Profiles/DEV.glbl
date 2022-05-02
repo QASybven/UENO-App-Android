@@ -59,4 +59,9 @@
       <initValue>findTestData('Usuarios').getValue(4, 1)</initValue>
       <name>Nombredeusuario</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Usuarios').getValue(5, 1)</initValue>
+      <name>EtiquetaHolaEsperado</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220502_133208</name>
+   <tag></tag>
+   <displayName>20220502_133208</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220502_133208/Sprint 1/01HU-Login-Cierre de Sesión/20220502_133214</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-A105M (Android 11)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R28M42G369B</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Sprint 1/Regresion</testSuiteCollectionId>
+</ReportCollectionEntity>

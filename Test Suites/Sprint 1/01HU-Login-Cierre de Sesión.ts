@@ -177,19 +177,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b30abf11-bf14-4e89-bbeb-7c6af6abe53d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/04 Estructura de la pantalla - Splash</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ea3790ef-4fd9-4452-8e5a-94aaeed840e0</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>dd785af0-9003-40ad-b5a8-a3284e9413ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -266,6 +253,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/12Especificaciones Funcionales - Login Fallido del usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48110085-76bb-4f03-8bbf-f9c76f9997ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93b7af53-8456-495a-afe7-057ccec911bb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1401cb57-1283-49f5-b763-d151bff18065</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>96294636-e38f-4a69-a4cf-d60afa4938a1</guid>

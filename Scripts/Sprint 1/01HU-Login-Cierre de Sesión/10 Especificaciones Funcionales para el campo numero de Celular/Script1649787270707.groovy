@@ -21,7 +21,7 @@ Mobile.startApplication(GlobalVariable.URL, false)
 
 WebUI.delay(10)
 
-NumeroCelular = Mobile.getText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login - test10'), 0)
+NumeroCelular = Mobile.getText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login'), 0)
 
 Mobile.verifyEqual(NumeroCelular, NumeroEsperado)
 

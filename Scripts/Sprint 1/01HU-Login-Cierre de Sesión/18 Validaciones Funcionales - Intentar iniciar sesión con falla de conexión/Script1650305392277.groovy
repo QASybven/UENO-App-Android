@@ -25,7 +25,8 @@ Mobile.toggleAirplaneMode('yes', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login'), 0)
 
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 0)
+Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 
+    0)
 
 Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), GlobalVariable.Contrasena, 0)
 

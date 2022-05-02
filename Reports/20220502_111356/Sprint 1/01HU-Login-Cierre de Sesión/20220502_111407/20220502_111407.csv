@@ -1,0 +1,358 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+01HU-Login-Cierre de Sesión,,,,2022-05-02 11:14:24,2022-05-02 11:39:24,"24m - 59,283s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/01 Especificaciones Funcionales - Primer Login exitoso del Cliente,,"Si el nombre del cliente es mayor al límite máximo de caracteres que permite la resolución del dispositivo, la aplicación mostrará el nombre de usuario seguido de tres (03) puntos suspensivos (…), para indicar que continúa. No se generará una segunda línea con el nombre del usuario en ningún caso.
+El límite de caracteres máximo a mostrar dependerá de la resolución del dispositivo móvil.
+
+
+Precondiciones
+El primer nombre del cliente será retornado por el servicio.
+
+
+Datos utilizados
+Cliente: 477726   Numero de documento: 3456789
+
+LUIS AUGUSTO EMMANUEL DUARTE SANCHEZ
+
+
+Pasos a seguir
+Ingresar datos correctos del cliente, e iniciar sesión
+
+
+Resultado Esperado
+Al ingresar por primera vez en la aplicación, el texto de bienvenida expresa “¡Hola!”.
+
+Si el usuario hace login exitoso, al cerrar sesión podrá ver en la Pantalla Login, el texto “¡Hola <Primer nombre del cliente>!”.",TET-918,2022-05-02 11:14:25,2022-05-02 11:16:05,"1m - 40,456s",PASSED
+"startApplication(URL, true)",,,,2022-05-02 11:14:26,2022-05-02 11:15:20,"53,660s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:15:20,2022-05-02 11:15:30,"10,051s",PASSED
+"Hola = getText(findTestObject(""Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.TextView - Hola Primer Login""), 0)",,,,2022-05-02 11:15:30,2022-05-02 11:15:31,"0,806s",PASSED
+"verifyEqual(Hola, ""¡Hola!"")",,,,2022-05-02 11:15:31,2022-05-02 11:15:31,"0,015s",PASSED
+"setText(findTestObject(""Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.EditText - Ejemplo 0981123456 (1)""), Numerocelular, 0)",,,,2022-05-02 11:15:31,2022-05-02 11:15:32,"1,606s",PASSED
+"setText(findTestObject(""Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.EditText (2)""), Contrasena, 0)",,,,2022-05-02 11:15:32,2022-05-02 11:15:34,"1,393s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Ingresar (2)""), 0)",,,,2022-05-02 11:15:34,2022-05-02 11:15:35,"1,697s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - NO (1)""), 0)",,,,2022-05-02 11:15:35,2022-05-02 11:15:35,"0,002s",NOT_RUN
+"tap(findTestObject(""Sprint 1/Inicio primera vez y cierre de sesion/android.widget.ImageView""), 0)",,,,2022-05-02 11:15:35,2022-05-02 11:15:55,"19,850s",PASSED
+"tap(findTestObject(""Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior""), 0)",,,,2022-05-02 11:15:55,2022-05-02 11:15:57,"1,494s",PASSED
+"tap(findTestObject(""Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)""), 0)",,,,2022-05-02 11:15:57,2022-05-02 11:15:58,"1,171s",PASSED
+"NombredeUsuario = getText(findTestObject(""Sprint 1/Inicio primera vez y cierre de sesion/android.widget.TextView -  NombreUsuario""), 0)",,,,2022-05-02 11:15:58,2022-05-02 11:16:05,"7,244s",PASSED
+"verifyEqual(NombredeUsuario, NombredeUsuarioEsperado)",,,,2022-05-02 11:16:05,2022-05-02 11:16:05,"0,003s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/02Estructura de la pantalla - Pantalla de Login,,"La pantalla cuenta con los siguientes elementos:
+
+Encabezado de la pantalla con banner principal.
+
+Texto de bienvenida “¡Hola!”.
+
+ Número de celular (Campo de texto).
+
+Contraseña (Campo de texto).
+
+ Icono de mostrar contraseña.
+
+ ¿Olvidaste tu contraseña? (Botón plano).
+
+Ingresar (Botón).
+
+ Menú inferior:  Soporte (Botón plano).
+
+El campo Número de celular muestra el texto de ayuda “Ejemplo: 0981748291”.",TET-920,2022-05-02 11:16:05,2022-05-02 11:17:26,"1m - 20,930s",FAILED
+"startApplication(URL, false)",,,,2022-05-02 11:16:06,2022-05-02 11:16:18,"12,505s",PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:16:18,2022-05-02 11:16:23,"5,006s",PASSED
+"Banner = getAttribute(findTestObject(""Sprint 1/Login/android.widget.ImageView.Banner""), ""resource-id"", 0)",,,,2022-05-02 11:16:23,2022-05-02 11:16:24,"0,587s",PASSED
+"verifyMatch(Banner, ""com.verticalapps.KonyMobileBanking:id/imgKonyLogo"", false)",,,,2022-05-02 11:16:24,2022-05-02 11:16:24,"0,010s",PASSED
+"Hola = getText(findTestObject(""Sprint 1/Login/android.widget.TextView - Hola (1)""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:16:24,2022-05-02 11:16:54,"30,096s",FAILED
+"verifyEqual(Hola, ""¡Hola!"")",,,,2022-05-02 11:16:54,2022-05-02 11:16:54,"0,008s",FAILED
+"NumerodeCelular = getText(findTestObject(""Sprint 1/Login/android.widget.TextView - Nmero de celular""), 0)",,,,2022-05-02 11:16:54,2022-05-02 11:16:54,"0,280s",PASSED
+"verifyEqual(NumerodeCelular, ""Número de celular:"")",,,,2022-05-02 11:16:54,2022-05-02 11:16:54,"0,002s",PASSED
+"Contrasena = getText(findTestObject(""Sprint 1/Login/android.widget.TextView - Contrasea""), 0)",,,,2022-05-02 11:16:54,2022-05-02 11:16:54,"0,270s",PASSED
+"verifyEqual(Contrasena, ""Contraseña:"")",,,,2022-05-02 11:16:54,2022-05-02 11:16:55,"0,002s",PASSED
+"IconoContrasena = getAttribute(findTestObject(""Sprint 1/Login/android.widget.ImageView.IconoMostrarContraseña""), ""resource-id"", 0)",,,,2022-05-02 11:16:55,2022-05-02 11:16:55,"0,247s",PASSED
+"verifyMatch(IconoContrasena, ""com.verticalapps.KonyMobileBanking:id/imgPwdVisiblityToggle"", false)",,,,2022-05-02 11:16:55,2022-05-02 11:16:55,"0,002s",PASSED
+"OlvidastetuContrasena = getText(findTestObject(""Sprint 1/Login/android.widget.TextView - Olvidaste tu contrasea""), 0)",,,,2022-05-02 11:16:55,2022-05-02 11:16:55,"0,254s",PASSED
+"verifyEqual(OlvidastetuContrasena, ""¿Olvidaste tu contraseña?"")",,,,2022-05-02 11:16:55,2022-05-02 11:16:55,"0,002s",PASSED
+"BotonIngresar = getAttribute(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), ""text"", 0)",,,,2022-05-02 11:16:55,2022-05-02 11:16:55,"0,234s",PASSED
+"verifyEqual(BotonIngresar, ""Ingresar"")",,,,2022-05-02 11:16:55,2022-05-02 11:16:55,"0,002s",PASSED
+"Registrarme = getAttribute(findTestObject(""Sprint 1/Login/android.widget.Button - Registrarme""), ""text"", 0)",,,,2022-05-02 11:16:55,2022-05-02 11:16:55,"0,256s",PASSED
+"verifyEqual(Registrarme, ""Registrarme"")",,,,2022-05-02 11:16:55,2022-05-02 11:16:56,"0,002s",PASSED
+"Soporte = getAttribute(findTestObject(""Sprint 1/Login/android.widget.Button - Soporte""), ""text"", 0)",,,,2022-05-02 11:16:56,2022-05-02 11:16:56,"0,318s",PASSED
+"verifyEqual(Soporte, ""Soporte"")",,,,2022-05-02 11:16:56,2022-05-02 11:16:56,"0,002s",PASSED
+"TextoAyuda = getAttribute(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), ""text"", 0)",,,,2022-05-02 11:16:56,2022-05-02 11:17:26,"30,142s",FAILED
+"verifyEqual(TextoAyuda, ""Ejemplo: 0981123456"")",,,,2022-05-02 11:17:26,2022-05-02 11:17:26,"0,003s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/03Especificaciones funcionales - Botón Plano Olvidaste tu contraseña,,,,2022-05-02 11:17:26,2022-05-02 11:18:27,"1m - 0,889s",PASSED
+"startApplication(URL, true)",,,,2022-05-02 11:17:27,2022-05-02 11:18:08,"40,971s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:18:08,2022-05-02 11:18:18,"10,002s",PASSED
+"OlvidastetuContrasena = getText(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasena Pantalla de inicio""), 0)",,,,2022-05-02 11:18:18,2022-05-02 11:18:18,"0,713s",PASSED
+"verifyEqual(OlvidastetuContrasena, ""¿Olvidaste tu contraseña?"")",,,,2022-05-02 11:18:18,2022-05-02 11:18:18,"0,002s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Olvidaste tu contrasea""), 0)",,,,2022-05-02 11:18:18,2022-05-02 11:18:19,"0,525s",PASSED
+"Titulo = getText(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasea (pantalla Olvido)""), 0)",,,,2022-05-02 11:18:19,2022-05-02 11:18:20,"1,107s",PASSED
+"verifyEqual(Titulo, ""¿Olvidaste tu contraseña?"")",,,,2022-05-02 11:18:20,2022-05-02 11:18:20,"0,002s",PASSED
+"NumeroCedula = getText(findTestObject(""Sprint 1/Olvido Contrasena/android.widget.TextView - CI nmero""), 0)",,,,2022-05-02 11:18:20,2022-05-02 11:18:20,"0,300s",PASSED
+"verifyEqual(NumeroCedula, ""CI número:"")",,,,2022-05-02 11:18:20,2022-05-02 11:18:20,"0,002s",PASSED
+"TextoAyuda = getText(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.EditText - Ejemplo 1234567""), 0)",,,,2022-05-02 11:18:20,2022-05-02 11:18:21,"0,346s",PASSED
+"verifyEqual(TextoAyuda, ""Ejemplo: 1234567"")",,,,2022-05-02 11:18:21,2022-05-02 11:18:21,"0,002s",PASSED
+"Nrodecelularconelqueteregistraste = getText(findTestObject(""Sprint 1/Olvido Contrasena/android.widget.TextView - Nro. de celular con el que te registraste""), 0)",,,,2022-05-02 11:18:21,2022-05-02 11:18:21,"0,398s",PASSED
+"verifyEqual(Nrodecelularconelqueteregistraste, ""Nro. de celular con el que te registraste:"")",,,,2022-05-02 11:18:21,2022-05-02 11:18:21,"0,002s",PASSED
+"TextoAyuda1 = getText(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.EditText - Ejemplo 0981123456""), 0)",,,,2022-05-02 11:18:21,2022-05-02 11:18:21,"0,264s",PASSED
+"verifyEqual(TextoAyuda1, ""Ejemplo: 0981123456"")",,,,2022-05-02 11:18:21,2022-05-02 11:18:21,"0,003s",PASSED
+"Correoelectronicoconelqueteregistraste = getText(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.TextView - Correo electrnico con el que te registraste""), 0)",,,,2022-05-02 11:18:21,2022-05-02 11:18:22,"0,248s",PASSED
+"verifyEqual(Correoelectronicoconelqueteregistraste, ""Correo electrónico con el que te registraste:"")",,,,2022-05-02 11:18:22,2022-05-02 11:18:22,"0,002s",PASSED
+"Ejemplo = getText(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.EditText - Ejemplo ejemplogmail.com""), 0)",,,,2022-05-02 11:18:22,2022-05-02 11:18:22,"0,254s",PASSED
+"verifyEqual(Ejemplo, ""Ejemplo: ejemplo@gmail.com"")",,,,2022-05-02 11:18:22,2022-05-02 11:18:22,"0,002s",PASSED
+"Continuar = getText(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.Button - Continuar""), 0)",,,,2022-05-02 11:18:22,2022-05-02 11:18:22,"0,250s",PASSED
+"verifyEqual(Continuar, ""Continuar"")",,,,2022-05-02 11:18:22,2022-05-02 11:18:22,"0,002s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.ImageView Boton Back superior""), 0)",,,,2022-05-02 11:18:22,2022-05-02 11:18:23,"1,262s",PASSED
+"tap(findTestObject(""Sprint 1/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasena Pantalla de inicio""), 0)",,,,2022-05-02 11:18:23,2022-05-02 11:18:25,"1,606s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Olvido Contrasena/android.widget.ImageView (boton x)""), 0)",,,,2022-05-02 11:18:25,2022-05-02 11:18:27,"1,993s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/04 Estructura de la pantalla - Splash,,"Descripción
+·         Para ver esta pantalla, el usuario debe seleccionar el Appicon de la aplicación, a continuación, se verá en pantalla el Splash por algunos segundos y posteriormente la Pantalla Login.
+
+
+Precondiciones
+Ninguna
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Al presionar el icono en el tablero, la app mostrará una imagen suministrada por el cliente, para posteriormente mostrar la pantalla del login
+
+
+Resultado Esperado
+Se debe visualizar correctamente el Splash antes del Login",TET-919,2022-05-02 11:18:27,2022-05-02 11:19:10,"43,296s",FAILED
+"startApplication(URL, false)",,,,2022-05-02 11:18:27,2022-05-02 11:18:40,"12,808s",PASSED
+"verifyElementVisible(findTestObject(""Sprint 1/Login/android.widget.ImageViewSplash""), 0)",,,,2022-05-02 11:18:40,2022-05-02 11:19:10,"30,173s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/05 Especificaciones Funcionales - Focus,,,,2022-05-02 11:19:10,2022-05-02 11:19:43,"32,346s",PASSED
+"startApplication(URL, false)",,,,2022-05-02 11:19:11,2022-05-02 11:19:20,"9,887s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:19:20,2022-05-02 11:19:30,"10,008s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.TextView - Nmero de celular""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:19:30,2022-05-02 11:19:32,"1,171s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), 0)",,,,2022-05-02 11:19:32,2022-05-02 11:19:33,"1,388s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Olvidaste tu contrasea""), 0)",,,,2022-05-02 11:19:33,2022-05-02 11:19:35,"2,041s",PASSED
+"tap(findTestObject(""Sprint 1/Olvido Contrasena/android.widget.ImageView Boton Back superior""), 0)",,,,2022-05-02 11:19:35,2022-05-02 11:19:35,"0,372s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Soporte""), 0)",,,,2022-05-02 11:19:35,2022-05-02 11:19:39,"3,478s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Back Pantalla Soporte""), 0)",,,,2022-05-02 11:19:39,2022-05-02 11:19:39,"0,352s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Registrarme""), 0)",,,,2022-05-02 11:19:39,2022-05-02 11:19:42,"3,074s",PASSED
+pressBack(),,,,2022-05-02 11:19:42,2022-05-02 11:19:43,"0,247s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/07 Especificaciones Funcionales - Campo contraseña,,,,2022-05-02 11:19:43,2022-05-02 11:20:07,"24,932s",PASSED
+"startApplication(URL, false)",,,,2022-05-02 11:19:43,2022-05-02 11:19:53,"9,953s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:19:53,2022-05-02 11:20:03,"10,005s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:20:03,2022-05-02 11:20:04,"0,700s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:20:04,2022-05-02 11:20:05,"1,486s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:20:05,2022-05-02 11:20:06,"0,946s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.view.ViewGroup Ojito Ver contrasea""), 0)",,,,2022-05-02 11:20:06,2022-05-02 11:20:07,"1,410s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/08 Especificaciones Funcionales Numero de Celular -Contraseña,,,,2022-05-02 11:20:07,2022-05-02 11:20:34,"26,418s",PASSED
+"startApplication(URL, false)",,,,2022-05-02 11:20:08,2022-05-02 11:20:18,"10,287s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:20:18,2022-05-02 11:20:28,"10,001s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:20:28,2022-05-02 11:20:29,"0,571s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:20:29,2022-05-02 11:20:31,"2,095s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:20:31,2022-05-02 11:20:32,"1,412s",PASSED
+"checkElement(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), 0)",,Validar que se habilite al ingresar usuario y contrasena,,2022-05-02 11:20:32,2022-05-02 11:20:34,"1,698s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/10 Especificaciones Funcionales para el campo numero de Celular,,"Precondiciones
+Número de celular comience con los dígitos “09”
+
+Número de celular sea seis (6), siete (7), ocho (8) o nueve (9).",TET-911,2022-05-02 11:20:34,2022-05-02 11:21:25,"50,749s",FAILED
+"startApplication(URL, false)",,,,2022-05-02 11:20:34,2022-05-02 11:20:44,"10,153s",PASSED
+delay(10),,,,2022-05-02 11:20:44,2022-05-02 11:20:54,"10,020s",PASSED
+"NumeroCelular = getText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login - test10""), 0)",,,,2022-05-02 11:20:54,2022-05-02 11:21:25,"30,169s",FAILED
+"verifyEqual(NumeroCelular, NumeroEsperado)",,,,2022-05-02 11:21:25,2022-05-02 11:21:25,"0,003s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario,,"Pasos a seguir
+Ingresar a la aplicación y validar las descripciones detalladas en el  resultado esperado.
+
+
+Resultado Esperado
+Si supera las validaciones front, se enviará la información al back y se aplicarán las validaciones correspondientes.
+
+Se debe validar que el usuario y contraseña sean correctos y coincidan.
+
+Si no coindicen, se mostrará un mensaje de error en ventana emergente de color Mensaje de error, en la parte superior de la pantalla, con el texto “El número de celular y/o la contraseña ingresados son incorrectos.”.
+
+Una vez iniciada la sesión se muestra la pantalla de dashboard
+
+Al ingresar a la sesión del usuario, de forma exitosa, el sistema recordará el Número de celular predeterminadamente.",TET-909,2022-05-02 11:21:25,2022-05-02 11:21:51,"26,383s",PASSED
+"startApplication(URL, false)",,,,2022-05-02 11:21:25,2022-05-02 11:21:35,"10,221s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-05-02 11:21:35,2022-05-02 11:21:45,"10,002s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:21:45,2022-05-02 11:21:46,"0,606s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:21:46,2022-05-02 11:21:48,"2,080s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:21:48,2022-05-02 11:21:49,"1,392s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), 0)",,,,2022-05-02 11:21:49,2022-05-02 11:21:51,"1,662s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/12Especificaciones Funcionales - Login Fallido del usuario,,,,2022-05-02 11:21:51,2022-05-02 11:23:16,"1m - 24,748s",FAILED
+"startApplication(URL, false)",,,,2022-05-02 11:21:51,2022-05-02 11:22:02,"10,322s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-05-02 11:22:02,2022-05-02 11:22:12,"10,015s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login - test10""), 0)",,,,2022-05-02 11:22:12,2022-05-02 11:22:42,"30,099s",FAILED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:22:42,2022-05-02 11:22:43,"0,895s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,Login Fallido,,2022-05-02 11:22:43,2022-05-02 11:22:44,"1,356s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), 0)",,,,2022-05-02 11:22:44,2022-05-02 11:22:46,"1,507s",PASSED
+"numerocontrasenaincorrecto = getText(findTestObject(""Sprint 1/inicio fallido/android.widget.TextView - mensaje contrasena incorrecta""), 0)",,,,2022-05-02 11:22:46,2022-05-02 11:23:16,"30,155s",FAILED
+"verifyEqual(Datoincorrecto, """"El número de celular y/o la contraseña ingresados son incorrectos.”."")",,,,2022-05-02 11:23:16,2022-05-02 11:23:16,"0,006s",ERROR
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión,,"Precondiciones
+La pantalla de cierre de sesión se muestran en dos momentos: 
+
+ Para ver esta pantalla el usuario debe cerrar sesión a través del botón Cerrar sesión ubicado en la parte superior del menú lateral de Android o en la parte superior de la opción Menú de iOS.
+
+La pantalla se presenta cuando se cumple el tiempo de inactividad y el sistema cierra la sesión de forma automática
+
+·         No se muestra ningún mensaje informativo o pop up de confirmación antes de ejecutar el cierre de sesión.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Cerrar sesión del cliente de manera manual
+
+Validar el tiempo de inactividad.
+
+
+Resultado Esperado
+·         El ícono de confirmación es una imagen definida para este fin.
+
+·         El texto informativo 1 indica lo siguiente: “Sesión cerrada correctamente”.
+
+·         El texto informativo 2 indica lo siguiente “Por favor ingresá nuevamente”.
+
+·         Al seleccionar el botón Ingresar se muestra la Pantalla Login.
+
+·         El back nativo del sistema operativo muestra un pop up con los siguientes elementos:
+
+Mensaje con el texto “¿Estás seguro de querer salir de la aplicación?”.
+
+ Botón No.    Botón Sí.
+
+ El botón No mantiene al usuario en la Pantalla Cierre de sesión.
+
+ El botón Sí, se cierra la aplicación móvil.",TET-900,2022-05-02 11:23:16,2022-05-02 11:24:02,"45,822s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-02 11:23:16,2022-05-02 11:23:43,"27,169s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior""), 0)",,,,2022-05-02 11:23:43,2022-05-02 11:23:58,"15,151s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior""), 0)",,,,2022-05-02 11:23:58,2022-05-02 11:24:01,"2,865s",PASSED
+"tap(findTestObject(""Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)""), 0)",,,,2022-05-02 11:24:01,2022-05-02 11:24:02,"0,298s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/14 Cierre de Sesion - Tiempo de Inactividad,,,,2022-05-02 11:24:02,2022-05-02 11:29:39,"5m - 36,910s",FAILED
+"startApplication(URL, false)",,,,2022-05-02 11:24:02,2022-05-02 11:24:14,"11,469s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:24:14,2022-05-02 11:24:24,"10,015s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:24:24,2022-05-02 11:24:24,"0,569s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:24:24,2022-05-02 11:24:26,"2,101s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:24:26,2022-05-02 11:24:28,"1,436s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.Button - Ingresar""), 0)",,,,2022-05-02 11:24:28,2022-05-02 11:24:29,"1,716s",PASSED
+"delay(300, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:24:29,2022-05-02 11:29:29,"5m - 0,005s",PASSED
+"MensajeInactividad = getText(findTestObject(""Sprint 1/cierre de sesion/android.widget.TextView - Sesin cerrada por inactividad. Ingres de nuevo""), 0)",,,,2022-05-02 11:29:29,2022-05-02 11:29:39,"9,209s",PASSED
+"verifyEqual(MensajeInactividad, ""Sesión cerrada por inactividad. Ingresá de nuevo."")",,,,2022-05-02 11:29:39,2022-05-02 11:29:39,"0,004s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/15 Cerrar sesión del cliente desde la pantalla Dashboard,,"Precondiciones
+La pantalla de cierre de sesión se muestran en dos momentos: 
+
+ Para ver esta pantalla el usuario debe cerrar sesión a través del botón Cerrar sesión ubicado en la parte superior del menú lateral de Android o en la parte superior de la opción Menú de iOS.
+
+La pantalla se presenta cuando se cumple el tiempo de inactividad y el sistema cierra la sesión de forma automática
+
+·         No se muestra ningún mensaje informativo o pop up de confirmación antes de ejecutar el cierre de sesión.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Cerrar sesión del cliente de manera manual
+
+Validar el tiempo de inactividad.
+
+
+Resultado Esperado
+·         El ícono de confirmación es una imagen definida para este fin.
+
+·         El texto informativo 1 indica lo siguiente: “Sesión cerrada correctamente”.
+
+·         El texto informativo 2 indica lo siguiente “Por favor ingresá nuevamente”.
+
+·         Al seleccionar el botón Ingresar se muestra la Pantalla Login.
+
+·         El back nativo del sistema operativo muestra un pop up con los siguientes elementos:
+
+Mensaje con el texto “¿Estás seguro de querer salir de la aplicación?”.
+
+ Botón No.    Botón Sí.
+
+ El botón No mantiene al usuario en la Pantalla Cierre de sesión.
+
+ El botón Sí, se cierra la aplicación móvil.",TET-900,2022-05-02 11:29:39,2022-05-02 11:30:30,"51,335s",PASSED
+"startApplication(URL, false)",,,,2022-05-02 11:29:39,2022-05-02 11:29:50,"11,381s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:29:50,2022-05-02 11:30:00,"10,017s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:30:00,2022-05-02 11:30:01,"0,608s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:30:01,2022-05-02 11:30:02,"1,520s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:30:02,2022-05-02 11:30:04,"1,461s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.Button - Ingresar""), 0)",,,,2022-05-02 11:30:04,2022-05-02 11:30:06,"1,640s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior""), 0)",,,,2022-05-02 11:30:06,2022-05-02 11:30:27,"21,852s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior""), 0)",,,,2022-05-02 11:30:27,2022-05-02 11:30:30,"2,236s",PASSED
+"tap(findTestObject(""Sprint 1/cierre de sesion/android.widget.Button - cierresesionSi""), 0)",,,,2022-05-02 11:30:30,2022-05-02 11:30:30,"0,306s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/16 Cierre de sesión del cliente desde la pantalla Resumen de Saldo,,"l back nativo del sistema operativo muestra un alert con los siguientes elementos:
+1- Mensaje con el texto “¿Estás seguro de querer salir?”.
+2- Botón No.
+3- Botón Sí.
+
+Al seleccionar el botón No, cierra el alert y mantiene al usuario en la Pantalla Resumen de saldo.
+
+Al seleccionar el botón Sí, se cierra la aplicación móvil y se muestra al usuario la Pantalla Cierre de sesión.
+
+Cierre de Sesion por inactividad",TET-948,2022-05-02 11:30:30,2022-05-02 11:31:15,"45,059s",PASSED
+"startApplication(URL, false)",,,,2022-05-02 11:30:30,2022-05-02 11:30:41,"10,565s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:30:41,2022-05-02 11:30:51,"10,010s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:30:51,2022-05-02 11:30:51,"0,590s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:30:51,2022-05-02 11:30:53,"1,521s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:30:53,2022-05-02 11:30:54,"1,404s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.Button - Ingresar""), 0)",,,,2022-05-02 11:30:54,2022-05-02 11:30:56,"1,691s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior""), 0)",,,,2022-05-02 11:30:56,2022-05-02 11:31:12,"16,157s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior""), 0)",,,,2022-05-02 11:31:12,2022-05-02 11:31:14,"1,604s",PASSED
+"tap(findTestObject(""Sprint 1/cierre de sesion/android.widget.Button - cierresesionSi""), 0)",,,,2022-05-02 11:31:14,2022-05-02 11:31:15,"1,191s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/18 Validaciones Funcionales - Intentar iniciar sesión con falla de conexión,,"n caso de falla de conexión, al seleccionar el botón Ingresar, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+2- Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+3- Botón Aceptar.",TET-906,2022-05-02 11:31:15,2022-05-02 11:32:12,"56,546s",FAILED
+"startApplication(URL, false)",,,,2022-05-02 11:31:15,2022-05-02 11:31:26,"10,466s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-05-02 11:31:26,2022-05-02 11:31:36,"10,013s",PASSED
+"toggleAirplaneMode(""yes"", CONTINUE_ON_FAILURE)",,,,2022-05-02 11:31:36,2022-05-02 11:31:36,"0,380s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:31:36,2022-05-02 11:31:37,"0,601s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:31:37,2022-05-02 11:31:39,"2,111s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:31:39,2022-05-02 11:31:40,"1,428s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), 0)",,,,2022-05-02 11:31:40,2022-05-02 11:31:41,"0,937s",PASSED
+"Mensajefallaconexion = getText(findTestObject(""Sprint 1/falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo""), 0)",,,,2022-05-02 11:31:41,2022-05-02 11:32:12,"30,199s",FAILED
+"verifyEqual(Mensajefallaconexion, ""Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo."", CONTINUE_ON_FAILURE)",,,,2022-05-02 11:32:12,2022-05-02 11:32:12,"0,002s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/17 Cierre de Sesión - Desde la pantalla Resumen -por Tiempo de Inactividad,,"El tiempo de inactividad para cerrar la sesión es de cinco (05) minutos.
+
+ Al cumplirse el tiempo de inactividad, la App cierra la sesión del usuario y muestra la Pantalla Cierre de sesión.",TET-945,2022-05-02 11:32:12,2022-05-02 11:38:37,"6m - 25,275s",FAILED
+"startApplication(URL, true)",,,,2022-05-02 11:32:12,2022-05-02 11:32:56,"43,648s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:32:56,2022-05-02 11:33:06,"10,006s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), 0)",,,,2022-05-02 11:33:06,2022-05-02 11:33:06,"0,872s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456""), Numerocelular, 0)",,,,2022-05-02 11:33:06,2022-05-02 11:33:09,"2,096s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), Contrasena, 0)",,,,2022-05-02 11:33:09,2022-05-02 11:33:10,"1,469s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.Button - Ingresar""), 0)",,,,2022-05-02 11:33:10,2022-05-02 11:33:12,"1,702s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior""), 0)",,,,2022-05-02 11:33:12,2022-05-02 11:33:31,"19,520s",PASSED
+"delay(300, CONTINUE_ON_FAILURE)",,,,2022-05-02 11:33:31,2022-05-02 11:38:31,"5m - 0,014s",PASSED
+"MensajeInactividad = getText(findTestObject(""Sprint 1/cierre de sesion/android.widget.TextView - Sesin cerrada por inactividad. Ingres de nuevo""), 0)",,,,2022-05-02 11:38:31,2022-05-02 11:38:37,"5,598s",PASSED
+"verifyEqual(MensajeInactividad, ""Sesión cerrada por inactividad. Ingresá de nuevo."")",,,,2022-05-02 11:38:37,2022-05-02 11:38:37,"0,003s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/19 Estructura de pantalla - Pantalla Cierre de sesión,,"a pantalla cuenta con los siguientes elementos:
+
+ Encabezado de la pantalla con banner principal (logotipo del banco).
+
+Icono de confirmación en color verde.
+
+ Texto informativo 1.
+
+  Texto informativo 2.
+
+ Ingresar (Botón).",TET-901,2022-05-02 11:38:37,2022-05-02 11:39:24,"46,688s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-02 11:38:37,2022-05-02 11:39:05,"27,833s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior""), 0)",,,,2022-05-02 11:39:05,2022-05-02 11:39:20,"15,261s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior""), 0)",,,,2022-05-02 11:39:20,2022-05-02 11:39:23,"3,046s",PASSED
+"mensajecierresesion = getText(findTestObject(""Sprint 1/cierre de sesion/android.widget.TextView - Ests seguro de querer salir""), 0)",,,,2022-05-02 11:39:23,2022-05-02 11:39:24,"0,228s",PASSED
+"verifyEqual(mensajecierresesion, ""¿Estás seguro de querer salir?"")",,,,2022-05-02 11:39:24,2022-05-02 11:39:24,"0,002s",PASSED

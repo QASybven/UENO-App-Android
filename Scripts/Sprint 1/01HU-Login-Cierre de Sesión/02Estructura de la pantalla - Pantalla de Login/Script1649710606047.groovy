@@ -21,13 +21,15 @@ Mobile.startApplication(GlobalVariable.URL, false)
 
 Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
+Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login'), 0)
+
 Banner = Mobile.getAttribute(findTestObject('Sprint 1/Login/android.widget.ImageView.Banner'), 'resource-id', 0)
 
 Mobile.verifyMatch(Banner, 'com.verticalapps.KonyMobileBanking:id/imgKonyLogo', false)
 
 Hola = Mobile.getText(findTestObject('Sprint 1/Login/android.widget.TextView - Hola (1)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyEqual(Hola, '¡Hola!')
+Mobile.verifyEqual(Hola, '¡Hola')
 
 NumerodeCelular = Mobile.getText(findTestObject('Sprint 1/Login/android.widget.TextView - Nmero de celular'), 0)
 
@@ -37,12 +39,13 @@ Contrasena = Mobile.getText(findTestObject('Sprint 1/Login/android.widget.TextVi
 
 Mobile.verifyEqual(Contrasena, 'Contraseña:')
 
-IconoContrasena = Mobile.getAttribute(findTestObject('Sprint 1/Login/android.widget.ImageView.IconoMostrarContraseña'), 'resource-id', 
-    0)
+IconoContrasena = Mobile.getAttribute(findTestObject('Sprint 1/Login/android.widget.ImageView.IconoMostrarContraseña'), 
+    'resource-id', 0)
 
 Mobile.verifyMatch(IconoContrasena, 'com.verticalapps.KonyMobileBanking:id/imgPwdVisiblityToggle', false)
 
-OlvidastetuContrasena = Mobile.getText(findTestObject('Sprint 1/Login/android.widget.TextView - Olvidaste tu contrasea'), 0)
+OlvidastetuContrasena = Mobile.getText(findTestObject('Sprint 1/Login/android.widget.TextView - Olvidaste tu contrasea'), 
+    0)
 
 Mobile.verifyEqual(OlvidastetuContrasena, '¿Olvidaste tu contraseña?')
 
@@ -58,7 +61,8 @@ Soporte = Mobile.getAttribute(findTestObject('Sprint 1/Login/android.widget.Butt
 
 Mobile.verifyEqual(Soporte, 'Soporte')
 
-TextoAyuda = Mobile.getAttribute(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), 'text', 0)
+TextoAyuda = Mobile.getAttribute(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), 'text', 
+    0)
 
 Mobile.verifyEqual(TextoAyuda, 'Ejemplo: 0981123456')
 

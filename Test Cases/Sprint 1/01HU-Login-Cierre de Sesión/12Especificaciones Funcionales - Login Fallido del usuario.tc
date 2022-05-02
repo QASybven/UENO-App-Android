@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b89510ba-bb02-4ec5-90c2-0e33f2de1999</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48110085-76bb-4f03-8bbf-f9c76f9997ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93b7af53-8456-495a-afe7-057ccec911bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1401cb57-1283-49f5-b763-d151bff18065</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48110085-76bb-4f03-8bbf-f9c76f9997ab</id>
+      <masked>false</masked>
+      <name>numerocontrasenaincorrecto</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios').getValue(1, 10)</defaultValue>
+      <description></description>
+      <id>93b7af53-8456-495a-afe7-057ccec911bb</id>
+      <masked>false</masked>
+      <name>numerocelular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Usuarios').getValue(1, 10)</defaultValue>
+      <description></description>
+      <id>1401cb57-1283-49f5-b763-d151bff18065</id>
+      <masked>false</masked>
+      <name>contrasena</name>
+   </variable>
 </TestCaseEntity>
