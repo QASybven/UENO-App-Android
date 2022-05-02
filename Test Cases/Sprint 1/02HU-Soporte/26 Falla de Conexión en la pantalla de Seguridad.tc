@@ -21,7 +21,7 @@ Resultado Obtenido</description>
       <variableId>271da891-d778-46fc-89da-703f1158de1e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>' Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>271da891-d778-46fc-89da-703f1158de1e</id>
       <masked>false</masked>

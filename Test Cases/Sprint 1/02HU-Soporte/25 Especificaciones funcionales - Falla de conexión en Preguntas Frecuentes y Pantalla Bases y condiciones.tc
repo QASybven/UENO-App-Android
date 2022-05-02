@@ -14,7 +14,7 @@ El sistema copiará el texto con la versión de la App y la información del SO 
       <variableId>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>' Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</id>
       <masked>false</masked>

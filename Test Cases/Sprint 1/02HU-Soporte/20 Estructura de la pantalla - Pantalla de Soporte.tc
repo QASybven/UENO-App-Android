@@ -66,42 +66,42 @@ Texto informativo con los datos de la App y del dispositivo</description>
       <variableId>75eeee5a-b9e6-40b6-beac-838eaf599af1</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Soporte'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Titulo</description>
       <id>032c0ffe-9d03-468c-9f94-7fff16c109b8</id>
       <masked>false</masked>
       <name>SoporteTitulo</name>
    </variable>
    <variable>
-      <defaultValue>'Preguntas frecuentes '</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Etiqueta</description>
       <id>944d75ae-f3fb-4f38-824c-bc6926016d00</id>
       <masked>false</masked>
       <name>PreguntasFrecuentes</name>
    </variable>
    <variable>
-      <defaultValue>'Bases y condiciones'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Etiqueta</description>
       <id>48abe65d-d892-45d3-bceb-b596527a6615</id>
       <masked>false</masked>
       <name>Basesycondiciones</name>
    </variable>
    <variable>
-      <defaultValue>'Seguridad'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Etiqueta</description>
       <id>b06e5ed5-dc7f-4249-9292-282030863f3d</id>
       <masked>false</masked>
       <name>Seguridad</name>
    </variable>
    <variable>
-      <defaultValue>'Versión de la aplicacin 21.04.00Sistema OperativoAndroid 9DispositivoHuawei MRD-LX3'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Texto informativo</description>
       <id>d87c3db9-d362-4ba4-b6ad-df13c4dabdce</id>
       <masked>false</masked>
       <name>Textoinformativo</name>
    </variable>
    <variable>
-      <defaultValue>'Se copió la información de esta versión en tu dispositivo'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Texto compartir</description>
       <id>75eeee5a-b9e6-40b6-beac-838eaf599af1</id>
       <masked>false</masked>

@@ -12,7 +12,7 @@
       <variableId>0f19787c-d8f3-4ee7-9f74-b0fffcbe6a57</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Se copió la información de esta versión en tu dispositivo'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>Texto Compartir</description>
       <id>0f19787c-d8f3-4ee7-9f74-b0fffcbe6a57</id>
       <masked>false</masked>
