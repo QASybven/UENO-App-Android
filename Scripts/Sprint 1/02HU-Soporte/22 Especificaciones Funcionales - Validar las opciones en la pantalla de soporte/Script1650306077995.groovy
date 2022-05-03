@@ -17,12 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    true)
+Mobile.startApplication(GlobalVariable.APKjose, true)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte'), 0)
+Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Soporte'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes (1)'), 0)
 
@@ -35,6 +34,4 @@ Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.ImageView Back Bases 
 Mobile.tap(findTestObject('Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad'), 0)
 
 Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.ImageView Back Seguridad'), 0)
-
-Mobile.closeApplication()
 

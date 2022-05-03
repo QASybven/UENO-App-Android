@@ -23,26 +23,22 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Soporte'), 0)
 
-Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Soporte encabezado'), 0)
+SoporteTitulo = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Soporte Titulo'), 0)
 
 Mobile.verifyEqual(SoporteTitulo, 'Soporte')
 
-Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes'), 0)
+PreguntasFrecuentes = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes'), 
+    0)
 
 Mobile.verifyEqual(PreguntasFrecuentes, 'Preguntas frecuentes')
 
-WebUI.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)'))
+Basesycondiciones = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Bases y condiciones'), 0)
 
 Mobile.verifyEqual(Basesycondiciones, 'Bases y condiciones')
 
-Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Seguridad'), 0)
+Seguridad = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Seguridad'), 0)
 
 Mobile.verifyEqual(Seguridad, 'Seguridad')
-
-Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Versin de la aplicacin 21.04.00Sistema OperativoAndroid 9DispositivoHuawei MRD-LX3'), 
-    0)
-
-Mobile.verifyEqual(Textoinformativo, 'Versin de la aplicacin 21.04.00Sistema OperativoAndroid 9DispositivoHuawei MRD-LX3')
 
 Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.ImageView Boton Back'), 0)
 
@@ -50,8 +46,8 @@ Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.Button - Soporte pant
 
 Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.ImageView boton compartir'), 0)
 
-Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo'), 
+Textocompartir = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo'), 
     0)
 
-Mobile.verifyEqual(Textocompartir, 'Se copió la información de esta versión en tu dispositivo')
+Mobile.verifyEqual(Textocompartir, 'Se copió la información de esta versión en tu dispositivo.')
 

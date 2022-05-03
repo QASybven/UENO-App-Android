@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+02 HU- Soporte,,,,2022-05-02 19:43:40,2022-05-02 19:51:25,"7m - 44,575s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte,,"Para ingresar a esta pantalla el usuario debe seleccionar el botón plano Soporte presente en la Pantalla Login, o seleccionar la opción Soporte en el menú principal de la App.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Ninguna
+
+Resultado Esperado
+·         La pantalla cuenta con los siguientes elementos:
+
+ Header con el nombre que la identifica “Soporte”.
+
+Botón de flecha para regresar.
+
+Lista de opciones disponibles:
+
+Preguntas frecuentes.
+
+ Bases y condiciones.
+
+Seguridad.
+
+Texto informativo con los datos de la App y del dispositivo",TET-830,2022-05-02 19:43:40,2022-05-02 19:44:55,"1m - 14,186s",FAILED
+"startApplication(APKjose, false)",,,,2022-05-02 19:43:41,2022-05-02 19:44:05,"23,708s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-05-02 19:44:05,2022-05-02 19:44:15,"10,034s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Soporte""), 0)",,,,2022-05-02 19:44:15,2022-05-02 19:44:20,"4,433s",PASSED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Soporte encabezado""), 0)",,,,2022-05-02 19:44:20,2022-05-02 19:44:22,"1,976s",PASSED
+"verifyEqual(SoporteTitulo, ""Soporte"")",,,,2022-05-02 19:44:22,2022-05-02 19:44:22,"0,027s",FAILED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes""), 0)",,,,2022-05-02 19:44:22,2022-05-02 19:44:23,"0,934s",PASSED
+"verifyEqual(PreguntasFrecuentes, ""Preguntas frecuentes"")",,,,2022-05-02 19:44:23,2022-05-02 19:44:23,"0,005s",FAILED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)""))",,,,2022-05-02 19:44:23,2022-05-02 19:44:23,"0,327s",FAILED
+"verifyEqual(Basesycondiciones, ""Bases y condiciones"")",,,,2022-05-02 19:44:23,2022-05-02 19:44:23,"0,004s",FAILED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Seguridad""), 0)",,,,2022-05-02 19:44:23,2022-05-02 19:44:25,"1,905s",PASSED
+"verifyEqual(Seguridad, ""Seguridad"")",,,,2022-05-02 19:44:25,2022-05-02 19:44:25,"0,003s",FAILED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Versin de la aplicacin 21.04.00Sistema OperativoAndroid 9DispositivoHuawei MRD-LX3""), 0)",,,,2022-05-02 19:44:25,2022-05-02 19:44:46,"21,122s",PASSED
+"verifyEqual(Textoinformativo, ""Versin de la aplicacin 21.04.00Sistema OperativoAndroid 9DispositivoHuawei MRD-LX3"")",,,,2022-05-02 19:44:46,2022-05-02 19:44:46,"0,004s",FAILED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Boton Back""), 0)",,,,2022-05-02 19:44:46,2022-05-02 19:44:48,"1,738s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-02 19:44:48,2022-05-02 19:44:53,"4,992s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView boton compartir""), 0)",,,,2022-05-02 19:44:53,2022-05-02 19:44:54,"1,043s",PASSED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo""), 0)",,,,2022-05-02 19:44:54,2022-05-02 19:44:55,"0,927s",PASSED
+"verifyEqual(Textocompartir, ""Se copió la información de esta versión en tu dispositivo"")",,,,2022-05-02 19:44:55,2022-05-02 19:44:55,"0,004s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App,,"El usuario debe poder ingresar a esta pantalla seleccionando el botón plano Soporte presente en la Pantalla Login, o seleccionando la opción Soporte en el menú principal de la App.",Pantalla de Soporte,2022-05-02 19:44:55,2022-05-02 19:45:28,"32,908s",PASSED
+"startApplication(APKjose, false)",,,,2022-05-02 19:44:55,2022-05-02 19:45:14,"18,693s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 19:45:14,2022-05-02 19:45:24,"10,002s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-02 19:45:24,2022-05-02 19:45:26,"2,131s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Boton Back""), 0)",,,,2022-05-02 19:45:26,2022-05-02 19:45:28,"1,666s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/22 Especificaciones Funcionales - Validar las opciones en la pantalla de soporte,,"- Al seleccionar sobre la opción Preguntas frecuentes, se muestra la Pantalla Preguntas frecuentes.
+2- Al seleccionar sobre la opción Términos y condiciones, se muestra la Pantalla Términos y condiciones.
+3- Al seleccionar sobre la opción Seguridad, se muestra la Pantalla Seguridad.
+
+El back nativo del sistema operativo regresa al usuario a la pantalla desde la que invocó la opción.
+
+El texto mostrado en la pantalla es configurado por Spotlight.",TET-828,2022-05-02 19:45:28,2022-05-02 19:46:56,"1m - 28,005s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", true)",,,,2022-05-02 19:45:28,2022-05-02 19:46:44,"1m - 15,875s",FAILED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 19:46:44,2022-05-02 19:46:54,"10,004s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte""), 0)",,,,2022-05-02 19:46:54,2022-05-02 19:46:54,"0,198s",FAILED
+"tap(findTestObject(""Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes (1)""), 0)",,,,2022-05-02 19:46:54,2022-05-02 19:46:54,"0,181s",FAILED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Back Preguntas Frecuentes""), 0)",,,,2022-05-02 19:46:54,2022-05-02 19:46:54,"0,145s",FAILED
+"tap(findTestObject(""Object Repository/Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)""), 0)",,,,2022-05-02 19:46:54,2022-05-02 19:46:54,"0,187s",FAILED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Back Bases y Condiciones""), 0)",,,,2022-05-02 19:46:54,2022-05-02 19:46:55,"0,182s",FAILED
+"tap(findTestObject(""Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad""), 0)",,,,2022-05-02 19:46:55,2022-05-02 19:46:55,"0,150s",FAILED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Back Seguridad""), 0)",,,,2022-05-02 19:46:55,2022-05-02 19:46:55,"0,169s",FAILED
+closeApplication(),,,,2022-05-02 19:46:55,2022-05-02 19:46:56,"0,554s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/23 Especificaciones Funcionales - Compartir,,El back nativo del sistema operativo Android regresa al usuario a la pantalla desde la que invocó la opción.,Pantalla de Soporte,2022-05-02 19:46:56,2022-05-02 19:47:48,"52,362s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", true)",,,,2022-05-02 19:46:56,2022-05-02 19:47:32,"36,176s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 19:47:32,2022-05-02 19:47:42,"10,003s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-02 19:47:42,2022-05-02 19:47:46,"3,885s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView boton compartir""), 0)",,,,2022-05-02 19:47:46,2022-05-02 19:47:47,"1,398s",PASSED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo""), 0)",,,,2022-05-02 19:47:47,2022-05-02 19:47:48,"0,493s",PASSED
+"verifyEqual(Textocompartir, ""Se copió la información de esta versión en tu dispositivo"")",,,,2022-05-02 19:47:48,2022-05-02 19:47:48,"0,003s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/24 - Especificaciones Funcionales - Opción Llamanos,,El botón de flecha para regresar regresa al usuario a la pantalla desde la que invocó la opción.,Pantalla de Soporte,2022-05-02 19:47:48,2022-05-02 19:48:54,"1m - 6,566s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", true)",,,,2022-05-02 19:47:48,2022-05-02 19:48:29,"40,743s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 19:48:29,2022-05-02 19:48:39,"10,004s",PASSED
+"tap(findTestObject(""""), 0)",,,,2022-05-02 19:48:39,2022-05-02 19:48:40,"0,834s",FAILED
+"takeScreenshot(""C:\Users\JOSE_A~1\AppData\Local\Temp\screenshot9162546691477894720.png"")",,,,2022-05-02 19:48:40,2022-05-02 19:48:41,"0,788s",PASSED
+closeApplication(),,,,2022-05-02 19:48:41,2022-05-02 19:48:54,"13,834s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones,,"El botón Compartir se mostrará en forma de ícono alusivo.
+Al seleccionar el botón Compartir se mostrará una ventana emergente de color Mensaje de Info con el siguiente texto “Se copió la información de esta versión en tu dispositivo.”.
+El sistema copiará el texto con la versión de la App y la información del SO y el dispositivo, en el portapapeles del dispositivo.",TET-825,2022-05-02 19:48:54,2022-05-02 19:50:28,"1m - 33,309s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", false)",,,,2022-05-02 19:48:55,2022-05-02 19:49:42,"47,331s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-02 19:49:42,2022-05-02 19:49:52,"10,002s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-02 19:49:52,2022-05-02 19:49:54,"2,144s",PASSED
+"toggleAirplaneMode("""", CONTINUE_ON_FAILURE)",,,,2022-05-02 19:49:54,2022-05-02 19:49:56,"1,371s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes""), 0)",,,,2022-05-02 19:49:56,2022-05-02 19:49:56,"0,718s",PASSED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo""), 0)",,,,2022-05-02 19:49:56,2022-05-02 19:50:26,"30,092s",FAILED
+"verifyEqual(Falladeconexion, "" Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones"")",,,,2022-05-02 19:50:26,2022-05-02 19:50:26,"0,003s",FAILED
+"verifyElementHasAttribute(findTestObject(null), """", 0)",,,,2022-05-02 19:50:26,2022-05-02 19:50:28,"1,275s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad,,"En caso de falla de conexión, al intentar ingresar a la Pantalla Seguridad, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+2- Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+3- Botón Aceptar.
+El botón Aceptar cierra el alert y mantiene al usuario en la Pantalla Soporte.
+
+El back nativo del sistema operativo, regresa al usuario a la Pantalla Soporte.
+
+
+Resultado Obtenido",TET-824,2022-05-02 19:50:28,2022-05-02 19:51:25,"56,885s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", false)",,,,2022-05-02 19:50:28,2022-05-02 19:50:40,"11,956s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-05-02 19:50:40,2022-05-02 19:50:50,"10,002s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Soporte""), 0)",,,,2022-05-02 19:50:50,2022-05-02 19:50:52,"2,293s",PASSED
+"toggleAirplaneMode(""modo avion"", CONTINUE_ON_FAILURE)",,,,2022-05-02 19:50:52,2022-05-02 19:50:53,"0,697s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Seguridad""), 0)",,,,2022-05-02 19:50:53,2022-05-02 19:50:55,"1,413s",PASSED
+"getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo""), 0)",,,,2022-05-02 19:50:55,2022-05-02 19:51:25,"30,115s",FAILED
+"verifyEqual(Falladeconexion, ""Ups Hubo una falla en la conexión. Por favor, verificá y probá de nuevo"")",,,,2022-05-02 19:51:25,2022-05-02 19:51:25,"0,003s",FAILED

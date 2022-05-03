@@ -17,19 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk', 
-    false)
+Mobile.startApplication(GlobalVariable.APKjose, false)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Soporte'), 0)
+Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'), 0)
 
-Mobile.toggleAirplaneMode('modo avion', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.toggleAirplaneMode('yes', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.TextView - Seguridad'), 0)
 
-Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'), 
+Falladeconexion = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'), 
     0)
 
-Mobile.verifyEqual(Falladeconexion, 'Ups Hubo una falla en la conexión. Por favor, verificá y probá de nuevo')
+Mobile.verifyEqual(Falladeconexion, 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.')
+
+Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion'), 0)
 

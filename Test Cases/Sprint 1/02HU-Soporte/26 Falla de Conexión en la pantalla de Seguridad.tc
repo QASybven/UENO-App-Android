@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>En caso de falla de conexión, al intentar ingresar a la Pantalla Seguridad, se mostrará un alert nativo del SO con los siguientes elementos:
-1- Título “Mensaje”.
-2- Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
-3- Botón Aceptar.
-El botón Aceptar cierra el alert y mantiene al usuario en la Pantalla Soporte.
-
-El back nativo del sistema operativo, regresa al usuario a la Pantalla Soporte.
-
-
-Resultado Obtenido</description>
+   <description>El botón Compartir se mostrará en forma de ícono alusivo.
+Al seleccionar el botón Compartir se mostrará una ventana emergente de color Mensaje de Info con el siguiente texto “Se copió la información de esta versión en tu dispositivo.”.
+El sistema copiará el texto con la versión de la App y la información del SO y el dispositivo, en el portapapeles del dispositivo.</description>
    <name>26 Falla de Conexión en la pantalla de Seguridad</name>
-   <tag>TET-824</tag>
+   <tag>TET-825</tag>
    <comment></comment>
-   <testCaseGuid>e284380a-07db-4494-9aa3-564dfa41cd9a</testCaseGuid>
+   <testCaseGuid>edbe0cee-f806-45e7-afdf-fe6435a58f90</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>271da891-d778-46fc-89da-703f1158de1e</variableId>
+      <variableId>f3330a46-084f-4232-b29b-17e25904176c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>271da891-d778-46fc-89da-703f1158de1e</id>
+      <id>f3330a46-084f-4232-b29b-17e25904176c</id>
       <masked>false</masked>
       <name>Falladeconexion</name>
    </variable>

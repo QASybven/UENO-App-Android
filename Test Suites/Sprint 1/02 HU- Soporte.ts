@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -99,19 +99,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ebcabb8e-e5d8-43f2-9da5-26d587d64d8b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>271da891-d778-46fc-89da-703f1158de1e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
