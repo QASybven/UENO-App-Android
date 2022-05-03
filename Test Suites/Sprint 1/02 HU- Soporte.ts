@@ -4,7 +4,7 @@
    <name>02 HU- Soporte</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>jose.arrieta@sybven.com.ve;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>51b8f436-7a46-41d3-abf9-c4143899265f</testSuiteGuid>
    <testCaseLink>
-      <guid>9d854def-8362-42b7-aea1-2fc061c83b7d</guid>
+      <guid>2a8aed91-eb64-4708-a499-ae3dac4e8897</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte</testCaseId>
@@ -55,21 +55,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c0be5d9-51b0-4988-9b67-5ebb7cb18d8d</guid>
+      <guid>5efd91c0-7120-44c1-8f5e-6c3eb6a1d364</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/02HU-Soporte/21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a931a182-95e9-4b98-b50f-5308a2078e17</guid>
+      <guid>12f6a7e5-af44-4695-8c82-b4b4b5a13167</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/02HU-Soporte/22 Especificaciones Funcionales - Validar las opciones en la pantalla de soporte</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d97ec744-344b-445b-8e09-95e5020f0452</guid>
+      <guid>d6ba1b3c-cbc5-421e-8398-e65e5e6247d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/02HU-Soporte/23 Especificaciones Funcionales - Compartir</testCaseId>
@@ -82,14 +82,14 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9da8ed17-da27-4ed0-b174-2de573e700b2</guid>
+      <guid>2dbb5278-8141-4913-ada4-b1e8ebf1e71f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/02HU-Soporte/24 - Especificaciones Funcionales - Opción Llamanos</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e84053d2-d697-4490-bd43-6523acca154e</guid>
+      <guid>5bfd4fba-2c45-401c-8b8a-35501a7b5450</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones</testCaseId>
@@ -99,6 +99,19 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>bd73177c-fd38-41ed-a53c-fbe5c6671c3d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cb7de50d-f5e3-4c26-b142-f4b17eb8aa57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3330a46-084f-4232-b29b-17e25904176c</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
