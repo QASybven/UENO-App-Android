@@ -64,4 +64,9 @@
       <initValue>findTestData('Usuarios').getValue(5, 1)</initValue>
       <name>EtiquetaHolaEsperado</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData(null).getValue(1, 11)</initValue>
+      <name>ClienteCDA</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
