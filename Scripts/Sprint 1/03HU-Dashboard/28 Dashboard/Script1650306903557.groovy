@@ -18,14 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario'), 
-    [('NumeroCelular') : findTestData('Usuarios').getValue(1, 1), ('Contrasena') : findTestData('Usuarios').getValue(2, 1)], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    [('NumeroCelular') : findTestData('Usuarios').getValue(1, 1), ('Contrasena') : findTestData('Usuarios').getValue(2, 
+            1)], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Sprint 1/dasboard/android.view.ViewGroup flecha hacia abajo'), 0)
 
-Mobile.tapAndHold(findTestObject('Sprint 1/dasboard/android.view.ViewGroup flecha hacia arriba'), 0, 0)
+Mobile.tap(findTestObject('Sprint 1/dasboard/android.view.ViewGroup flecha hacia arriba'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sprint 1/dasboard/android.widget.TextView - Tipo de cuenta'), 0)
+Mobile.tap(findTestObject('Sprint 1/dasboard/android.widget.TextView - Caja de ahorros'), 0)
 
 Mobile.scrollToText('', FailureHandling.CONTINUE_ON_FAILURE)
 
