@@ -43,6 +43,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/03HU-Dashboard/29 Dashboard - Ingresar con un cliente que posea Caja de ahorro</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40350781-a7be-47ed-9ad1-a93ee33e92ae</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>24858cd0-fe51-419f-a8a5-90f809ddddfc</guid>

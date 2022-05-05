@@ -17,13 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.URL, false)
+Mobile.startApplication(GlobalVariable.APKjose, false)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login'), 0)
 
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 0)
+Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 
+    0)
 
 Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), GlobalVariable.Contrasena, 0)
 

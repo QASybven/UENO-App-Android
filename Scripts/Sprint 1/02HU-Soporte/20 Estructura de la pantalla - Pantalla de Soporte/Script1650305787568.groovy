@@ -32,7 +32,8 @@ PreguntasFrecuentes = Mobile.getText(findTestObject('Sprint 1/Soporte/android.wi
 
 Mobile.verifyEqual(PreguntasFrecuentes, 'Preguntas frecuentes')
 
-Basesycondiciones = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Bases y condiciones'), 0)
+Basesycondiciones = Mobile.getText(findTestObject('Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)'), 
+    0)
 
 Mobile.verifyEqual(Basesycondiciones, 'Bases y condiciones')
 

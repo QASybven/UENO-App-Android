@@ -11,4 +11,17 @@
    <tag>TET-838</tag>
    <comment></comment>
    <testCaseGuid>df09a7b9-ee2f-4e73-a04d-3a163b75297c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40350781-a7be-47ed-9ad1-a93ee33e92ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Tipo de cuenta</description>
+      <id>40350781-a7be-47ed-9ad1-a93ee33e92ae</id>
+      <masked>false</masked>
+      <name>cajadeahorros</name>
+   </variable>
 </TestCaseEntity>

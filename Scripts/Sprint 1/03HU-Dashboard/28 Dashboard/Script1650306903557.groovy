@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Sprint 1/dasboard/android.view.ViewGroup flecha hacia
 
 Mobile.tap(findTestObject('Sprint 1/dasboard/android.widget.TextView - Caja de ahorros'), 0)
 
-Mobile.scrollToText('', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.scrollToText('yes', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Sprint 1/dasboard/android.widget.ImageView Back Detalle de cuenta'), 0)
 

@@ -34,5 +34,5 @@ Mobile.verifyEqual(Falladeconexion, 'Ups! Hubo una falla en la conexión. Por fa
 
 Mobile.tap(findTestObject('Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion'), 0)
 
-Mobile.toggleAirplaneMode('yes', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.toggleAirplaneMode('no', FailureHandling.CONTINUE_ON_FAILURE)
 
