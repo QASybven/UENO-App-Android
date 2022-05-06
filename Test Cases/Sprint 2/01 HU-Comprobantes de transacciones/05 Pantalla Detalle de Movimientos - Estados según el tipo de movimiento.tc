@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+Para este caso, se validarán:
+
+La estética general de los estados que se manejan para los diferentes tipos de movimientos. 
+
+Visualizar el texto
+
+Color del elemento circular que acompaña al estado.
+
+Los posibles estados, son:
+
+Pendiente.
+
+Enviada.
+
+Realizada.
+
+Recibida.
+
+Rechazada.
+
+La etiqueta con el estado se mostrará alineada a la derecha de la pantalla, acompañada de un elemento circular de color, según cada estado. A saber:
+
+Pendiente > Hex #f2c94c.
+
+Enviada > Hex #3b9e70.
+
+Realizada > Hex #3b9e70.
+
+Recibida > Hex #3b9e70.
+
+Rechazada > Hex #f56b71.
+
+De igual forma, el color debe ser consultado en las maquetas del Zeplin.
+
+Tipo de movimiento
+
+Estados
+
+Transferencias
+
+Pendiente, Enviada, Recibida, Rechazado.
+
+Pago de préstamos
+
+Pendiente, Realizado, Rechazado.
+
+Pago de tarjeta de crédito
+
+Pendiente, Realizado, Rechazado.
+
+Carga de tarjeta prepaga
+
+Pendiente, Realizado, Rechazado.
+
+Transacción tarjetas
+
+Pendiente, Realizado, Rechazado.
+
+Carga alcancía
+
+Pendiente, Realizado, Rechazado.
+
+Descarga alcancía
+
+Pendiente, Realizado, Rechazado.
+
+Capitalización de interés CDA
+
+Realizado.
+
+Capitalización de interés PFD
+
+Pendiente, Realizado.
+
+Capitalización de interés Cuentas
+
+Pendiente, Realizado.
+
+Extracción
+
+Pendiente, Realizado, Rechazado.
+
+Depósito
+
+Pendiente, Realizado, Rechazado.
+
+Débitos, Cobros, Comisiones, Cargos, etc.
+
+Pendiente, Realizado.
+
+Créditos varios
+
+Pendiente, Realizado.
+
+Otras transacciones
+
+Pendiente, Realizado, Rechazado.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+Desde el Dashboard o desde el Menú, el usuario podrá ingresar a los diferentes productos para visualizar el detalle de los movimientos.
+
+El usuario visualiza los movimientos exitosos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar lo detallado en la sección “Descripción”</description>
+   <name>05 Pantalla Detalle de Movimientos - Estados según el tipo de movimiento</name>
+   <tag>TET-518</tag>
+   <comment></comment>
+   <testCaseGuid>d40b1680-021a-4b0d-a414-980a8398d483</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+Se requiere validar los posibles campos a considerar visualizar para la pantalla de Detalle de Movimiento. Estos deben aparecer según el tipo de movimiento que se llevó a cabo. 
+
+A continuación se citan dichos campos:
+
+Tipo de Movimiento: Pago de tarjeta de crédito:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora de carga.
+
+Fecha de programación.
+
+Fecha y hora transacción.
+
+Afinidad Tarjeta.
+
+Tarjeta.
+
+Cuenta débito.
+
+Tipo de pago.
+
+Monto.
+
+Concepto.
+
+Categoría.
+
+Tipo de Movimiento: Carga de tarjeta prepaga:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora de carga.
+
+Fecha de programación.
+
+Fecha y hora transacción.
+
+Afinidad Tarjeta.
+
+Tarjeta.
+
+Cuenta débito.
+
+Tipo de pago.
+
+Monto.
+
+Concepto.
+
+Categoría
+
+Tipo de Movimiento: Carga alcancía:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora de carga.
+
+Fecha de programación.
+
+Fecha y hora transacción.
+
+Cuenta débito.
+
+Titular cuenta débito.
+
+Monto.
+
+Concepto.
+
+Categoría.
+
+Tipo de Movimiento: Descarga alcancía:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora de carga.
+
+Fecha y hora transacción.
+
+Cuenta crédito.
+
+Monto.
+
+Concepto.
+
+Categoría.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos de los productos que posee con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.</description>
+   <name>01 Pantalla Detalle de Movimientos - Validar campos según el tipo de movimiento</name>
+   <tag>TET-520</tag>
+   <comment></comment>
+   <testCaseGuid>d505e38a-28d0-4c5a-876a-c2c6b30d1b97</testCaseGuid>
+</TestCaseEntity>

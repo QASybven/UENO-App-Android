@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+Se desea validar la pantalla de movimiento con los siguientes datos:
+
+Capitalización de interés CDA:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora transacción.
+
+CDA.
+
+Monto.
+
+Categoría.
+
+Capitalización de interés PFD:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora transacción.
+
+Plazo Fijo.
+
+Monto.
+
+Categoría.
+
+Capitalización de interés Cuentas:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora transacción.
+
+Cuenta crédito.
+
+Monto.
+
+Categoría.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de CDA
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+Desde el Dashboard o desde el Menú, el usuario podrá ingresar a los diferentes productos para visualizar el detalle de los movimientos.
+
+El usuario visualiza los movimientos exitosos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar todas las especificaciones detalladas en la sección “Descripción”</description>
+   <name>13 Pantalla Detalle de Movimientos - Capitalización de interés CDA-PFD</name>
+   <tag>TET-1012</tag>
+   <comment></comment>
+   <testCaseGuid>ad0f0add-cb86-461d-ad0a-9068827db124</testCaseGuid>
+</TestCaseEntity>

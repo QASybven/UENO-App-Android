@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+Se desea validar la pantalla de movimiento con los siguientes datos
+
+Tipo de transacción: Transferencias
+
+Datos:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora de carga.
+
+Fecha de programación.
+
+Fecha y hora transacción.
+
+Banco cuenta débito.
+
+Cuenta débito.
+
+Titular cuenta débito.
+
+Banco cuenta crédito.
+
+Cuenta crédito.
+
+Titular cuenta crédito.
+
+Monto.
+
+Concepto.
+
+Categoría.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+Desde el Dashboard o desde el Menú, el usuario podrá ingresar a los diferentes productos para visualizar el detalle de los movimientos.
+
+El usuario visualiza los movimientos exitosos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar todas las especificaciones detalladas en la sección “Descripción”
+
+
+Resultado Obtenido</description>
+   <name>15 Pantalla Detalle de Movimientos - Transferencias</name>
+   <tag>TET-1010</tag>
+   <comment></comment>
+   <testCaseGuid>b295fdd7-5917-4fb0-8154-fb4495c90f1d</testCaseGuid>
+</TestCaseEntity>

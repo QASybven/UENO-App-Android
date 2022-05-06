@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+La pantalla Detalle de movimiento se mostrará por cada producto que el cliente disponga, a su vez, el producto deberá tener al menos un movimiento para visualizar el detalle mencionado.
+
+Tipo de producto: Préstamo
+
+Se detalla a continuación la estructura general de la pantalla:
+
+Visualizar pantalla de detalle de movimientos de préstamos.
+
+El botón de flecha para regresar, regresa al usuario a la pantalla desde donde invocó esta.  
+
+Tanto la etiqueta del estado de la operación, como los datos a mostrar, varían según el movimiento consultado.
+
+Visualizar el estado de la transacción
+
+Los botones de navegación principal se mostrarán en la parte inferior de la pantalla, centrados con respecto al ancho de esta.
+
+El usuario podrá hacer scroll en la pantalla, en caso de ser requerido para ver todos los movimientos.
+
+El scroll se debe aplicar por detrás del botón con la opción adicional de ese movimiento, en caso que sí se esté mostrando.
+
+Datos
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora transacción.
+
+Tipo de préstamo.
+
+Préstamo.
+
+Cuenta débito.
+
+Tipo de pago.
+
+Cuotas seleccionadas.
+
+Monto.
+
+Concepto.
+
+Categoría.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos de los productos que posee con el banco, desde las siguientes pantallas:
+
+Resumen de préstamos (Préstamos).
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+El usuario debe seleccionar una préstamo en el Dashboard, se muestra la pantalla Resumen de Préstamos.
+
+El usuario visualiza los movimientos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar que los textos estén correctamente escritos
+
+Validar que los campos la aplicación sea responsive.
+
+Validar la estética y colores de la aplicación
+
+Validar la estructura general de pantalla.</description>
+   <name>06 Pantalla Detalle de Movimientos - Pago de préstamo - Estructura general</name>
+   <tag>TET-493</tag>
+   <comment></comment>
+   <testCaseGuid>6464fb53-9941-4a10-8aed-5b5c51124311</testCaseGuid>
+</TestCaseEntity>

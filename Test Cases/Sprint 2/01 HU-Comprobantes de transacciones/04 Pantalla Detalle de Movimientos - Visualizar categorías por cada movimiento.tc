@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+En la pantalla Detalle de Movimiento se visualiza un campo con el nombre “Categoría”, se debe validar que en el campo aparezca la categoría correcta según el tipo de movimiento realizado.
+
+Las categorías, para cada movimiento, pueden ser:
+
+Tipo de movimiento (Tipo de Operación)
+
+Categoría
+
+Transferencias
+
+Transferencia.
+
+Pago de préstamos
+
+Servicios financieros.
+
+Pago de tarjeta de crédito
+
+Servicios financieros.
+
+Carga de tarjeta prepaga
+
+Servicios financieros.
+
+Transacción tarjetas
+
+Supermercado, Gastos comunes, Otros, Pago de Servicios, Vestimenta, Entretenimiento, Cuidado personal, Transporte, Viajes, Crédito Cashback, Extracción de efectivo.
+
+Carga alcancía
+
+Ahorro.
+
+Descarga alcancía
+
+Transferencia.
+
+Capitalización de interés CDA
+
+Servicios financieros.
+
+Capitalización de interés PFD
+
+Servicios financieros.
+
+Capitalización de interés Cuentas
+
+Servicios financieros.
+
+Extracción
+
+Extracción de efectivo
+
+Depósito
+
+Servicios financieros.
+
+Débitos, Cobros, Comisiones, Cargos, etc.
+
+Servicios financieros.
+
+Créditos varios
+
+Servicios financieros.
+
+Otras transacciones
+
+Servicios financieros.
+
+ 
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+Desde el Dashboard o desde el Menú, el usuario podrá ingresar a los diferentes productos para visualizar el detalle de los movimientos. 
+
+El usuario visualiza los movimientos exitosos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar que los textos estén correctamente escritos
+
+Validar que los campos la aplicación sea responsive.
+
+Validar la estética y colores de la aplicación
+
+Validar la especificación detallada en la sección “Descripción”</description>
+   <name>04 Pantalla Detalle de Movimientos - Visualizar categorías por cada movimiento</name>
+   <tag>TET-526</tag>
+   <comment></comment>
+   <testCaseGuid>9e6ac6db-9328-402b-9351-d082674efeb4</testCaseGuid>
+</TestCaseEntity>

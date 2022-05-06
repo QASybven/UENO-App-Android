@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.</description>
+   <name>02 Pantalla Detalle de Movimientos - Botones adicionales</name>
+   <tag>TET-528</tag>
+   <comment></comment>
+   <testCaseGuid>0790ea8e-784f-402e-8190-4c259e887ed3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>escripción
+Se desea validar la pantalla de movimiento con los siguientes datos
+
+Tipo de transacción: Depósito
+
+Datos:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora de carga.
+
+Fecha y hora transacción.
+
+Depositado por.
+
+Cédula de identidad.
+
+Cuenta crédito.
+
+Monto.
+
+Concepto.
+
+Categoría.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+Desde el Dashboard o desde el Menú, el usuario podrá ingresar a los diferentes productos para visualizar el detalle de los movimientos.
+
+El usuario visualiza los movimientos exitosos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar todas las especificaciones detalladas en la sección “Descripción”</description>
+   <name>07 Pantalla Detalle de Movimientos - Accesos</name>
+   <tag>TET-1018</tag>
+   <comment></comment>
+   <testCaseGuid>bdac449f-7fba-4fd4-971f-efa449a6a1a4</testCaseGuid>
+</TestCaseEntity>

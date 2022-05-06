@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+En caso de falla de conexión, al intentar ingresar a la Pantalla Detalle del movimiento se mostrará un alert nativo del SO con los siguientes elementos:
+
+Título “Mensaje”.
+
+Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+
+Botón Aceptar.
+
+El botón Aceptar cierra el alert, y mantiene al usuario en la pantalla desde donde está invocando la Pantalla Detalle del movimiento.</description>
+   <name>03 Pantalla Detalle de Movimientos - Falla de conexión</name>
+   <tag>TET-527</tag>
+   <comment></comment>
+   <testCaseGuid>87dc60c1-4982-4d80-b650-d135613d8779</testCaseGuid>
+</TestCaseEntity>

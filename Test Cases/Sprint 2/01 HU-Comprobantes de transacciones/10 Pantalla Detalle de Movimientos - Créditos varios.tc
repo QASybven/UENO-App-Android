@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+Se desea validar la pantalla de movimiento con los siguientes datos
+
+Tipo de transacción: Créditos varios
+
+Datos:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora transacción.
+
+Afinidad Tarjeta.
+
+Tarjeta.
+
+Cuenta crédito.
+
+Monto.
+
+Categoría.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+Desde el Dashboard o desde el Menú, el usuario podrá ingresar a los diferentes productos para visualizar el detalle de los movimientos.
+
+El usuario visualiza los movimientos exitosos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar todas las especificaciones detalladas en la sección “Descripción”</description>
+   <name>10 Pantalla Detalle de Movimientos - Créditos varios</name>
+   <tag>TET-1015</tag>
+   <comment></comment>
+   <testCaseGuid>01a0be05-2349-490d-9a0f-cf396dab09a2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Descripción
+Se desea validar la pantalla de movimiento con los siguientes datos
+
+Tipo de transacción: Pago de préstamos:
+
+Datos:
+
+Tipo de operación.
+
+Nro. de transacción.
+
+Descripción.
+
+Fecha y hora transacción.
+
+Tipo de préstamo.
+
+Préstamo.
+
+Cuenta débito.
+
+Tipo de pago.
+
+Cuotas seleccionadas.
+
+Monto.
+
+Concepto.
+
+Categoría.
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar cualquiera de los movimientos que el cliente posee entre sus productos con el banco, desde las siguientes pantallas:
+
+Resumen de cuenta (Caja de ahorro / cuenta corriente).
+
+Resumen de préstamo.
+
+Mis tarjetas, pestaña Movimientos.
+
+Histórico de transferencias.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Login exitoso
+
+Desde el Dashboard o desde el Menú, el usuario podrá ingresar a los diferentes productos para visualizar el detalle de los movimientos.
+
+El usuario visualiza los movimientos exitosos de la cuenta.
+
+Seleccionar un movimiento
+
+
+Resultado Esperado
+Validar todas las especificaciones detalladas en la sección “Descripción”</description>
+   <name>14 Pantalla Detalle de Movimientos - Pago de préstamos</name>
+   <tag>TET-1011</tag>
+   <comment></comment>
+   <testCaseGuid>f3033035-1774-4e55-87af-5a7673288a54</testCaseGuid>
+</TestCaseEntity>
