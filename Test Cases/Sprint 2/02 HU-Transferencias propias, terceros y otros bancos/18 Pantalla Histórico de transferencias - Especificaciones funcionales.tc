@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Para ingresar a esta pantalla el usuario debe seleccionar la opción Transferencias en el menú inferior de la App.
+
+El botón de flecha para regresar, regresa al usuario a la pantalla desde donde invocó la opción.
+
+Se debe mostrar, la pestaña Todas, activa por defecto. 
+
+Al seleccionar sobre otra pestaña, diferente a la activa en ese momento, se muestra la sección con los movimientos, en blanco, y un elemento de showloading, mostrando solo los siguientes elementos en pantalla:
+
+Header de la pantalla.
+
+Campo de búsqueda.
+
+Búsqueda avanzada.
+
+Listado en blanco con elemento de showloading centrado con respecto al alto y ancho de la sección de movimientos.
+
+Nueva transferencia (Botón).
+
+Menú inferior.
+
+Se debe tomar en cuenta que el botón de Búsqueda avanzada solo se mostrará en la pestaña Todas.
+
+En la pestaña Todas se mostrarán todas las transferencias ejecutadas o recibidas en todas las cuentas del cliente.
+
+Los datos de las transferencias deben ser:
+
+Descripción de la operación.
+
+Fecha y hora en que se ejecutó la transferencia en formato DD/MM/AAAA HH:MM Hs.
+
+Monto de la transferencia, acompañado del tipo de moneda.
+
+El listado de transferencias y todos los datos serán retornados por el servicio.
+
+En la pestaña Frecuentes se mostrarán las transferencias que el usuario ejecuta de forma frecuente.
+
+Los datos de las transferencias frecuentes deben ser:
+
+Descripción de la operación.
+
+Fecha y hora en que se ejecutó la transferencia en formato DD/MM/AAAA HH:MM Hs.
+
+Monto de la transferencia, acompañado del tipo de moneda.
+
+El listado de transferencias frecuentes y todos los datos serán retornados por el servicio.
+
+El servicio retornará, para esta pestaña, las transferencias a los diez (10) beneficiarios más frecuentes.
+
+En la pestaña Programadas se mostrarán todas las transferencias programadas para fechas futuras, ya sea para una sola fecha o recurrentes, que no han sido ejecutadas.
+
+Los datos de las transferencias frecuentes deben ser:
+
+Descripción de la operación.
+
+Fecha en la que se ejecutará la transferencia en formato DD/MM/AAAA.
+
+En caso de ser recurrente, se debe mostrar la fecha de la próxima a ejecutarse.
+
+Monto de la transferencia, acompañado del tipo de moneda.
+
+El listado de transferencias programadas y todos los datos serán retornados por el servicio.</description>
+   <name>18 Pantalla Histórico de transferencias - Especificaciones funcionales</name>
+   <tag>TET-621</tag>
+   <comment></comment>
+   <testCaseGuid>410ed8dd-aadf-4909-bfe3-3cc4bc8308b8</testCaseGuid>
+</TestCaseEntity>

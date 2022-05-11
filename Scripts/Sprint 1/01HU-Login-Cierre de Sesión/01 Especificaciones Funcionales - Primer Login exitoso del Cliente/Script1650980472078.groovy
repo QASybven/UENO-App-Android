@@ -29,8 +29,8 @@ Mobile.verifyEqual(Hola, '¡Hola!')
 Mobile.setText(findTestObject('Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.EditText - Ejemplo 0981123456 (1)'), 
     GlobalVariable.Numerocelular, 0)
 
-Mobile.setText(findTestObject('Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.EditText (2)'), GlobalVariable.Contrasena, 
-    0)
+Mobile.setText(findTestObject('Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.EditText (2)'), 
+    GlobalVariable.Contrasena, 0)
 
 Mobile.tap(findTestObject('Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Ingresar (2)'), 
     0)
@@ -48,4 +48,6 @@ NombredeUsuario = Mobile.getText(findTestObject('Sprint 1/Inicio primera vez y c
     0)
 
 Mobile.verifyEqual(NombredeUsuario, NombredeUsuarioEsperado)
+
+Mobile.checkElement(findTestObject(null), 0)
 

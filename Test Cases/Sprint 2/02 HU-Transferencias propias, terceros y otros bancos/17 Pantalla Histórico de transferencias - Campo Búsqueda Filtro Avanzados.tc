@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El campo de búsqueda tendrá el siguiente comportamiento:
+
+Se mostrará acompañado del ícono de búsqueda avanzada, alineado a la derecha de la pantalla.
+
+Solo en el caso de la pestaña Todas. Para las pestañas Frecuentes y Programadas se verá solo el campo de búsqueda.
+
+Se mostrará acompañado de un ícono de lupa, alineado a la derecha del campo.
+
+Mostrará el siguiente placeholder “Buscar movimientos”.
+
+Al posicionar el focus en el campo de búsqueda se mantiene el placeholder, se despliega el teclado alfanumérico, nativo del SO, y se muestra botón de X a lineado a la derecha de la pantalla, en sustitución del ícono de filtros avanzados.
+
+El ícono de filtros avanzados no se verá mientras el focus esté en el campo de búsqueda.
+
+En el caso de las pestañas Frecuentes y Programadas, el comportamiento del campo debe ser el siguiente:
+
+Al posicionar el focus en el campo de búsqueda se mantiene el placeholder, se despliega el teclado alfanumérico, nativo del SO y el ancho del campo se ajusta para mostrar el botón de X alineado a la derecha de la pantalla.
+
+Al ingresar caracteres en el campo, se borra el placeholder y se actualiza el listado de movimientos con aquellos que tengan coincidencias en los datos Descripción del movimiento, según lo ingresado en el campo, de forma automática.
+
+La búsqueda se realiza para las transferencias correspondientes a la pestaña activa al momento de la consulta.
+
+En caso de no haber coincidencias se mostrará el siguiente mensaje, en forma de texto plano en el centro de la pantalla “No se encontraron movimientos”.
+
+Al seleccionar el botón de X se remueve el focus del campo, se restaura la lista de movimientos y se vuelve a mostrar el botón Filtros avanzados.
+
+En el caso de las pestañas Frecuentes y Programadas se remueve el focus del campo, se restaura la lista de movimientos, se oculta el botón de X y el campo vuelve a ocupar todo el ancho de la pantalla.
+
+Al seleccionar el botón de Filtros avanzados se mostrará al usuario la Pantalla Búsqueda avanzada de movimientos.
+
+La estructura y comportamiento de la Pantalla Búsqueda avanzada de movimientos se encuentra descrita en la HU-Búsqueda de productos y operaciones.
+
+En este caso, la Pantalla Resultados de búsqueda mostrará las coincidencias, según los criterios aplicados, para los movimientos reflejados en la pestaña activa al momento de la invocación de la pantalla, a través del botón Búsqueda avanzada.
+
+Todos los movimientos, listados en todas las pestañas, se mostrarán en forma de renglón, acompañado de un ícono de flecha, apuntando hacia la derecha, alineado a la derecha de la pantalla, centrado con respecto al alto del renglón.
+
+El usuario podrá hacer scroll en la pantalla, en caso de ser requerido, para ver todos los movimientos.
+
+El scroll se debe aplicar por detrás del botón Nueva transferencia, este se debe ver en la parte inferior de la pantalla, siempre.
+
+Al seleccionar sobre cualquier movimiento, se mostrará la Pantalla Detalles del movimiento.
+
+La estructura y comportamiento de la Pantalla Detalles del movimiento se describe en la HU-Comprobantes de transacciones.
+
+Al seleccionar sobre el botón Nueva transferencia, se muestra la Pantalla Cuenta débito, del flujo Transferir.
+
+El comportamiento del menú inferior se mantiene según lo descrito en la HU-Cambios de alcance.
+
+El back nativo del SO, regresa al usuario a la pantalla desde donde invocó la opción.</description>
+   <name>17 Pantalla Histórico de transferencias - Campo Búsqueda Filtro Avanzados</name>
+   <tag>TET-622</tag>
+   <comment></comment>
+   <testCaseGuid>62afbb8e-8253-450a-ab0e-75cf369c99c1</testCaseGuid>
+</TestCaseEntity>

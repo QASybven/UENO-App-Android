@@ -65,8 +65,13 @@
       <name>EtiquetaHolaEsperado</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>findTestData(null).getValue(1, 11)</initValue>
+      <description>Cliente con CDA</description>
+      <initValue>findTestData('Usuarios').getValue(1, 11)</initValue>
       <name>ClienteCDA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Token generico</description>
+      <initValue>'000000'</initValue>
+      <name>OTP</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

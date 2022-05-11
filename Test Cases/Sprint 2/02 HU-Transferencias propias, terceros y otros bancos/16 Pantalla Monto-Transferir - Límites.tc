@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>En caso de tratarse de una transferencia entre cuentas propias no habrá límite máximo definido.
+
+En caso de tratarse de una transferencia a un tercero del mismo banco o tercero de otro banco, el límite máximo debe ser Gs. 20.000.000 o USD. 5.000 diarios.
+
+El límite máximo debe ser configurado a través de Spotlight según el tipo de operación y según acumulado diario.</description>
+   <name>16 Pantalla Monto-Transferir - Límites</name>
+   <tag>TET-606</tag>
+   <comment></comment>
+   <testCaseGuid>f7bc077b-a772-49e8-8a43-db6acb37ad8d</testCaseGuid>
+</TestCaseEntity>

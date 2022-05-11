@@ -17,13 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APKjose, false)
-
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText'), findTestData('Usuarios').getValue(1, 7), 0)
-
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), 'Kony!12345', 0)
-
