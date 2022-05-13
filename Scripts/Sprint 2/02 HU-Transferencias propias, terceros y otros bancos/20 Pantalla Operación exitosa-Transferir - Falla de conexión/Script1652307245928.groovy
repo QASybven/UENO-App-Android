@@ -17,17 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APKjose, false)
-
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), findTestData('Usuarios').getValue(
-        1, 7), 0)
-
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), findTestData('Usuarios').getValue(
-        2, 7), 0)
-
-Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Ingresar'), 0)
-

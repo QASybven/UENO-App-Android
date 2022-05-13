@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>La pantalla debe contener los siguientes elementos:
+
+Header de la pantalla con el nombre que la identifica “Transferencias”.
+
+Botón de flecha para regresar.
+
+Todas (Pestaña).
+
+Frecuentes ((Pestaña).
+
+Programadas ((Pestaña).
+
+Campo de búsqueda.
+
+Búsqueda avanzada (Botón).
+
+Listado de transferencias.
+
+Nueva transferencia (Botón).
+
+Menú inferior.</description>
+   <name>19 Pantalla Histórico de transferencias - Estructura de la pantalla</name>
+   <tag>TET--620</tag>
+   <comment></comment>
+   <testCaseGuid>a1626ec2-e62a-43f9-bcd9-cf57f6e3d9ad</testCaseGuid>
+</TestCaseEntity>
