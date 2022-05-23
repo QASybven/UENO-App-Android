@@ -29,5 +29,6 @@ Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 
 Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), findTestData('Usuarios').getValue(
         2, 7), 0)
 
+'prueba'
 Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Ingresar'), 0)
 
