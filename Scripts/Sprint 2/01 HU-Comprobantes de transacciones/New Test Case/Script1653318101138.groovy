@@ -29,6 +29,7 @@ Mobile.tap(findTestObject('Object Repository/Sprint 2/Detalle de Movimientos/flu
 Mobile.getText(findTestObject('Object Repository/Sprint 2/Detalle de Movimientos/flujo detalle de movimientos/android.widget.TextView - Tipo de cuenta'), 
     0)
 
+'prueba'
 Mobile.getText(findTestObject('Object Repository/Sprint 2/Detalle de Movimientos/flujo detalle de movimientos/android.widget.TextView - CAJA DE AHORRO'), 
     0)
 

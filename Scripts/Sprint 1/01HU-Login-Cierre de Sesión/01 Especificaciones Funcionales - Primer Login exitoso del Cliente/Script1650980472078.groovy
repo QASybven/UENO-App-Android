@@ -35,8 +35,7 @@ Mobile.setText(findTestObject('Object Repository/Sprint 1/Inicio primera vez y c
 Mobile.tap(findTestObject('Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Ingresar (2)'), 
     0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - NO (1)'), 
-    0)
+not_run: Mobile.tap(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - NO (1)'), 0)
 
 Mobile.tap(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.ImageView'), 0)
 
