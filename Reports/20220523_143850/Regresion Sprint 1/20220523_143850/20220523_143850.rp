@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220523_143850</name>
+   <tag></tag>
+   <displayName>20220523_143850</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/01HU-Login-Cierre de Sesión/20220523_143852</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/02 HU- Soporte/20220523_143854</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/03 HU-Dashboard/20220523_143856</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/04 HU-Resumen de Productos/20220523_143859</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/05 HU-Detalle de productos/20220523_143901</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/06 HU- Detalle de cuotas (Prestamo)/20220523_143904</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/07 HU-Olvidé mi contraseña/20220523_143907</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/08 HU-Configuraciones/20220523_143909</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220523_143850/Sprint 1/09 HU-Mis tarjetas/20220523_143912</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>DEV</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>TECNO MOBILE LIMITED TECNO KE5k (Android 10)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>06066331AX013408</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Regresion Sprint 1</testSuiteCollectionId>
+</ReportCollectionEntity>
