@@ -1,0 +1,324 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+05 HU-Detalle de productos,,,,2022-05-24 14:56:54,2022-05-24 15:17:27,"20m - 32,393s",FAILED
+,,,,,,,
+"Test Cases/Sprint 1/05HU-Detalle de productos/54 Detalle de cuentas - Consulta de movimientos, cliente sin movimientos",,"Una vez se cargan todos los datos y transacciones en los listados, se oculta el showloading.
+
+En caso que la cuenta no tenga operaciones pendientes o movimientos, no se mostrará la barra de subtítulo correspondiente, en pantalla.",TET-888,2022-05-24 14:58:02,2022-05-24 14:59:00,"57,941s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 14:58:02,2022-05-24 14:58:38,"35,730s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.ImageView icono inferior menu""), 0)",,,,2022-05-24 14:58:38,2022-05-24 14:59:00,"22,205s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/55 Consulta de Movimientos opciones de expandir y contraer,,"odos los listados se muestran desplegados por defecto.
+1- Al seleccionar sobre el ícono de flecha hacia arriba, de cualquiera de las barras de subtítulo, se pliega el listado correspondiente, y el ícono de flecha cambia de dirección hacia abajo.
+1.1- El resto de los elementos, posteriores a esa barra, cambia de posición en pantalla.",TET-887,2022-05-24 15:02:07,2022-05-24 15:03:09,"1m - 2,889s",FAILED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:02:07,2022-05-24 15:02:39,"32,672s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.TextView - Caja de ahorros""), 0)",,,,2022-05-24 15:02:39,2022-05-24 15:03:09,"30,209s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/56 Scroll -Ingresar con un cliente que posea varias transacciones,,"El usuario podrá hacer scroll en la pantalla para ver todas las operaciones en caso de ser requerido.
+
+El scroll se aplica solo sobre el listado de las transacciones. La sección superior se muestra estática.
+
+
+Resultado Obtenido",TET-886,2022-05-24 15:03:09,2022-05-24 15:03:42,"32,670s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:03:10,2022-05-24 15:03:42,"32,381s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/57 Falla de Conexión en la pantalla Resumen de cuenta y Detalle de cuentas,,"El back nativo del sistema operativo, regresa al usuario a la Pantalla Dashboard.
+
+Al seleccionar el botón Editar, se muestra al usuario la Pantalla Personalizar producto.",TET-884,2022-05-24 15:03:42,2022-05-24 15:04:24,"41,371s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:03:42,2022-05-24 15:04:24,"41,071s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/58 Validar la navegación - Pantalla de Detalle de cuentas de cuentas,,"El botón de flecha para regresar, regresa al usuario a la Pantalla Resumen de cuenta (Caja de ahorro/Cuenta corriente)desde donde invocó la pantalla Detalle de cuenta corriente.
+
+El botón Editarse mostrará como un ícono alusivo a un lápiz.
+
+El texto que corresponde al alias o nombre de la cuenta, junto con los últimos cuatro (04) dígitos del número de cuenta, serán retornados por el servicio.
+
+La estructura del texto es la siguiente “<alias de la cuenta>…<últimos cuatro dígitos del número de cuenta>”.
+
+En caso que el alias o nombre de la cuenta sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla.
+
+La pantalla cuenta con los siguientes elementos:
+1- Header de la pantalla.
+2- Botón de flecha para regresar.
+3- Editar (Botón).
+
+
+Precondiciones
+Para ingresar a esta pantalla el usuario debe seleccionar el ícono de información, ubicado en la esquina superior derecha de la Pantalla Resumen de cuenta (Caja de ahorro/Cuenta corriente), cuando la cuenta consultada corresponde a una cuenta corriente",TET-884,2022-05-24 15:04:24,2022-05-24 15:05:08,"44,442s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:04:24,2022-05-24 15:05:08,"44,139s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/59 Validación de envío de peticiones en la pantalla de Detalle de cuentas,,"Resultado Esperado
+Al momento de pulsar repetidamente sobre alguna opción,  en la pantalla de Detalle de cuentas ,  debe ejercer una acción a la cual se corresponda y no enviar varias peticiones al backend",TET-883,2022-05-24 15:05:08,2022-05-24 15:06:14,"1m - 5,610s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:05:08,2022-05-24 15:05:51,"42,432s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.ImageView icono inferior menu""), 0)",,,,2022-05-24 15:05:51,2022-05-24 15:06:14,"22,856s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/60 Validación de envío de peticiones en la pantalla de Detalle de cuentas,,"Al momento de pulsar repetidamente sobre alguna opcion, solamente debe ejercer una acción a la cual se corresponda",TET-882,2022-05-24 15:06:14,2022-05-24 15:06:49,"34,953s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:06:14,2022-05-24 15:06:49,"34,661s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/61 Consulta de Cuotas opciones de expandir y contraer,,"Precondiciones
+Junto con los textos de las barras de subtítulo, se muestra, entre paréntesis, la cantidad de cuotas que se listan bajo esa barra, además de un ícono de flecha hacia arriba.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Ingresar a la aplicación con Credenciales válidas
+
+Acceder a la pantalla de consulta de cuotas
+
+Seleccionar las flechas de arriba/abajo
+
+Validar que funcione correctamente.
+
+
+Resultado Esperado
+Los listados se muestran desplegados por defecto.
+1- Al seleccionar sobre el ícono de flecha hacia arriba, de cualquiera de las barras de subtítulo, se pliega el listado correspondiente, y el ícono de flecha cambia de dirección hacia abajo.
+
+El resto de los elementos, posteriores a esa barra, cambia de posición en pantalla.",TET-881,2022-05-24 15:06:49,2022-05-24 15:07:35,"46,144s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:06:49,2022-05-24 15:07:35,"45,847s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/62 Estructura de la pantalla - Pantalla Resumen de certificado de ahorro (CDA),,"La pantalla cuenta con los siguientes elementos:
+
+Header de la pantalla con el alias o nombre del CDA, seguido de los cuatro (04) últimos dígitos del número de CDA.
+
+Botón de flecha para regresar.
+
+Icono de información.
+
+Información resumen del CDA
+
+Título “Capital”.
+
+Monto del capital invertido. 
+
+Título “Total intereses:”.
+
+Intereses retornados por el capital en el plazo correspondiente.
+
+Título “Fecha de vencimiento:”
+
+Fecha en que caduca el CDA.
+
+Barra de subtítulos con el texto “Capitalizaciones de intereses”.
+
+Listado de intereses retornados por el capital invertido.",TET-874,2022-05-24 15:07:35,2022-05-24 15:08:18,"42,885s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:07:35,2022-05-24 15:08:18,"42,570s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/63 Especificaciones funcionales - Pantalla Resumen de certificado de ahorro (CDA),,"Descripción
+Para ingresar a esta pantalla, el usuario debe seleccionar un certificado de ahorro, en el listado de productos de la Pantalla Dashboard.
+
+Al ingresan a la pantalla se muestra un elemento showloading, en el centro de la pantalla, con el siguiente texto: “Cargando movimientos…”.
+
+Una vez se cargan todos los datos y transacciones en los listados, se oculta el showloading.
+
+El botón de flecha para regresar, regresa al usuario a la Pantalla Dashboard.
+
+Al seleccionar el ícono de información, se muestra al usuario la Pantalla Detalle de certificado de ahorro (CDA).  
+
+El texto que corresponde al alias o nombre del CDA, junto con los últimos cuatro (04) dígitos del número de CDA, serán retornados por el servicio.
+
+La estructura del texto es la siguiente: “<alias del CDA>…<últimos cuatro dígitos del número de CDA>”.
+
+En caso que el alias o nombre del CDA sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla.
+
+El monto que acompaña la etiqueta de Capital corresponde al monto del capital invertido y será retornado por el servicio.
+
+El monto se muestra acompañado del tipo de moneda correspondiente.
+
+El monto que acompaña la etiqueta de Total intereses corresponde a los intereses retornados por el capital en el plazo correspondiente y será retornado por el servicio.
+
+El monto se muestra acompañado del tipo de moneda correspondiente.
+
+La fecha que acompaña la etiqueta de Fecha de vencimiento corresponde a la fecha en que caduca el CDA y será retornada por el servicio.
+
+El formato de la fecha es DD/MM/AAAA.
+
+El listado de operaciones mostrada bajo la barra de subtítulos Capitalizaciones de intereses corresponde a los depósitos recibidos en la cuenta por intereses devengados.
+
+El listado será retornado por el servicio.
+
+El listado debe estar ordenado cronológicamente, mostrando el interés más reciente, de primero.
+
+Los datos de los movimientos listados bajo la barra de subtítulos C_apitalizaciones de intereses_, que se muestran, son:
+
+Descripción de la operación.
+
+Fecha en que se abonó el monto de interés.
+
+Monto de la operación, acompañado del tipo de moneda.
+
+El listado de las capitalizaciones de intereses se muestra desplegado por defecto.
+
+Al seleccionar sobre el ícono de flecha hacia arriba, se pliega el listado y el ícono de flecha cambia de dirección hacia abajo.
+
+El usuario podrá hacer scroll en la pantalla para ver todas las operaciones en caso de ser requerido.
+
+El scroll se aplica sobre toda la pantalla, incluyendo la sección superior verde. 
+
+El back nativo del sistema operativo, regresa al usuario a la Pantalla Dashboard.",TET-873,2022-05-24 15:08:18,2022-05-24 15:09:03,"45,815s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:08:18,2022-05-24 15:09:03,"45,490s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/64 Falla de conexión - Pantalla Resumen de certificado de ahorro (CDA),,"En caso de falla de conexión, al intentar ingresar a la Pantalla Resumen de certificado de ahorro se mostrará un alert nativo del SO con los siguientes elementos:
+
+Título “Mensaje”.
+
+Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+
+Botón Aceptar.
+
+El botón Aceptar cierra el alert, y muestra al usuario la Pantalla Resumen de certificado de ahorro con las siguientes características:
+
+·         Muestra todas las etiquetas correspondientes, con los datos que pertenece a cada una, en blanco.
+
+·         Muestra una barra de subtítulo con el texto “Error”.
+
+·         Bajo la barra de subtítulo se muestran los renglones donde deben verse las transacciones, con un ícono de alerta, seguido del siguiente texto “¡Algo salió mal! Por favor intenta otra vez después”.",TET-872,2022-05-24 15:09:03,2022-05-24 15:09:46,"42,341s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:09:04,2022-05-24 15:09:46,"42,021s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/65 Consideraciones o validaciones - Pantalla Resumen de certificado de ahorro (CDA),,"n caso que la cuenta no tenga transacciones para mostrar, se mostrará un mensaje informativo con el siguiente texto “Sin movimientos” en forma de texto plano, en el centro de la pantalla.
+
+Todos los datos de las transacciones son retornados por el servicio.
+
+La información mostrada en el dato Descripción de la operación, dependerá de lo que retorne el servicio para ese campo.
+
+Las siguientes opciones de la Pantalla Resumen Certificado de ahorro (CDA) se mostrarán inhabilitadas para este sprint:
+
+a.    Barra de búsqueda (Corresponde al Sprint #2).
+
+b.    Búsqueda avanzada (Corresponde al Sprint #2).
+
+c.     Ver extractos (Botón) (Corresponde al Sprint #3).
+
+d.    Mas > Actualizar configuraciones de la cuenta. (Corresponde al Sprint #4).
+
+e.    Seleccionar una transacción para ver los detalles. (Corresponde al Sprint #2).",TET-871,2022-05-24 15:13:04,2022-05-24 15:14:07,"1m - 2,729s",FAILED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:13:04,2022-05-24 15:13:36,"32,081s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.TextView - Caja de ahorros""), 0)",,,,2022-05-24 15:13:36,2022-05-24 15:14:07,"30,643s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/66 Estructura de la pantalla - Pantalla Detalle de certificado de ahorro (CDA),,"La pantalla cuenta con los siguientes elementos:
+
+Header de la pantalla con el alias o nombre del CDA, seguido de los cuatro (04) últimos dígitos del número de CDA.
+
+Botón de flecha para regresar.
+
+Editar (Botón).
+
+Barra de subtítulo con el texto “Resumen de saldos”
+
+Listado de datos de balances y saldos del CDA consultados.
+
+Barra de subtítulos con el texto “Datos del CDA”.
+
+Listado de datos del CDA consultado
+
+Barra de subtítulo con el texto “Costos y beneficios”.
+
+Listado de datos referentes a costos y beneficios relacionados con el CDA consultado.",TET-870,2022-05-24 15:14:07,2022-05-24 15:15:04,"57,164s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:14:07,2022-05-24 15:14:39,"32,244s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.TextView - 96912750 numero de cuenta""), 0)",,,,2022-05-24 15:14:39,2022-05-24 15:15:04,"24,637s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/67 Especificaciones funcionales - Pantalla Detalle de certificado de ahorro (CDA),,"Descripción
+Para ingresar a esta pantalla el usuario debe seleccionar el ícono de información, ubicado en la esquina superior derecha de la Pantalla Resumen de certificado de ahorro (CDA).
+
+El botón de flecha para regresar, regresa al usuario a la Pantalla Resumen de certificado de ahorro (CDA) desde donde invocó la pantalla Detalle de certificado de ahorro (CDA).
+
+El botón Editar se mostrará en forma de un ícono alusivo a un lápiz.
+
+Al seleccionar el botón Editar, se muestra al usuario la Pantalla Personalizar producto.
+
+El texto que corresponde al alias o nombre del CDA, junto con los últimos cuatro (04) dígitos del número de CDA, serán retornados por el servicio.
+
+La estructura del texto es la siguiente: “<alias del CDA>…<últimos cuatro dígitos del número de CDA>”.
+
+En caso que el alias o nombre del CDA sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla.
+
+Bajo la barra de subtítulo Resumen de saldos, se muestran los siguientes datos:
+
+Etiqueta con el texto “Capital:”.
+
+Campo que muestra al usuario el monto del capital invertido.
+
+Etiqueta con el texto “Total de intereses:”.
+
+Campo que muestra al usuario el total de intereses retornados al final del plazo.
+
+Etiqueta con el texto “Último interés acreditado:”.
+
+Campo que muestra al usuario el monto correspondiente al último depósito a la cuenta por concepto de intereses.
+
+Etiqueta con el texto “Fecha última acreditación:”.
+
+Campo que muestra al usuario la fecha en que se recibió el último depósito en la cuenta por concepto de intereses. El formato de la fecha será DD/MM/AAAA.
+
+Etiqueta con el texto “Total intereses pagados:”.
+
+Campo que muestra el monto de la sumatoria de intereses recibidos en la cuenta hasta la fecha de la consulta.
+
+Bajo la barra de subtítulo Datos del CDA, se muestran los siguientes datos:
+
+Etiqueta con el texto “Serie y número:”.
+
+Campo que muestra al usuario la serie y número que identifican el CDA consultado.
+
+Etiqueta con el texto “Titular:”.
+
+Campo que muestra al usuario el (los) nombre(s) y apellido(s) del (los) titulares del CDA consultado.
+
+Etiqueta con el texto “Fecha de vencimiento:”.
+
+Campo que muestra al usuario la fecha en que caduca el CDA consultado. El formato de la fecha será DD/MM/AAAA.
+
+Etiqueta con el texto “Capitalización:”.
+
+Campo que muestra la periodicidad de acreditación de intereses: Trimestral, Semestral, Anual, al vencimiento, etc.
+
+Etiqueta con el texto “Cuenta crédito:”.
+
+Campo que muestra el alias y el número de cuenta, de la cuenta de acreditación de los intereses.
+
+Bajo la barra de subtítulo Costos y beneficios, se muestran los siguientes datos:
+
+Etiqueta con el texto “Tasa de interés:”.
+
+Campo que muestra al usuario la tasa de interés aplicada al CDA.
+
+Etiqueta con el texto “Comisión por cancelación anticipada:”.
+
+Campo que muestra al usuario el monto a debitar en caso de cancelar el CDA antes de la fecha de vencimiento.
+
+El usuario podrá hacer scroll en la pantalla para ver todos los datos, en caso de ser requerido.
+
+El back nativo del sistema operativo regresa al usuario a la Pantalla Resumen Certificado de ahorro (CDA) desde donde invocó la pantalla Detalle Certificado de ahorro (CDA).",TET-869,2022-05-24 15:15:04,2022-05-24 15:16:07,"1m - 3,638s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:15:04,2022-05-24 15:15:40,"36,191s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.ImageView icono inferior menu""), 0)",,,,2022-05-24 15:15:40,2022-05-24 15:16:07,"27,151s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/68 Falla de conexión - Pantalla Detalle de certificado de ahorro (CDA),,"Descripción
+En caso de falla de conexión, al intentar ingresar a la Pantalla Detalle de certificado de ahorro se mostrará un alert nativo del SO con los siguientes elementos:
+
+Título “Mensaje”.
+
+Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+
+Botón Aceptar.
+
+El botón Aceptar cierra el alert, y muestra al usuario la Pantalla Detalle de certificado de ahorro con las siguientes características:
+
+Muestra todas las etiquetas correspondientes, con los datos que pertenece a cada una, en blanco.
+
+
+Precondiciones
+Ninguna",TET-868,2022-05-24 15:16:07,2022-05-24 15:16:39,"31,953s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:16:08,2022-05-24 15:16:39,"31,662s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/05HU-Detalle de productos/69 Consideraciones o validaciones - Pantalla Detalle de certificado de ahorro (CDA),,"Descripción
+El ícono para el botón Editar será una imagen definida para este fin.
+
+Todos los datos que acompañan a cada una de las etiquetas de la pantalla, son retornados por el servicio.
+
+En caso que la resolución del dispositivo no permita mostrar alguna etiqueta o dato completo, se generará una segunda o más líneas para que se vea completo en pantalla.
+
+Todos los montos se muestran acompañados del tipo de moneda que corresponde.
+
+Para el caso del dato que acompaña a la etiqueta Titular, en caso de ser más de un titular, se mostrarán los nombres y apellidos de cada uno, separados por una coma. Se generará una segunda o más líneas para ver todos los nombres completos.",TET-866,2022-05-24 15:16:39,2022-05-24 15:17:27,"47,408s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 15:16:40,2022-05-24 15:17:27,"47,072s",PASSED

@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>4c247bc1-46f7-4cee-b4a0-37a8d8a14f51</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint 1/08HU-Configuraciones/104 Opciones del menú a ocultar - Fuera del alcance del proyecto</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -70,7 +70,7 @@
    <testCaseLink>
       <guid>da767ce9-9370-4485-a793-aad198d610ad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint 1/08HU-Configuraciones/109 Validar navegación en la Pantalla Método de acceso predeterminado Configuraciones</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

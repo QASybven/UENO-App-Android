@@ -1,0 +1,108 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+02 HU- Soporte,,,,2022-05-23 23:23:32,2022-05-23 23:29:02,"5m - 29,318s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte,,"Para ingresar a esta pantalla el usuario debe seleccionar el botón plano Soporte presente en la Pantalla Login, o seleccionar la opción Soporte en el menú principal de la App.
+
+
+Datos utilizados
+Ninguna
+
+Pasos a seguir
+Ninguna
+
+Resultado Esperado
+·         La pantalla cuenta con los siguientes elementos:
+
+ Header con el nombre que la identifica “Soporte”.
+
+Botón de flecha para regresar.
+
+Lista de opciones disponibles:
+
+Preguntas frecuentes.
+
+ Bases y condiciones.
+
+Seguridad.
+
+Texto informativo con los datos de la App y del dispositivo",TET-830,2022-05-23 23:23:33,2022-05-23 23:24:32,"59,530s",PASSED
+"startApplication(URL, false)",,,,2022-05-23 23:23:33,2022-05-23 23:24:10,"36,943s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-05-23 23:24:10,2022-05-23 23:24:20,"10,038s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Soporte""), 0)",,,,2022-05-23 23:24:20,2022-05-23 23:24:23,"2,146s",PASSED
+"SoporteTitulo = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Soporte Titulo""), 0)",,,,2022-05-23 23:24:23,2022-05-23 23:24:24,"1,499s",PASSED
+"verifyEqual(SoporteTitulo, ""Soporte"")",,,,2022-05-23 23:24:24,2022-05-23 23:24:24,"0,012s",PASSED
+"PreguntasFrecuentes = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes""), 0)",,,,2022-05-23 23:24:24,2022-05-23 23:24:25,"0,835s",PASSED
+"verifyEqual(PreguntasFrecuentes, ""Preguntas frecuentes"")",,,,2022-05-23 23:24:25,2022-05-23 23:24:25,"0,002s",PASSED
+"Basesycondiciones = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)""), 0)",,,,2022-05-23 23:24:25,2022-05-23 23:24:25,"0,604s",PASSED
+"verifyEqual(Basesycondiciones, ""Bases y condiciones"")",,,,2022-05-23 23:24:25,2022-05-23 23:24:25,"0,002s",PASSED
+"Seguridad = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Seguridad""), 0)",,,,2022-05-23 23:24:25,2022-05-23 23:24:26,"0,644s",PASSED
+"verifyEqual(Seguridad, ""Seguridad"")",,,,2022-05-23 23:24:26,2022-05-23 23:24:26,"0,002s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Boton Back""), 0)",,,,2022-05-23 23:24:26,2022-05-23 23:24:27,"0,646s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-23 23:24:27,2022-05-23 23:24:30,"3,650s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView boton compartir""), 0)",,,,2022-05-23 23:24:30,2022-05-23 23:24:32,"1,247s",PASSED
+"Textocompartir = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo""), 0)",,,,2022-05-23 23:24:32,2022-05-23 23:24:32,"0,471s",PASSED
+"verifyEqual(Textocompartir, ""Se copió la información de esta versión en tu dispositivo."")",,,,2022-05-23 23:24:32,2022-05-23 23:24:32,"0,002s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App,,"El usuario debe poder ingresar a esta pantalla seleccionando el botón plano Soporte presente en la Pantalla Login, o seleccionando la opción Soporte en el menú principal de la App.",Pantalla de Soporte,2022-05-23 23:24:32,2022-05-23 23:25:00,"27,865s",PASSED
+"startApplication(URL, false)",,,,2022-05-23 23:24:32,2022-05-23 23:24:46,"13,272s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-23 23:24:46,2022-05-23 23:24:56,"10,011s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-23 23:24:56,2022-05-23 23:24:59,"3,405s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Boton Back""), 0)",,,,2022-05-23 23:24:59,2022-05-23 23:25:00,"0,877s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/22 Especificaciones Funcionales - Validar las opciones en la pantalla de soporte,,"- Al seleccionar sobre la opción Preguntas frecuentes, se muestra la Pantalla Preguntas frecuentes.
+2- Al seleccionar sobre la opción Términos y condiciones, se muestra la Pantalla Términos y condiciones.
+3- Al seleccionar sobre la opción Seguridad, se muestra la Pantalla Seguridad.
+
+El back nativo del sistema operativo regresa al usuario a la pantalla desde la que invocó la opción.
+
+El texto mostrado en la pantalla es configurado por Spotlight.",TET-828,2022-05-23 23:25:00,2022-05-23 23:26:08,"1m - 7,577s",PASSED
+"startApplication(URL, true)",,,,2022-05-23 23:25:00,2022-05-23 23:25:39,"38,617s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-23 23:25:39,2022-05-23 23:25:49,"10,006s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Soporte""), 0)",,,,2022-05-23 23:25:49,2022-05-23 23:25:51,"2,301s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes (1)""), 0)",,,,2022-05-23 23:25:51,2022-05-23 23:25:53,"1,571s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Back Preguntas Frecuentes""), 0)",,,,2022-05-23 23:25:53,2022-05-23 23:25:58,"4,912s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)""), 0)",,,,2022-05-23 23:25:58,2022-05-23 23:25:59,"1,544s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Back Bases y Condiciones""), 0)",,,,2022-05-23 23:25:59,2022-05-23 23:26:03,"3,666s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad""), 0)",,,,2022-05-23 23:26:03,2022-05-23 23:26:05,"1,604s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Back Seguridad""), 0)",,,,2022-05-23 23:26:05,2022-05-23 23:26:08,"3,005s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/23 Especificaciones Funcionales - Compartir,,El back nativo del sistema operativo Android regresa al usuario a la pantalla desde la que invocó la opción.,Pantalla de Soporte,2022-05-23 23:26:08,2022-05-23 23:26:59,"51,454s",PASSED
+"startApplication(URL, true)",,,,2022-05-23 23:26:08,2022-05-23 23:26:43,"35,152s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-23 23:26:43,2022-05-23 23:26:53,"10,016s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-23 23:26:53,2022-05-23 23:26:56,"2,701s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView boton compartir""), 0)",,,,2022-05-23 23:26:56,2022-05-23 23:26:58,"2,668s",PASSED
+"Textocompartir = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo""), 0)",,,,2022-05-23 23:26:58,2022-05-23 23:26:59,"0,592s",PASSED
+"verifyEqual(Textocompartir, ""Se copió la información de esta versión en tu dispositivo."")",,,,2022-05-23 23:26:59,2022-05-23 23:26:59,"0,002s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/24 - Especificaciones Funcionales - Opción Llamanos,,El botón de flecha para regresar regresa al usuario a la pantalla desde la que invocó la opción.,Pantalla de Soporte,2022-05-23 23:26:59,2022-05-23 23:27:48,"48,804s",PASSED
+"startApplication(URL, true)",,,,2022-05-23 23:26:59,2022-05-23 23:27:34,"34,158s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-23 23:27:34,2022-05-23 23:27:44,"10,005s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Soporte""), 0)",,,,2022-05-23 23:27:44,2022-05-23 23:27:46,"2,063s",PASSED
+"takeScreenshot("""", CONTINUE_ON_FAILURE)",,,,2022-05-23 23:27:46,2022-05-23 23:27:47,"1,044s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.ImageView Boton Back""), 0)",,,,2022-05-23 23:27:47,2022-05-23 23:27:48,"1,219s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones,,"El botón Compartir se mostrará en forma de ícono alusivo.
+Al seleccionar el botón Compartir se mostrará una ventana emergente de color Mensaje de Info con el siguiente texto “Se copió la información de esta versión en tu dispositivo.”.
+El sistema copiará el texto con la versión de la App y la información del SO y el dispositivo, en el portapapeles del dispositivo.",TET-825,2022-05-23 23:27:48,2022-05-23 23:28:22,"34,505s",PASSED
+"startApplication(URL, false)",,,,2022-05-23 23:27:48,2022-05-23 23:28:01,"12,939s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-23 23:28:01,2022-05-23 23:28:11,"10,003s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-23 23:28:11,2022-05-23 23:28:13,"1,986s",PASSED
+"toggleAirplaneMode(""yes"", CONTINUE_ON_FAILURE)",,,,2022-05-23 23:28:13,2022-05-23 23:28:18,"4,550s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes""), 0)",,,,2022-05-23 23:28:18,2022-05-23 23:28:19,"0,869s",PASSED
+"Falladeconexion = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo""), 0)",,,,2022-05-23 23:28:19,2022-05-23 23:28:20,"1,378s",PASSED
+"verifyEqual(Falladeconexion, ""Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo."")",,,,2022-05-23 23:28:20,2022-05-23 23:28:20,"0,002s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion""), 0)",,,,2022-05-23 23:28:20,2022-05-23 23:28:20,"0,522s",PASSED
+"toggleAirplaneMode(""no"", CONTINUE_ON_FAILURE)",,,,2022-05-23 23:28:20,2022-05-23 23:28:22,"1,883s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad,,"El botón Compartir se mostrará en forma de ícono alusivo.
+Al seleccionar el botón Compartir se mostrará una ventana emergente de color Mensaje de Info con el siguiente texto “Se copió la información de esta versión en tu dispositivo.”.
+El sistema copiará el texto con la versión de la App y la información del SO y el dispositivo, en el portapapeles del dispositivo.",TET-825,2022-05-23 23:28:22,2022-05-23 23:29:02,"39,256s",PASSED
+"startApplication(URL, false)",,,,2022-05-23 23:28:23,2022-05-23 23:28:40,"17,055s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-23 23:28:40,2022-05-23 23:28:50,"10,008s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio""), 0)",,,,2022-05-23 23:28:50,2022-05-23 23:28:52,"2,153s",PASSED
+"toggleAirplaneMode(""yes"", CONTINUE_ON_FAILURE)",,,,2022-05-23 23:28:52,2022-05-23 23:28:57,"4,564s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Seguridad""), 0)",,,,2022-05-23 23:28:57,2022-05-23 23:28:57,"0,741s",PASSED
+"Falladeconexion = getText(findTestObject(""Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo""), 0)",,,,2022-05-23 23:28:57,2022-05-23 23:28:59,"1,259s",PASSED
+"verifyEqual(Falladeconexion, ""Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo."")",,,,2022-05-23 23:28:59,2022-05-23 23:28:59,"0,002s",PASSED
+"tap(findTestObject(""Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion""), 0)",,,,2022-05-23 23:28:59,2022-05-23 23:28:59,"0,533s",PASSED
+"toggleAirplaneMode(""no"", CONTINUE_ON_FAILURE)",,,,2022-05-23 23:28:59,2022-05-23 23:29:02,"2,566s",PASSED

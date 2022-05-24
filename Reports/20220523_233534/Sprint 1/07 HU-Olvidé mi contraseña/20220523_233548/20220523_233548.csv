@@ -1,0 +1,316 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+07 HU-Olvidé mi contraseña,,,,2022-05-24 00:50:32,2022-05-24 00:50:39,"6,656s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla,,"Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+ En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”
+
+Indica el número de la cuota consultada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+  Etiqueta con el texto “Capital:”.
+
+Indica el monto de la cuota consultada que corresponde al capital, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Interés:”.
+Indica el monto de la cuota consultada que corresponde a intereses, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cargos:”.
+
+Indica el monto de la cuota consultada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total a pagar:”. 
+
+Indica la sumatoria de todos los montos de la cuota: capital + interés + cargos, acompañado del tipo de moneda.
+
+
+Precondiciones
+Ingresar con un cliente que posea cuotas  vencidas",TET-859,2022-05-24 00:50:33,2022-05-24 00:50:33,"0,471s",PASSED
+return null,,,,2022-05-24 00:50:33,2022-05-24 00:50:33,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña,,"Etiqueta con el texto “Tipo de operación:”.
+
+Indica el tipo de operación que se ejecutó (Pago de préstamo).
+
+Etiqueta con el texto “Nro. de transacción:”.
+
+Indica el ID de la operación que se ejecutó.
+
+Etiqueta con el texto “Fecha y hora:”.
+
+Indica la fecha y la hora en que se ejecutó el pago, en formato DD/MM/AAAA HH:MM Hs.
+
+ Etiqueta con el texto “Días de mora:”.
+
+  Indica la cantidad de días que estuvo en mora la cuota, antes de ser pagada.
+
+Etiqueta con el texto “Préstamo:”.
+
+Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”.
+
+Indica el número de la cuota pagada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+   Etiqueta con el texto “Capital:”.
+
+     Indica el monto de la cuota pagada que corresponde al capital, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Interés:”.
+
+Indica el monto de la cuota pagada que corresponde a intereses, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Cargos:”.
+
+      Indica el monto de la cuota pagada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total pagado:”.
+
+Indica la sumatoria de todos los montos de la cuota pagada: capital + interés + cargos, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cuenta débito:”.
+
+Muestra el alias y el número de la cuenta desde la que se ejecutó el pago de la cuota.
+
+En caso que el alias de la cuenta sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos (…) para indicar que continúa.
+
+  El número de cuenta se muestra completo.
+
+Etiqueta con el texto “Saldo deuda:”.
+
+Indica el saldo de la deuda del préstamo, luego del pago de esta cuota.
+
+Cada dato se mostrará en forma de un renglón, la etiqueta alineada a la izquierda y el dato alineado a la derecha de la pantalla.",TET-858,2022-05-24 00:50:33,2022-05-24 00:50:34,"0,415s",PASSED
+return null,,,,2022-05-24 00:50:34,2022-05-24 00:50:34,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña,,,TET-857,2022-05-24 00:50:34,2022-05-24 00:50:34,"0,368s",PASSED
+return null,,,,2022-05-24 00:50:34,2022-05-24 00:50:34,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña,,"Descripción
+El campo CI númerodebe tener las siguientes características:
+
+a.    Debe ser de tipo numérico
+
+b.    Límite mínimo de 04 caracteres.
+
+c.     Límite máximo de 08 caracteres.
+
+d.    No debe permitir caracteres especiales ni espacios en blanco.
+
+El campo Nro. de celular con el que te registrastedebe tener las siguientes características:
+
+a.    Será de tipo numérico.
+
+b.    Longitud máxima de 10 caracteres.
+
+c.     Longitud mínima de 10 caracteres.
+
+d.    No debe permitir ningún caracter espacial ni espacios en blanco.
+
+e.    Los primeros dos (02) dígitos ingresados deben ser “09”.
+
+f.      El tercer dígito ingresado debe ser seis (6), siete (7), ocho (8) o nueve (9).
+
+El campo Correo electrónico con el que te registrastedebe tener las siguientes características:
+
+a.    No debe tener límite máximo de caracteres.
+
+b.    Debe contener formato de correo electrónico, es decir que incluya datos alfanuméricos, carácter “@” y punto (.) del dominio.
+
+c.     Debe permitir todos los caracteres especiales.
+
+No debe permitir espacios en blanco",TET-856,2022-05-24 00:50:34,2022-05-24 00:50:34,"0,357s",PASSED
+return null,,,,2022-05-24 00:50:34,2022-05-24 00:50:34,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña,,"Resultado Esperado
+En caso de falla de conexión, al intentar ingresar a la Pantalla Datos - ¿Olvidaste tu contraseña?, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+
+Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+
+Botón Aceptar.
+
+El botón Aceptar cierra el alert, y mantiene al usuario en la Pantalla Datos, los datos ingresado por el usuario en todos los campos, se mantienen en pantalla.",TET-855,2022-05-24 00:50:34,2022-05-24 00:50:35,"0,411s",PASSED
+return null,,,,2022-05-24 00:50:35,2022-05-24 00:50:35,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña,,,TET-854,2022-05-24 00:50:35,2022-05-24 00:50:35,"0,399s",PASSED
+return null,,,,2022-05-24 00:50:35,2022-05-24 00:50:35,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña,,,TET-844,2022-05-24 00:50:35,2022-05-24 00:50:36,"0,346s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla,,"Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+ En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”
+
+Indica el número de la cuota consultada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+  Etiqueta con el texto “Capital:”.
+
+Indica el monto de la cuota consultada que corresponde al capital, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Interés:”.
+Indica el monto de la cuota consultada que corresponde a intereses, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cargos:”.
+
+Indica el monto de la cuota consultada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total a pagar:”. 
+
+Indica la sumatoria de todos los montos de la cuota: capital + interés + cargos, acompañado del tipo de moneda.
+
+
+Precondiciones
+Ingresar con un cliente que posea cuotas  vencidas",TET-859,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,008s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña,,"Etiqueta con el texto “Tipo de operación:”.
+
+Indica el tipo de operación que se ejecutó (Pago de préstamo).
+
+Etiqueta con el texto “Nro. de transacción:”.
+
+Indica el ID de la operación que se ejecutó.
+
+Etiqueta con el texto “Fecha y hora:”.
+
+Indica la fecha y la hora en que se ejecutó el pago, en formato DD/MM/AAAA HH:MM Hs.
+
+ Etiqueta con el texto “Días de mora:”.
+
+  Indica la cantidad de días que estuvo en mora la cuota, antes de ser pagada.
+
+Etiqueta con el texto “Préstamo:”.
+
+Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”.
+
+Indica el número de la cuota pagada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+   Etiqueta con el texto “Capital:”.
+
+     Indica el monto de la cuota pagada que corresponde al capital, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Interés:”.
+
+Indica el monto de la cuota pagada que corresponde a intereses, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Cargos:”.
+
+      Indica el monto de la cuota pagada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total pagado:”.
+
+Indica la sumatoria de todos los montos de la cuota pagada: capital + interés + cargos, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cuenta débito:”.
+
+Muestra el alias y el número de la cuenta desde la que se ejecutó el pago de la cuota.
+
+En caso que el alias de la cuenta sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos (…) para indicar que continúa.
+
+  El número de cuenta se muestra completo.
+
+Etiqueta con el texto “Saldo deuda:”.
+
+Indica el saldo de la deuda del préstamo, luego del pago de esta cuota.
+
+Cada dato se mostrará en forma de un renglón, la etiqueta alineada a la izquierda y el dato alineado a la derecha de la pantalla.",TET-858,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,018s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña,,,TET-857,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,008s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña,,"Descripción
+El campo CI númerodebe tener las siguientes características:
+
+a.    Debe ser de tipo numérico
+
+b.    Límite mínimo de 04 caracteres.
+
+c.     Límite máximo de 08 caracteres.
+
+d.    No debe permitir caracteres especiales ni espacios en blanco.
+
+El campo Nro. de celular con el que te registrastedebe tener las siguientes características:
+
+a.    Será de tipo numérico.
+
+b.    Longitud máxima de 10 caracteres.
+
+c.     Longitud mínima de 10 caracteres.
+
+d.    No debe permitir ningún caracter espacial ni espacios en blanco.
+
+e.    Los primeros dos (02) dígitos ingresados deben ser “09”.
+
+f.      El tercer dígito ingresado debe ser seis (6), siete (7), ocho (8) o nueve (9).
+
+El campo Correo electrónico con el que te registrastedebe tener las siguientes características:
+
+a.    No debe tener límite máximo de caracteres.
+
+b.    Debe contener formato de correo electrónico, es decir que incluya datos alfanuméricos, carácter “@” y punto (.) del dominio.
+
+c.     Debe permitir todos los caracteres especiales.
+
+No debe permitir espacios en blanco",TET-856,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,008s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña,,"Resultado Esperado
+En caso de falla de conexión, al intentar ingresar a la Pantalla Datos - ¿Olvidaste tu contraseña?, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+
+Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+
+Botón Aceptar.
+
+El botón Aceptar cierra el alert, y mantiene al usuario en la Pantalla Datos, los datos ingresado por el usuario en todos los campos, se mantienen en pantalla.",TET-855,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,009s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña,,,TET-854,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,009s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña,,,TET-853,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,381s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña,,,TET-852,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,350s",PASSED
+return null,,,,2022-05-24 00:50:36,2022-05-24 00:50:36,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña,,,TET-851,2022-05-24 00:50:36,2022-05-24 00:50:37,"0,365s",PASSED
+return null,,,,2022-05-24 00:50:37,2022-05-24 00:50:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña,,,TET-850,2022-05-24 00:50:37,2022-05-24 00:50:37,"0,344s",PASSED
+return null,,,,2022-05-24 00:50:37,2022-05-24 00:50:37,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña,,,TET-849,2022-05-24 00:50:37,2022-05-24 00:50:38,"0,358s",PASSED
+return null,,,,2022-05-24 00:50:38,2022-05-24 00:50:38,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña,,,TET-848,2022-05-24 00:50:38,2022-05-24 00:50:38,"0,352s",PASSED
+return null,,,,2022-05-24 00:50:38,2022-05-24 00:50:38,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña,,,TET-847,2022-05-24 00:50:38,2022-05-24 00:50:38,"0,353s",PASSED
+return null,,,,2022-05-24 00:50:38,2022-05-24 00:50:38,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña,,,TET-846,2022-05-24 00:50:38,2022-05-24 00:50:39,"0,394s",PASSED
+return null,,,,2022-05-24 00:50:39,2022-05-24 00:50:39,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña,,,TET-845,2022-05-24 00:50:39,2022-05-24 00:50:39,"0,352s",PASSED
+return null,,,,2022-05-24 00:50:39,2022-05-24 00:50:39,"0,000s",PASSED

@@ -179,7 +179,7 @@
    <testCaseLink>
       <guid>189ff682-b78e-4ab7-9f3d-bddf5fd02951</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/04 Estructura de la pantalla - Splash</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -295,7 +295,7 @@
    <testCaseLink>
       <guid>7840c20e-983a-4100-bdf2-57c90d10920c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/12Especificaciones Funcionales - Login Fallido del usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -333,7 +333,7 @@
    <testCaseLink>
       <guid>5d1d6e9c-d08a-4111-83c3-d962b0b33bfb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/14 Cierre de Sesion - Tiempo de Inactividad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -354,7 +354,7 @@
    <testCaseLink>
       <guid>547dd3ff-a349-42f9-8ef7-e448cf6b33b2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/17 Cierre de Sesión - Desde la pantalla Resumen -por Tiempo de Inactividad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

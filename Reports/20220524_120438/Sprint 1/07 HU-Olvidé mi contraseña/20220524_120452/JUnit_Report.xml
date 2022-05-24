@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="07 HU-Olvidé mi contraseña" time="5.64" tests="22" failures="0" errors="0">
+   <testsuite name="07 HU-Olvidé mi contraseña" tests="22" failures="0" errors="0" time="5.64" skipped="0" timestamp="2022-05-24 15:36:44" hostname="Jose_Arrieta - Jose-Arrieta" id="Test Suites/Sprint 1/07 HU-Olvidé mi contraseña">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\UENO-App-Android\\Reports\\20220524_120438\\Sprint 1\\07 HU-Olvid\u00E9 mi contrase\u00F1a\\20220524_120452"/>
+         <property name="logFiles" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\UENO-App-Android\\Reports\\20220524_120438\\Sprint 1\\07 HU-Olvid\u00E9 mi contrase\u00F1a\\20220524_120452\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jose_Arrieta - Jose-Arrieta"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla" time="0.503" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:44 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla
+
+2022-05-24 15:36:45 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña" time="0.384" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:45 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña
+
+2022-05-24 15:36:45 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña" time="0.31" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:45 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña
+
+2022-05-24 15:36:46 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña" time="0.293" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña
+
+2022-05-24 15:36:46 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña" time="0.322" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña
+
+2022-05-24 15:36:46 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña" time="0.344" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:46 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña" time="0.278" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla" time="0.007" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña" time="0.007" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña" time="0.008" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña" time="0.008" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña" time="0.01" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña" time="0.01" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña" time="0.323" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña" time="0.272" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña
+
+2022-05-24 15:36:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña" time="0.285" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:48 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña" time="0.291" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:48 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:48 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña" time="0.31" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:48 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:48 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña" time="0.275" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:48 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:49 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña" time="0.305" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:49 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:49 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña" time="0.316" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:49 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:49 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña" time="0.307" classname="Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña" status="PASSED">
+         <system-out><![CDATA[2022-05-24 15:36:49 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña
+
+2022-05-24 15:36:50 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-24 15:36:44 - [TEST_SUITE][PASSED] - 07 HU-Olvidé mi contraseña: Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

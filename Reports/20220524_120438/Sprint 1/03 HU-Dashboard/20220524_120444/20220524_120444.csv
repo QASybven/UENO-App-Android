@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+03 HU-Dashboard,,,,2022-05-24 12:28:36,2022-05-24 13:45:37,"1h - 17m - 1,379s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/27 Validar pantalla de Dashboard,,"na vez realizado el login exitoso se debe visualizar la pantalla de Dashboard. o al seleccionar el menú Mis productos.
+
+La pantalla cuenta con los siguientes elementos:
+
+Header de la pantalla con el texto que la identifica “Mis productos”.
+
+Slider principal, contiene los siguientes elementos:
+
+Slider 1.
+
+Botón flecha hacia abajo 1.
+
+Barra de subtítulos “Todos mis productos”.
+
+Listado de productos asociados al usuario",TET-842,2022-05-24 12:35:52,2022-05-24 12:36:46,"53,955s",PASSED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 12:35:52,2022-05-24 12:36:23,"31,206s",PASSED
+"Misproductos = getText(findTestObject(""Sprint 1/dasboard/android.widget.TextView - Mis productos titulo pantalla""), 0)",,,,2022-05-24 12:36:23,2022-05-24 12:36:43,"19,132s",PASSED
+"verifyEqual(Misproductos, ""Mis productos"")",,,,2022-05-24 12:36:43,2022-05-24 12:36:43,"0,002s",PASSED
+"Todosmisproductos = getText(findTestObject(""Sprint 1/dasboard/android.widget.TextView - Todos mis productos""), 0)",,,,2022-05-24 12:36:43,2022-05-24 12:36:44,"1,153s",PASSED
+"verifyEqual(Todosmisproductos, ""Todos mis productos"")",,,,2022-05-24 12:36:44,2022-05-24 12:36:44,"0,002s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.ImageView flecha hacia abajo resumen de productos""), 0)",,,,2022-05-24 12:36:44,2022-05-24 12:36:45,"0,861s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.view.ViewGroup flecha hacia arriba""), 0)",,,,2022-05-24 12:36:45,2022-05-24 12:36:46,"1,567s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/28 Dashboard,,"Se elimina punto relacionado con el ícono de tres puntos. El ícono de tres puntos se ocultó para este Sprint. Observación para QA.
+
+La slider 1 muestra el resumen de saldos del cliente.
+
+La descripción de la slider 1 se refleja en la sección Pantalla Resumen de saldos
+
+Al seleccionar el botón flecha hacia abajo 1, con la slider 1 activa, el botón de flecha cambia de posición hacia arriba y despliega la slider hacia abajo con la animación correspondiente, mostrando al usuario la Pantalla Resumen de saldos.
+o   La slider 1 se despliega sobre el listado de productos y el resto de los elementos en la pantalla.
+
+Los productos del cliente se mostrarán en forma de renglones en la pantalla, bajo la barra de subtítulos Todos mis productos.
+
+El usuario podrá hacer scroll en la pantalla para ver todos los productos.
+
+El scroll se debe aplicar sobre toda la pantalla, incluyendo la sección verde superior.",TET-839,2022-05-24 12:44:28,2022-05-24 12:47:00,"2m - 31,798s",FAILED
+"callTestCase(findTestCase(""Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario""), [""NumeroCelular"":findTestData(""Usuarios"").getValue(1, 1), ""Contrasena"":findTestData(""Usuarios"").getValue(2, 1)], CONTINUE_ON_FAILURE)",,,,2022-05-24 12:44:28,2022-05-24 12:45:04,"35,757s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.view.ViewGroup flecha hacia abajo""), 0)",,,,2022-05-24 12:45:04,2022-05-24 12:45:25,"21,110s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.view.ViewGroup flecha hacia arriba""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-24 12:45:25,2022-05-24 12:45:26,"1,649s",PASSED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.TextView - Caja de ahorros""), 0)",,,,2022-05-24 12:45:26,2022-05-24 12:45:57,"30,240s",FAILED
+"scrollToText(""yes"", CONTINUE_ON_FAILURE)",,,,2022-05-24 12:45:57,2022-05-24 12:46:30,"32,961s",FAILED
+"tap(findTestObject(""Sprint 1/dasboard/android.widget.ImageView Back Detalle de cuenta""), 0)",,,,2022-05-24 12:46:30,2022-05-24 12:47:00,"30,074s",FAILED
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/29 Dashboard - Ingresar con un cliente que posea Caja de ahorro,,"1- Alias completo del producto > Alineado a la izquierda.
+
+ Número del producto > Alineado a la izquierda, bajo el alias.
+
+ Monto, acompañado del tipo de moneda > Alineado a la derecha.
+
+ Texto con descripción del monto > Alineado a la derecha, bajo el monto.",TET-838,2022-05-24 12:52:46,2022-05-24 12:54:40,"1m - 54,250s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", false)",,,,2022-05-24 12:52:46,2022-05-24 12:52:59,"12,644s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-24 12:52:59,2022-05-24 12:53:09,"10,007s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Campo numero de celular en Blanco""), 0)",,,,2022-05-24 12:53:09,2022-05-24 12:53:39,"30,139s",FAILED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Campo numero de celular en Blanco""), ""0972875200"", 0)",,,,2022-05-24 12:53:39,2022-05-24 12:54:09,"30,187s",FAILED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), ""Kony!12345"", 0)",,,,2022-05-24 12:54:09,2022-05-24 12:54:10,"1,081s",PASSED
+"getText(findTestObject(""Sprint 1/Caja de ahorros/android.widget.TextView - Caja de Ahorro""), 0)",,,,2022-05-24 12:54:10,2022-05-24 12:54:40,"30,172s",FAILED
+"verifyEqual(Cajadeahorros, ""Caja de ahorros"")",,,,2022-05-24 12:54:40,2022-05-24 12:54:40,"0,001s",ERROR
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/30 Dashboard - Ingresar con un cliente que posea Prestamos,,"1- Alias completo del producto > Alineado a la izquierda.
+
+ Número del producto > Alineado a la izquierda, bajo el alias.
+
+ Monto, acompañado del tipo de moneda > Alineado a la derecha.
+
+ Texto con descripción del monto > Alineado a la derecha, bajo el monto.",TET-837,2022-05-24 12:59:47,2022-05-24 13:01:42,"1m - 55,548s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", false)",,,,2022-05-24 12:59:47,2022-05-24 13:00:28,"41,081s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-24 13:00:28,2022-05-24 13:00:38,"10,018s",PASSED
+"clearText(findTestObject(""Sprint 1/Login/android.widget.EditText - Campo numero de celular en Blanco""), 0)",,,,2022-05-24 13:00:38,2022-05-24 13:01:08,"30,088s",FAILED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - Campo numero de celular en Blanco""), ""0972875200 "", 0)",,,,2022-05-24 13:01:08,2022-05-24 13:01:38,"30,162s",FAILED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), ""Kony!12345"", 0)",,,,2022-05-24 13:01:38,2022-05-24 13:01:39,"1,025s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), 0)",,,,2022-05-24 13:01:39,2022-05-24 13:01:40,"0,953s",PASSED
+"getText(findTestObject(""dasboard/android.widget.TextView - Prestamo Etiqueta""), 0)",,,,2022-05-24 13:01:40,2022-05-24 13:01:42,"2,211s",FAILED
+"verifyEqual(Prestamo, ""Prestamo"")",,,,2022-05-24 13:01:42,2022-05-24 13:01:42,"0,002s",ERROR
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/31 Dasboard - Ingresar con un cliente que posea CDA,,"En la pantalla de dashboard se debe de visualizar los siguientes datos para una CDA: 
+
+CDA> Alineado a la izquierda.(En caso de no tener el alias)
+
+N°  131231211 > Alineado a la izquierda, bajo el alias 
+
+GS. 146.670 > Alineado a la derecha. 
+
+Capital > Alineado a la derecha, bajo el monto.",TET-836,2022-05-24 13:13:26,2022-05-24 13:16:57,"3m - 30,774s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", true)",,,,2022-05-24 13:13:26,2022-05-24 13:14:10,"44,373s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-24 13:14:10,2022-05-24 13:14:20,"10,018s",PASSED
+"sendKeys(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.EditText - 0982159800""), ""0982159800"")",,,,2022-05-24 13:14:20,2022-05-24 13:14:52,"31,335s",FAILED
+"setText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.EditText""), ""Kony!12345"", 0)",,,,2022-05-24 13:14:52,2022-05-24 13:14:52,"0,884s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.Button - Ingresar""), 0)",,,,2022-05-24 13:14:52,2022-05-24 13:14:53,"0,873s",PASSED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - Caja de Ahorro""), 0)",,,,2022-05-24 13:14:53,2022-05-24 13:15:23,"30,162s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - N""), 0)",,,,2022-05-24 13:15:23,2022-05-24 13:15:54,"30,113s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - Gs. 0""), 0)",,,,2022-05-24 13:15:54,2022-05-24 13:16:24,"30,099s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - Saldo disponible""), 0)",,,,2022-05-24 13:16:24,2022-05-24 13:16:54,"30,118s",FAILED
+closeApplication(),,,,2022-05-24 13:16:54,2022-05-24 13:16:57,"2,794s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/32 Falla de Conexión en la pantalla de Dashboard,,"En caso de falla de conexión, al intentar ingresar a la Pantalla Dashboard, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+2- Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+3- Botón Aceptar.
+El botón Aceptar cierra el alert, cierra la sesión del usuario y muestra la Pantalla Cierre de sesión.",TET-832,2022-05-24 13:27:00,2022-05-24 13:30:28,"3m - 27,699s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", true)",,,,2022-05-24 13:27:00,2022-05-24 13:27:44,"44,080s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-24 13:27:44,2022-05-24 13:27:54,"10,006s",PASSED
+"sendKeys(findTestObject(""Object Repository/Sprint 1/falla de conexion dashboard/android.widget.EditText - 0982159800""), ""0982159800"")",,,,2022-05-24 13:27:54,2022-05-24 13:28:25,"31,130s",FAILED
+"setText(findTestObject(""Object Repository/Sprint 1/falla de conexion dashboard/android.widget.EditText (1)""), ""Kony!12345"", 0)",,,,2022-05-24 13:28:25,2022-05-24 13:28:26,"0,914s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/falla de conexion dashboard/android.widget.Button - Ingresar (1)""), 0)",,,,2022-05-24 13:28:26,2022-05-24 13:28:27,"0,921s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/falla de conexion dashboard/android.view.ViewGroup""), 0)",,,,2022-05-24 13:28:27,2022-05-24 13:28:57,"30,061s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/falla de conexion dashboard/android.widget.TextView - Mensaje""), 0)",,,,2022-05-24 13:28:57,2022-05-24 13:29:27,"30,072s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo""), 0)",,,,2022-05-24 13:29:27,2022-05-24 13:29:57,"30,133s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/falla de conexion dashboard/android.widget.Button - ACEPTAR""), 0)",,,,2022-05-24 13:29:57,2022-05-24 13:30:28,"30,366s",FAILED
+"verifyEqual(Falladeconexion, findTestObject(""Sprint 1/falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo""))",,,,2022-05-24 13:30:28,2022-05-24 13:30:28,"0,002s",ERROR
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/33 Opciones no disponibles en este Sprint,,"Las siguientes opciones de la Pantalla Dashboardse mostrarán inhabilitadas para este sprint:
+
+a.    Slider Gastos mensuales (Corresponde al Sprint #4).
+
+b.    Slider Balances (Corresponde al Sprint #4).
+
+c.     Búsqueda de productos (Corresponde al Sprint #2).
+
+d.    Búsqueda avanzada de productos (Corresponde al Sprint #2).
+
+e.    Ofertas sugeridas (Corresponde al Sprint #3).
+
+f.      Opción Chatea ahora (Corresponde al Sprint #4).",TET-833,2022-05-24 13:30:28,2022-05-24 13:31:02,"34,687s",PASSED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", false)",,,,2022-05-24 13:30:28,2022-05-24 13:30:44,"16,352s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-24 13:30:44,2022-05-24 13:30:54,"10,014s",PASSED
+"sendKeys(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), ""0982159800"")",,,,2022-05-24 13:30:54,2022-05-24 13:30:57,"2,520s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), ""Kony!12345"", 0)",,,,2022-05-24 13:30:57,2022-05-24 13:30:59,"2,418s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), 0)",,,,2022-05-24 13:30:59,2022-05-24 13:31:01,"1,468s",PASSED
+"takeScreenshot(""Capturar campos"", CONTINUE_ON_FAILURE)",,,,2022-05-24 13:31:01,2022-05-24 13:31:02,"1,641s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/34 Datos definidos en el código de la App,,"La etiqueta que identifica el monto es definida en el código de la App, es decir no es retornada por el servicio.
+
+La etiqueta N° que acompaña el número de producto es definida en la App, es decir no es retornada por el servicio.",TET-832,2022-05-24 13:41:24,2022-05-24 13:44:46,"3m - 21,753s",FAILED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", true)",,,,2022-05-24 13:41:24,2022-05-24 13:41:59,"34,880s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-24 13:41:59,2022-05-24 13:42:09,"10,007s",PASSED
+"sendKeys(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.EditText - 0982159800""), ""0982159800"")",,,,2022-05-24 13:42:09,2022-05-24 13:42:40,"31,122s",FAILED
+"setText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.EditText""), ""Kony!12345"", 0)",,,,2022-05-24 13:42:40,2022-05-24 13:42:41,"0,900s",PASSED
+"tap(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.Button - Ingresar""), 0)",,,,2022-05-24 13:42:41,2022-05-24 13:42:42,"0,778s",PASSED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - Caja de Ahorro""), 0)",,,,2022-05-24 13:42:42,2022-05-24 13:43:12,"30,126s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - N""), 0)",,,,2022-05-24 13:43:12,2022-05-24 13:43:42,"30,096s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - Gs. 0""), 0)",,,,2022-05-24 13:43:42,2022-05-24 13:44:12,"30,083s",FAILED
+"getText(findTestObject(""Object Repository/Sprint 1/Caja de ahorros/android.widget.TextView - Saldo disponible""), 0)",,,,2022-05-24 13:44:12,2022-05-24 13:44:42,"30,106s",FAILED
+closeApplication(),,,,2022-05-24 13:44:42,2022-05-24 13:44:46,"3,649s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/03HU-Dashboard/35 Validación de envío de peticiones en la pantalla de dashboard,,"Al momento de pulsar repetidamente sobre alguna opción,  en la pantalla de Dahboard ,  debe ejercer una acción a la cual se corresponda y no enviar varias peticiones al backend",TET-831,2022-05-24 13:44:46,2022-05-24 13:45:37,"51,582s",PASSED
+"startApplication(""C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk"", false)",,,,2022-05-24 13:44:46,2022-05-24 13:45:22,"35,992s",PASSED
+"delay(10, CONTINUE_ON_FAILURE)",,,,2022-05-24 13:45:22,2022-05-24 13:45:32,"10,011s",PASSED
+"sendKeys(findTestObject(""Sprint 1/Login/android.widget.EditText - Numero de celular login""), ""0994391003"", CONTINUE_ON_FAILURE)",,,,2022-05-24 13:45:32,2022-05-24 13:45:34,"2,051s",PASSED
+"setText(findTestObject(""Sprint 1/Login/android.widget.EditText - tipear contrasea""), ""Kony!12345"", 0)",,,,2022-05-24 13:45:34,2022-05-24 13:45:36,"1,878s",PASSED
+"tap(findTestObject(""Sprint 1/Login/android.widget.Button - Ingresar""), 0)",,,,2022-05-24 13:45:36,2022-05-24 13:45:37,"1,359s",PASSED

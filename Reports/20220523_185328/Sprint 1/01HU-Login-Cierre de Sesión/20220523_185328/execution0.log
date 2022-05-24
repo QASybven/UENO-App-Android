@@ -13425,9 +13425,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object R
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2022-05-23T22:12:44</date>
   <millis>1653358364087</millis>
@@ -13440,3 +13438,4 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object R
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>

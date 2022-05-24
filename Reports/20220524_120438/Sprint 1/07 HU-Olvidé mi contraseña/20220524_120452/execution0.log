@@ -1,0 +1,2231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-05-24T15:36:44</date>
+  <millis>1653421004466</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Sprint 1/07 HU-Olvidé mi contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">07 HU-Olvidé mi contraseña</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Sprint 1/07 HU-Olvidé mi contraseña</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:44</date>
+  <millis>1653421004482</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Jose_Arrieta - Jose-Arrieta</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Jose_Arrieta - Jose-Arrieta</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:44</date>
+  <millis>1653421004483</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:44</date>
+  <millis>1653421004483</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.103</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.103</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:44</date>
+  <millis>1653421004483</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.3.0.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.3.0.208</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:44</date>
+  <millis>1653421004810</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</property>
+  <property name="description">Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+ En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”
+
+Indica el número de la cuota consultada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+  Etiqueta con el texto “Capital:”.
+
+Indica el monto de la cuota consultada que corresponde al capital, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Interés:”.
+Indica el monto de la cuota consultada que corresponde a intereses, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cargos:”.
+
+Indica el monto de la cuota consultada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total a pagar:”. 
+
+Indica la sumatoria de todos los montos de la cuota: capital + interés + cargos, acompañado del tipo de moneda.
+
+
+Precondiciones
+Ingresar con un cliente que posea cuotas  vencidas</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\85 Pantalla Olvidaste tu contraseña - Estructura de pantalla.tc</property>
+  <property name="tag">TET-859</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005307</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005308</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005312</millis>
+  <sequence>9</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005313</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005327</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</property>
+  <property name="description">Etiqueta con el texto “Tipo de operación:”.
+
+Indica el tipo de operación que se ejecutó (Pago de préstamo).
+
+Etiqueta con el texto “Nro. de transacción:”.
+
+Indica el ID de la operación que se ejecutó.
+
+Etiqueta con el texto “Fecha y hora:”.
+
+Indica la fecha y la hora en que se ejecutó el pago, en formato DD/MM/AAAA HH:MM Hs.
+
+ Etiqueta con el texto “Días de mora:”.
+
+  Indica la cantidad de días que estuvo en mora la cuota, antes de ser pagada.
+
+Etiqueta con el texto “Préstamo:”.
+
+Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”.
+
+Indica el número de la cuota pagada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+   Etiqueta con el texto “Capital:”.
+
+     Indica el monto de la cuota pagada que corresponde al capital, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Interés:”.
+
+Indica el monto de la cuota pagada que corresponde a intereses, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Cargos:”.
+
+      Indica el monto de la cuota pagada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total pagado:”.
+
+Indica la sumatoria de todos los montos de la cuota pagada: capital + interés + cargos, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cuenta débito:”.
+
+Muestra el alias y el número de la cuenta desde la que se ejecutó el pago de la cuota.
+
+En caso que el alias de la cuenta sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos (…) para indicar que continúa.
+
+  El número de cuenta se muestra completo.
+
+Etiqueta con el texto “Saldo deuda:”.
+
+Indica el saldo de la deuda del préstamo, luego del pago de esta cuota.
+
+Cada dato se mostrará en forma de un renglón, la etiqueta alineada a la izquierda y el dato alineado a la derecha de la pantalla.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\86 Validaciones en los campos de la pantalla Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-858</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005710</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005710</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005711</millis>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005711</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:45</date>
+  <millis>1653421005716</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\87 Comportamiento esperado - Pantalla Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-857</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006025</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006025</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006026</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006026</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006037</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</property>
+  <property name="description">Descripción
+El campo CI númerodebe tener las siguientes características:
+
+a.    Debe ser de tipo numérico
+
+b.    Límite mínimo de 04 caracteres.
+
+c.     Límite máximo de 08 caracteres.
+
+d.    No debe permitir caracteres especiales ni espacios en blanco.
+
+El campo Nro. de celular con el que te registrastedebe tener las siguientes características:
+
+a.    Será de tipo numérico.
+
+b.    Longitud máxima de 10 caracteres.
+
+c.     Longitud mínima de 10 caracteres.
+
+d.    No debe permitir ningún caracter espacial ni espacios en blanco.
+
+e.    Los primeros dos (02) dígitos ingresados deben ser “09”.
+
+f.      El tercer dígito ingresado debe ser seis (6), siete (7), ocho (8) o nueve (9).
+
+El campo Correo electrónico con el que te registrastedebe tener las siguientes características:
+
+a.    No debe tener límite máximo de caracteres.
+
+b.    Debe contener formato de correo electrónico, es decir que incluya datos alfanuméricos, carácter “@” y punto (.) del dominio.
+
+c.     Debe permitir todos los caracteres especiales.
+
+No debe permitir espacios en blanco</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-856</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006329</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006330</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006330</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006330</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006342</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</property>
+  <property name="description">Resultado Esperado
+En caso de falla de conexión, al intentar ingresar a la Pantalla Datos - ¿Olvidaste tu contraseña?, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+
+Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+
+Botón Aceptar.
+
+El botón Aceptar cierra el alert, y mantiene al usuario en la Pantalla Datos, los datos ingresado por el usuario en todos los campos, se mantienen en pantalla.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-855</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006663</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006663</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006664</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006664</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:46</date>
+  <millis>1653421006669</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-854</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007011</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007012</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007012</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007013</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007018</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-844</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007295</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007295</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007296</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007296</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/100. Comportamiento esperado - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007300</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</property>
+  <property name="description">Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+ En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”
+
+Indica el número de la cuota consultada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+  Etiqueta con el texto “Capital:”.
+
+Indica el monto de la cuota consultada que corresponde al capital, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Interés:”.
+Indica el monto de la cuota consultada que corresponde a intereses, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cargos:”.
+
+Indica el monto de la cuota consultada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total a pagar:”. 
+
+Indica la sumatoria de todos los montos de la cuota: capital + interés + cargos, acompañado del tipo de moneda.
+
+
+Precondiciones
+Ingresar con un cliente que posea cuotas  vencidas</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\85 Pantalla Olvidaste tu contraseña - Estructura de pantalla.tc</property>
+  <property name="tag">TET-859</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007306</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007306</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007307</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007307</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/85 Pantalla Olvidaste tu contraseña - Estructura de pantalla</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007312</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</property>
+  <property name="description">Etiqueta con el texto “Tipo de operación:”.
+
+Indica el tipo de operación que se ejecutó (Pago de préstamo).
+
+Etiqueta con el texto “Nro. de transacción:”.
+
+Indica el ID de la operación que se ejecutó.
+
+Etiqueta con el texto “Fecha y hora:”.
+
+Indica la fecha y la hora en que se ejecutó el pago, en formato DD/MM/AAAA HH:MM Hs.
+
+ Etiqueta con el texto “Días de mora:”.
+
+  Indica la cantidad de días que estuvo en mora la cuota, antes de ser pagada.
+
+Etiqueta con el texto “Préstamo:”.
+
+Muestra el alias del préstamo, seguido del número de préstamo, enmascarado.
+
+En caso que el alias del préstamo sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos para indicar que continúa.
+
+El enmascaramiento muestra los últimos cuatro (04) dígitos del número de préstamo. El resto de los dígitos se muestran en forma de asterisco (*), uno por cada digito.
+
+ Etiqueta con el texto “Cuota:”.
+
+Indica el número de la cuota pagada, vs la cantidad de cuotas totales del préstamo. (x/xx).
+
+   Etiqueta con el texto “Capital:”.
+
+     Indica el monto de la cuota pagada que corresponde al capital, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Interés:”.
+
+Indica el monto de la cuota pagada que corresponde a intereses, acompañado del tipo de moneda.
+
+ Etiqueta con el texto “Cargos:”.
+
+      Indica el monto de la cuota pagada que corresponde a cargos por mora y otros, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Total pagado:”.
+
+Indica la sumatoria de todos los montos de la cuota pagada: capital + interés + cargos, acompañado del tipo de moneda.
+
+Etiqueta con el texto “Cuenta débito:”.
+
+Muestra el alias y el número de la cuenta desde la que se ejecutó el pago de la cuota.
+
+En caso que el alias de la cuenta sea muy extenso, se mostrarán tantos caracteres como permita la resolución de la pantalla, seguido de tres (03) puntos suspensivos (…) para indicar que continúa.
+
+  El número de cuenta se muestra completo.
+
+Etiqueta con el texto “Saldo deuda:”.
+
+Indica el saldo de la deuda del préstamo, luego del pago de esta cuota.
+
+Cada dato se mostrará en forma de un renglón, la etiqueta alineada a la izquierda y el dato alineado a la derecha de la pantalla.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\86 Validaciones en los campos de la pantalla Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-858</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007317</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007318</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007318</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007319</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/86 Validaciones en los campos de la pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007326</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\87 Comportamiento esperado - Pantalla Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-857</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007333</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007333</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007333</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007334</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/87 Comportamiento esperado - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007340</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</property>
+  <property name="description">Descripción
+El campo CI númerodebe tener las siguientes características:
+
+a.    Debe ser de tipo numérico
+
+b.    Límite mínimo de 04 caracteres.
+
+c.     Límite máximo de 08 caracteres.
+
+d.    No debe permitir caracteres especiales ni espacios en blanco.
+
+El campo Nro. de celular con el que te registrastedebe tener las siguientes características:
+
+a.    Será de tipo numérico.
+
+b.    Longitud máxima de 10 caracteres.
+
+c.     Longitud mínima de 10 caracteres.
+
+d.    No debe permitir ningún caracter espacial ni espacios en blanco.
+
+e.    Los primeros dos (02) dígitos ingresados deben ser “09”.
+
+f.      El tercer dígito ingresado debe ser seis (6), siete (7), ocho (8) o nueve (9).
+
+El campo Correo electrónico con el que te registrastedebe tener las siguientes características:
+
+a.    No debe tener límite máximo de caracteres.
+
+b.    Debe contener formato de correo electrónico, es decir que incluya datos alfanuméricos, carácter “@” y punto (.) del dominio.
+
+c.     Debe permitir todos los caracteres especiales.
+
+No debe permitir espacios en blanco</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-856</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007346</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007347</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007347</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007348</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/88 Controles y especificaciones de los campos - Pantalla Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007353</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</property>
+  <property name="description">Resultado Esperado
+En caso de falla de conexión, al intentar ingresar a la Pantalla Datos - ¿Olvidaste tu contraseña?, se mostrará un alert nativo del SO con los siguientes elementos:
+1- Título “Mensaje”.
+
+Texto: “Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.”.
+
+Botón Aceptar.
+
+El botón Aceptar cierra el alert, y mantiene al usuario en la Pantalla Datos, los datos ingresado por el usuario en todos los campos, se mantienen en pantalla.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-855</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007361</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007362</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007362</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007363</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/89 Falla de Conexión en la Pantalla Datos Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007371</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-854</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007378</millis>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007379</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007379</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007381</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/90 Validación de envío de peticiones Pantalla Datos - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007390</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-853</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007712</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007712</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007713</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007713</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/91 Estructura de Pantalla - Pantalla Código de seguridad - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007718</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-852</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007989</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007989</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007989</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007990</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/92 Solicitar Código de Seguridad - Pantalla Código de seguridad - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:47</date>
+  <millis>1653421007994</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-851</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008278</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008278</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008278</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008279</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/93 Estructura de la pantalla - Pantalla Nueva Contrseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008283</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-850</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008573</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008573</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008573</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008574</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/94 Campo Nueva Contraseña - Pantalla Nueva Contrseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008578</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-849</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008887</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008887</millis>
+  <sequence>110</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008887</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008888</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/95 Campo Confirmación nueva contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:48</date>
+  <millis>1653421008892</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-848</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009166</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009166</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009166</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009167</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/96 Botón Resetear - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009170</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-847</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009473</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009474</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009474</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009475</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/97 Validaciones de Front Nueva Contraseña - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009479</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-846</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009794</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009795</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009795</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009795</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/98 Falla de conexión - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:49</date>
+  <millis>1653421009799</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña</property>
+  <property name="source">C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Test Cases\Sprint 1\07HU-Olvidé mi contraseña\99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña.tc</property>
+  <property name="tag">TET-845</property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010105</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010105</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010105</millis>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010106</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Sprint 1/07HU-Olvidé mi contraseña/99 Back nativo - Pantalla Nueva Contraseña - Olvidaste tu contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010106</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010471</millis>
+  <sequence>371</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Reports\20220524_120438\Sprint 1\07 HU-Olvidé mi contraseña\20220524_120452...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010511</millis>
+  <sequence>372</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010511</millis>
+  <sequence>373</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\Jose_Arrieta\git\UENO-App-Android\UENO-App-Android\Reports\20220524_120438\Sprint 1\07 HU-Olvidé mi contraseña\20220524_120452...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010534</millis>
+  <sequence>374</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010759</millis>
+  <sequence>376</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-05-24T15:36:50</date>
+  <millis>1653421010812</millis>
+  <sequence>377</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Sprint 1/07 HU-Olvidé mi contraseña</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

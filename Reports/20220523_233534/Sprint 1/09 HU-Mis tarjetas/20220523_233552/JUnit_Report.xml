@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="09 HU-Mis tarjetas" time="6.135" tests="15" failures="0" errors="0">
+   <testsuite name="09 HU-Mis tarjetas" tests="15" failures="0" errors="0" time="6.135" skipped="0" timestamp="2022-05-24 00:50:50" hostname="Jose_Arrieta - Jose-Arrieta" id="Test Suites/Sprint 1/09 HU-Mis tarjetas">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\UENO-App-Android\\Reports\\20220523_233534\\Sprint 1\\09 HU-Mis tarjetas\\20220523_233552"/>
+         <property name="logFiles" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\UENO-App-Android\\Reports\\20220523_233534\\Sprint 1\\09 HU-Mis tarjetas\\20220523_233552\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jose_Arrieta - Jose-Arrieta"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/110 Estructura de la pantalla - Administrar tarjetas Pantalla Principal Adm. Tarjetas" time="0.484" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/110 Estructura de la pantalla - Administrar tarjetas Pantalla Principal Adm. Tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:50 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/110 Estructura de la pantalla - Administrar tarjetas Pantalla Principal Adm. Tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/110 Estructura de la pantalla - Administrar tarjetas Pantalla Principal Adm. Tarjetas
+
+2022-05-24 00:50:51 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/111 Carrusel - Administrar tarjetas Pantalla Principal Adm. Tarjetas" time="0.413" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/111 Carrusel - Administrar tarjetas Pantalla Principal Adm. Tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:51 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/111 Carrusel - Administrar tarjetas Pantalla Principal Adm. Tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/111 Carrusel - Administrar tarjetas Pantalla Principal Adm. Tarjetas
+
+2022-05-24 00:50:51 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/112 La pestaña Movimientos - Administrar tarjetas Pantalla Principal Adm. Tarjetas" time="0.363" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/112 La pestaña Movimientos - Administrar tarjetas Pantalla Principal Adm. Tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:51 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/112 La pestaña Movimientos - Administrar tarjetas Pantalla Principal Adm. Tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/112 La pestaña Movimientos - Administrar tarjetas Pantalla Principal Adm. Tarjetas
+
+2022-05-24 00:50:52 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/113 La pestaña Opciones - Administrar tarjetas Pantalla Principal Adm. Tarjetas" time="0.354" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/113 La pestaña Opciones - Administrar tarjetas Pantalla Principal Adm. Tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:52 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/113 La pestaña Opciones - Administrar tarjetas Pantalla Principal Adm. Tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/113 La pestaña Opciones - Administrar tarjetas Pantalla Principal Adm. Tarjetas
+
+2022-05-24 00:50:52 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/114 Falla de conexión - Administrar tarjetas Pantalla Principal Adm. Tarjetas" time="0.384" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/114 Falla de conexión - Administrar tarjetas Pantalla Principal Adm. Tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:52 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/114 Falla de conexión - Administrar tarjetas Pantalla Principal Adm. Tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/114 Falla de conexión - Administrar tarjetas Pantalla Principal Adm. Tarjetas
+
+2022-05-24 00:50:52 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/115 Flujo alterno - Administrar tarjetas Pantalla Principal Adm. Tarjetas" time="0.381" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/115 Flujo alterno - Administrar tarjetas Pantalla Principal Adm. Tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:52 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/115 Flujo alterno - Administrar tarjetas Pantalla Principal Adm. Tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/115 Flujo alterno - Administrar tarjetas Pantalla Principal Adm. Tarjetas
+
+2022-05-24 00:50:53 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/116 Falla de conexión - Pantalla Principal Mis tarjetas" time="0.348" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/116 Falla de conexión - Pantalla Principal Mis tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:53 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/116 Falla de conexión - Pantalla Principal Mis tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/116 Falla de conexión - Pantalla Principal Mis tarjetas
+
+2022-05-24 00:50:53 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/117 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta" time="0.398" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/117 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:53 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/117 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta: Test Cases/Sprint 1/09HU-Mis tarjetas/117 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta
+
+2022-05-24 00:50:53 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/118 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta" time="0.377" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/118 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:53 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/118 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta: Test Cases/Sprint 1/09HU-Mis tarjetas/118 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta
+
+2022-05-24 00:50:54 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/119 Datos que acompañan las etiquetas Número de tarjeta y CVV - Pantalla Detalles de la tarjeta" time="0.351" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/119 Datos que acompañan las etiquetas Número de tarjeta y CVV - Pantalla Detalles de la tarjeta" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:54 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/119 Datos que acompañan las etiquetas Número de tarjeta y CVV - Pantalla Detalles de la tarjeta: Test Cases/Sprint 1/09HU-Mis tarjetas/119 Datos que acompañan las etiquetas Número de tarjeta y CVV - Pantalla Detalles de la tarjeta
+
+2022-05-24 00:50:54 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/120 Estructura de la pantalla - Pantalla Filtrar tarjetas" time="0.351" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/120 Estructura de la pantalla - Pantalla Filtrar tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:54 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/120 Estructura de la pantalla - Pantalla Filtrar tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/120 Estructura de la pantalla - Pantalla Filtrar tarjetas
+
+2022-05-24 00:50:55 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/121 Botón Filtrar - Pantalla Filtrar tarjetas" time="0.366" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/121 Botón Filtrar - Pantalla Filtrar tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/121 Botón Filtrar - Pantalla Filtrar tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/121 Botón Filtrar - Pantalla Filtrar tarjetas
+
+2022-05-24 00:50:55 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/122 Falla de conexión - Pantalla Filtrar tarjetas" time="0.333" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/122 Falla de conexión - Pantalla Filtrar tarjetas" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/122 Falla de conexión - Pantalla Filtrar tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/122 Falla de conexión - Pantalla Filtrar tarjetas
+
+2022-05-24 00:50:55 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/123 Estructura de la pantalla - Pantalla Detalles de la tarjeta" time="0.344" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/123 Estructura de la pantalla - Pantalla Detalles de la tarjeta" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/123 Estructura de la pantalla - Pantalla Detalles de la tarjeta: Test Cases/Sprint 1/09HU-Mis tarjetas/123 Estructura de la pantalla - Pantalla Detalles de la tarjeta
+
+2022-05-24 00:50:56 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/09HU-Mis tarjetas/124 Falla de conexión - Pantalla Detalles de la tarjeta" time="0.392" classname="Test Cases/Sprint 1/09HU-Mis tarjetas/124 Falla de conexión - Pantalla Detalles de la tarjeta" status="PASSED">
+         <system-out><![CDATA[2022-05-24 00:50:56 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/09HU-Mis tarjetas/124 Falla de conexión - Pantalla Detalles de la tarjeta: Test Cases/Sprint 1/09HU-Mis tarjetas/124 Falla de conexión - Pantalla Detalles de la tarjeta
+
+2022-05-24 00:50:56 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-24 00:50:50 - [TEST_SUITE][PASSED] - 09 HU-Mis tarjetas: Test Cases/Sprint 1/09HU-Mis tarjetas/124 Falla de conexión - Pantalla Detalles de la tarjeta]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

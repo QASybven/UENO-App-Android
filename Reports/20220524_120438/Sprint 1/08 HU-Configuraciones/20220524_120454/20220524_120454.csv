@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+08 HU-Configuraciones,,,,2022-05-24 15:36:53,2022-05-24 15:36:56,"3,384s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/101 Menú principal en la aplicación Android,,,TET-947,2022-05-24 15:36:53,2022-05-24 15:36:54,"0,451s",PASSED
+return null,,,,2022-05-24 15:36:54,2022-05-24 15:36:54,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/102 Opciones disponibles - Pantalla perfil,,,TET-944,2022-05-24 15:36:54,2022-05-24 15:36:54,"0,376s",PASSED
+return null,,,,2022-05-24 15:36:54,2022-05-24 15:36:54,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/103 Opciones Inhabilitadas para este sprint - Android,,,TET-943,2022-05-24 15:36:54,2022-05-24 15:36:54,"0,310s",PASSED
+return null,,,,2022-05-24 15:36:54,2022-05-24 15:36:54,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/104 Opciones del menú a ocultar - Fuera del alcance del proyecto,,,TET-941,2022-05-24 15:36:54,2022-05-24 15:36:55,"0,294s",PASSED
+return null,,,,2022-05-24 15:36:55,2022-05-24 15:36:55,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/105 El ícono de acceso al menú hamburguesa - Android,,,TET-940,2022-05-24 15:36:55,2022-05-24 15:36:55,"0,326s",PASSED
+return null,,,,2022-05-24 15:36:55,2022-05-24 15:36:55,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/106 Pantalla de Configuraciones,,,TET-864,2022-05-24 15:36:55,2022-05-24 15:36:55,"0,357s",PASSED
+return null,,,,2022-05-24 15:36:55,2022-05-24 15:36:55,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/107 Validar navegación en la pantalla Configuraciones,,,TET-862,2022-05-24 15:36:55,2022-05-24 15:36:56,"0,291s",PASSED
+return null,,,,2022-05-24 15:36:56,2022-05-24 15:36:56,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/108 Opciones inhabilitadas para este Sprint - Pantalla configuraciones,,,TET-861,2022-05-24 15:36:56,2022-05-24 15:36:56,"0,291s",PASSED
+return null,,,,2022-05-24 15:36:56,2022-05-24 15:36:56,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/08HU-Configuraciones/109 Validar navegación en la Pantalla Método de acceso predeterminado Configuraciones,,,TET-860,2022-05-24 15:36:56,2022-05-24 15:36:56,"0,324s",PASSED
+return null,,,,2022-05-24 15:36:56,2022-05-24 15:36:56,"0,000s",PASSED

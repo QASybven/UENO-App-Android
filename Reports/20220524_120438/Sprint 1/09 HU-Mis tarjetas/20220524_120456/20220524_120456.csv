@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+09 HU-Mis tarjetas,,,,2022-05-24 15:36:59,2022-05-24 15:37:05,"5,107s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/110 Estructura de la pantalla - Administrar tarjetas Pantalla Principal Adm. Tarjetas,,,TET-982,2022-05-24 15:37:00,2022-05-24 15:37:00,"0,430s",PASSED
+return null,,,,2022-05-24 15:37:00,2022-05-24 15:37:00,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/111 Carrusel - Administrar tarjetas Pantalla Principal Adm. Tarjetas,,,TET-981,2022-05-24 15:37:00,2022-05-24 15:37:01,"0,339s",PASSED
+return null,,,,2022-05-24 15:37:01,2022-05-24 15:37:01,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/112 La pestaña Movimientos - Administrar tarjetas Pantalla Principal Adm. Tarjetas,,,TET-980,2022-05-24 15:37:01,2022-05-24 15:37:01,"0,311s",PASSED
+return null,,,,2022-05-24 15:37:01,2022-05-24 15:37:01,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/113 La pestaña Opciones - Administrar tarjetas Pantalla Principal Adm. Tarjetas,,,TET-979,2022-05-24 15:37:01,2022-05-24 15:37:01,"0,295s",PASSED
+return null,,,,2022-05-24 15:37:01,2022-05-24 15:37:01,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/114 Falla de conexión - Administrar tarjetas Pantalla Principal Adm. Tarjetas,,,TET-978,2022-05-24 15:37:01,2022-05-24 15:37:01,"0,354s",PASSED
+return null,,,,2022-05-24 15:37:01,2022-05-24 15:37:01,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/115 Flujo alterno - Administrar tarjetas Pantalla Principal Adm. Tarjetas,,,TET-976,2022-05-24 15:37:01,2022-05-24 15:37:02,"0,343s",PASSED
+return null,,,,2022-05-24 15:37:02,2022-05-24 15:37:02,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/116 Falla de conexión - Pantalla Principal Mis tarjetas,,,TET-975,2022-05-24 15:37:02,2022-05-24 15:37:02,"0,294s",PASSED
+return null,,,,2022-05-24 15:37:02,2022-05-24 15:37:02,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/117 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta,,,TET-974,2022-05-24 15:37:02,2022-05-24 15:37:02,"0,304s",PASSED
+return null,,,,2022-05-24 15:37:02,2022-05-24 15:37:02,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/118 Barra de subtítulo Datos de la tarjeta - Pantalla Detalles de la tarjeta,,,TET-973,2022-05-24 15:37:02,2022-05-24 15:37:03,"0,298s",PASSED
+return null,,,,2022-05-24 15:37:03,2022-05-24 15:37:03,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/119 Datos que acompañan las etiquetas Número de tarjeta y CVV - Pantalla Detalles de la tarjeta,,,TET-973,2022-05-24 15:37:03,2022-05-24 15:37:03,"0,305s",PASSED
+return null,,,,2022-05-24 15:37:03,2022-05-24 15:37:03,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/120 Estructura de la pantalla - Pantalla Filtrar tarjetas,,,TET-972,2022-05-24 15:37:03,2022-05-24 15:37:03,"0,269s",PASSED
+return null,,,,2022-05-24 15:37:03,2022-05-24 15:37:03,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/121 Botón Filtrar - Pantalla Filtrar tarjetas,,,TET-971,2022-05-24 15:37:03,2022-05-24 15:37:04,"0,293s",PASSED
+return null,,,,2022-05-24 15:37:04,2022-05-24 15:37:04,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/122 Falla de conexión - Pantalla Filtrar tarjetas,,,TET-970,2022-05-24 15:37:04,2022-05-24 15:37:04,"0,264s",PASSED
+return null,,,,2022-05-24 15:37:04,2022-05-24 15:37:04,"0,001s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/123 Estructura de la pantalla - Pantalla Detalles de la tarjeta,,,TET-876,2022-05-24 15:37:04,2022-05-24 15:37:04,"0,294s",PASSED
+return null,,,,2022-05-24 15:37:04,2022-05-24 15:37:04,"0,000s",PASSED
+,,,,,,,
+Test Cases/Sprint 1/09HU-Mis tarjetas/124 Falla de conexión - Pantalla Detalles de la tarjeta,,,TET-875,2022-05-24 15:37:04,2022-05-24 15:37:05,"0,333s",PASSED
+return null,,,,2022-05-24 15:37:05,2022-05-24 15:37:05,"0,000s",PASSED
