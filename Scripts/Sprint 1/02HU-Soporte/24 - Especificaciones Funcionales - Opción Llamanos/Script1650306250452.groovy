@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APKjose, true)
+Mobile.startApplication(GlobalVariable.URL, true)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 

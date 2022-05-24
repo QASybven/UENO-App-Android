@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Jesus_Berbin\\Documents\\Cursos\\Sybven\\UENO\\crtopyinfinitymobilebanking-release.apk'</initValue>
+      <initValue>'C:\\Users\\Jose_Arrieta\\Desktop\\JA\\Proyectos\\Automatizacion de pruebas\\APK para inicio\\crtopyinfinitymobilebanking-release (8).apk'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -73,5 +73,10 @@
       <description>Token generico</description>
       <initValue>'000000'</initValue>
       <name>OTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mensaje Cierre de Sesión</description>
+      <initValue>''</initValue>
+      <name>MensajeCierreSesion</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

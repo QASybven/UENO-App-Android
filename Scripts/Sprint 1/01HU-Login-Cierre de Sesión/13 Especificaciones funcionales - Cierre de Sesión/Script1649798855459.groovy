@@ -18,12 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario'), 
-    [('NumeroCelular') : findTestData('Usuarios').getValue(1, 1), ('Contrasena') : findTestData('Usuarios').getValue(2, 1)], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    [('NumeroCelular') : findTestData('Usuarios').getValue(1, 1), ('Contrasena') : findTestData('Usuarios').getValue(2, 
+            1)], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 0)
+Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior'), 0)
+Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior'), 
+    0)
 
-Mobile.tap(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)'), 0)
+Mobile.tap(findTestObject('Sprint 1/cierre de sesion/android.widget.Button - SI (cerrar sesion)'), 0)
 

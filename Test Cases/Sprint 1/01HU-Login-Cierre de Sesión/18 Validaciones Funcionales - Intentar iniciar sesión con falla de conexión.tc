@@ -8,4 +8,17 @@
    <tag>TET-906</tag>
    <comment></comment>
    <testCaseGuid>de193935-9eef-4970-a094-d8283d3c66b0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0186088b-d208-406e-bbe6-4b8eb79aa09e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Falla de conexion</description>
+      <id>0186088b-d208-406e-bbe6-4b8eb79aa09e</id>
+      <masked>false</masked>
+      <name>Falladeconexion</name>
+   </variable>
 </TestCaseEntity>

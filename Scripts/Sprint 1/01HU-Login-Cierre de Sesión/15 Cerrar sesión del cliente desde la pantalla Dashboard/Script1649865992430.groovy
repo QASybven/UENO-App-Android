@@ -23,15 +23,18 @@ Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.clearText(findTestObject('Sprint 1/Login/android.widget.EditText - Numero de celular login'), 0)
 
-Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 0)
+Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - Ejemplo 0981123456'), GlobalVariable.Numerocelular, 
+    0)
 
 Mobile.setText(findTestObject('Sprint 1/Login/android.widget.EditText - tipear contrasea'), GlobalVariable.Contrasena, 0)
 
 Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.Button - Ingresar'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 0)
+Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Menu hamburguesa Inferior'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior'), 0)
+Mobile.tap(findTestObject('Object Repository/Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior'), 
+    0)
 
-Mobile.tap(findTestObject('Sprint 1/cierre de sesion/android.widget.Button - cierresesionSi'), 0)
+Mobile.tap(findTestObject('Sprint 1/cierre de sesion/android.widget.Button - SI (cerrar sesion)'), 0)
 

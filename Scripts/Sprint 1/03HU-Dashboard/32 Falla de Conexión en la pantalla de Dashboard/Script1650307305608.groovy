@@ -38,7 +38,7 @@ Mobile.getText(findTestObject('Object Repository/Sprint 1/falla de conexion dash
 
 Mobile.getText(findTestObject('Object Repository/Sprint 1/falla de conexion dashboard/android.widget.Button - ACEPTAR'), 0)
 
-Mobile.verifyEqual(Falla de conexion, findTestObject('Sprint 1/falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'))
+Mobile.verifyEqual(Falladeconexion, findTestObject('Sprint 1/falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'))
 
 Mobile.tap(findTestObject(''), 0)
 

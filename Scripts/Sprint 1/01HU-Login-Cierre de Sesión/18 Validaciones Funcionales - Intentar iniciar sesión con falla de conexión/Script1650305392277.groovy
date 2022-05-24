@@ -35,6 +35,9 @@ Mobile.tap(findTestObject('Sprint 1/Login/android.widget.Button - Ingresar'), 0)
 Mensajefallaconexion = Mobile.getText(findTestObject('Sprint 1/falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo'), 
     0)
 
-Mobile.verifyEqual(GlobalVariable.Mensajefallaconexion, 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyEqual(Falladeconexion, 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.')
+
+Mobile.tap(findTestObject('Sprint 1/falla de conexion dashboard/android.widget.Button - ACEPTAR'), 0)
+
+Mobile.toggleAirplaneMode('no', FailureHandling.CONTINUE_ON_FAILURE)
 

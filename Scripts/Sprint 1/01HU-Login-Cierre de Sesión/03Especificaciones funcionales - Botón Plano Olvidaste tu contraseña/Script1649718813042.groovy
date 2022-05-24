@@ -62,13 +62,16 @@ Ejemplo = Mobile.getText(findTestObject('Object Repository/Sprint 1/Olvido Contr
 
 Mobile.verifyEqual(Ejemplo, 'Ejemplo: ejemplo@gmail.com')
 
-Continuar = Mobile.getText(findTestObject('Object Repository/Sprint 1/Olvido Contrasena/android.widget.Button - Continuar'), 0)
+Continuar = Mobile.getText(findTestObject('Object Repository/Sprint 1/Olvido Contrasena/android.widget.Button - Continuar'), 
+    0)
 
 Mobile.verifyEqual(Continuar, 'Continuar')
 
-Mobile.tap(findTestObject('Object Repository/Sprint 1/Olvido Contrasena/android.widget.ImageView Boton Back superior'), 0)
+Mobile.tap(findTestObject('Object Repository/Sprint 1/Olvido Contrasena/android.widget.ImageView Boton Back superior'), 
+    0)
 
-Mobile.tap(findTestObject('Sprint 1/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasena Pantalla de inicio'), 0)
+Mobile.tap(findTestObject('Sprint 1/Olvido Contrasena/android.widget.TextView - Olvidaste tu contrasena Pantalla de inicio'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Sprint 1/Olvido Contrasena/android.widget.ImageView (boton x)'), 0)
 

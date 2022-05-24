@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APKjose, true)
+Mobile.startApplication(GlobalVariable.URL, true)
 
 Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -35,18 +35,16 @@ Mobile.setText(findTestObject('Object Repository/Sprint 1/Inicio primera vez y c
 Mobile.tap(findTestObject('Object Repository/Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Ingresar (2)'), 
     0)
 
-not_run: Mobile.tap(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - NO (1)'), 0)
+Mobile.tap(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - NO (1)'), 0)
 
 Mobile.tap(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Sprint 1/cierre de sesion/android.widget.ImageView Icono salir superior'), 0)
 
-Mobile.tap(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.Button - Si (1)'), 0)
+Mobile.tap(findTestObject('Sprint 1/cierre de sesion/android.widget.Button - SI (cerrar sesion)'), 0)
 
-NombredeUsuario = Mobile.getText(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.TextView -  NombreUsuario'), 
+SILVIA = Mobile.getText(findTestObject('Sprint 1/Inicio primera vez y cierre de sesion/android.widget.TextView -  NombreUsuario'), 
     0)
 
-Mobile.verifyEqual(NombredeUsuario, NombredeUsuarioEsperado)
-
-Mobile.checkElement(findTestObject(null), 0)
+Mobile.verifyEqual(GlobalVariable.Nombredeusuario, findTestData('Usuarios').getValue(4, 1))
 

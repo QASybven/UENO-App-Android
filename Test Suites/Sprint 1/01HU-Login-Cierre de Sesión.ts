@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>7b2caecd-ef5b-45ed-ac0b-943e559b8775</testSuiteGuid>
    <testCaseLink>
-      <guid>7f4595e2-7087-4336-8e2a-fd13a745a829</guid>
+      <guid>869b6f5c-dc5a-4cdc-ab71-809bea65eb2b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/01 Especificaciones Funcionales - Primer Login exitoso del Cliente</testCaseId>
@@ -49,7 +49,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>61f3f1fd-5841-46b2-a6bd-c840d1f00730</guid>
+      <guid>a570cb2e-231b-4772-8296-a2287ad5d5b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/02Estructura de la pantalla - Pantalla de Login</testCaseId>
@@ -116,7 +116,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>df2e8996-6c45-4254-b3d1-753dd60ca8ae</guid>
+      <guid>6883486a-68da-4939-bf46-cfef73e6b152</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/03Especificaciones funcionales - Botón Plano Olvidaste tu contraseña</testCaseId>
@@ -177,14 +177,40 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>dd785af0-9003-40ad-b5a8-a3284e9413ad</guid>
+      <guid>189ff682-b78e-4ab7-9f3d-bddf5fd02951</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/04 Estructura de la pantalla - Splash</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea3790ef-4fd9-4452-8e5a-94aaeed840e0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b77daaa9-c35d-4cfd-b5cd-46917203ffb3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/05 Especificaciones Funcionales - Focus</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>819380f2-bd20-4e97-95e6-691f0d9f004c</guid>
+      <guid>9c239889-47b3-4abb-a6b5-72d1b1f5f1fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/06 Especificaciones Funcionales - Validaciones del campo Número de Celular</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2cc17795-4239-44ac-8ece-a460ca9dd2d4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c64a0bdf-3c2c-491d-abc2-20061695640b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/07 Especificaciones Funcionales - Campo contraseña</testCaseId>
@@ -203,14 +229,33 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb62f55e-91c5-4d9a-b962-3b0e61ad99ec</guid>
+      <guid>90e43c2f-2698-456a-a012-651b6373b178</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/08 Especificaciones Funcionales Numero de Celular -Contraseña</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4f2bd7c-ea1d-4d2f-9d45-8927190fc7b8</guid>
+      <guid>08c6f67d-ccad-43a6-abbb-11944e2a80e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/09 Especificaciones Funcionales - Validaciones del Campo Contraseña</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>df237c05-b09a-4253-81e5-6095fa5f1fb2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e73de688-3c40-4aec-92b1-bb8ba0e657f9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e656005f-9721-420e-a406-c3bb76028a7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/10 Especificaciones Funcionales para el campo numero de Celular</testCaseId>
@@ -229,7 +274,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d4529bd-c0b5-4fd6-8dec-3fafef7926f0</guid>
+      <guid>8c4218e8-f59c-4c2b-94a6-48ffe9ea112e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/11 Especificaciones Funcionales - Login exitoso del usuario</testCaseId>
@@ -248,9 +293,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>65841f9a-b7ec-4544-b117-d6aeaaa20027</guid>
+      <guid>7840c20e-983a-4100-bdf2-57c90d10920c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/12Especificaciones Funcionales - Login Fallido del usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -273,49 +318,61 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>96294636-e38f-4a69-a4cf-d60afa4938a1</guid>
+      <guid>1af77e83-cc3d-477c-b1de-80cb7af582ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/13 Especificaciones funcionales - Cierre de Sesión</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ce7138a-fea6-4abe-a9a9-d88a2d6132df</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>284d8e8b-66ed-41e5-9111-cfebcfe08c01</guid>
+      <guid>5d1d6e9c-d08a-4111-83c3-d962b0b33bfb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/14 Cierre de Sesion - Tiempo de Inactividad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4babe963-46c3-4d9c-9c35-2b230c41cd88</guid>
+      <guid>b2c63a4c-d86d-48fb-9db4-73eca54ae000</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/15 Cerrar sesión del cliente desde la pantalla Dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>72733f5d-68cf-4e84-8854-a3b7fd83d855</guid>
+      <guid>74e30e93-0b11-40d0-bb2e-b82725ec1500</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/16 Cierre de sesión del cliente desde la pantalla Resumen de Saldo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4bec567-57cd-426f-8d20-512b3d4ac1c4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/18 Validaciones Funcionales - Intentar iniciar sesión con falla de conexión</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8ead8e16-116e-4c59-88d5-044955593bfe</guid>
+      <guid>547dd3ff-a349-42f9-8ef7-e448cf6b33b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/17 Cierre de Sesión - Desde la pantalla Resumen -por Tiempo de Inactividad</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1b4d0d1f-8543-46b3-b2be-dd1adf886781</guid>
+      <guid>59c0108c-7d06-4bac-8e8e-3f9c937e5837</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/18 Validaciones Funcionales - Intentar iniciar sesión con falla de conexión</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0186088b-d208-406e-bbe6-4b8eb79aa09e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ea518ab9-c07c-46c8-8f0f-723e35493547</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 1/01HU-Login-Cierre de Sesión/19 Estructura de pantalla - Pantalla Cierre de sesión</testCaseId>

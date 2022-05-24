@@ -3108,3 +3108,9 @@
 [35m[BaseDriver][39m Session created with session id: 56465a67-9c88-415e-b9aa-72312a665d0a
 [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m82 ms - 883[39m
 [35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '66344f8b-f5ff-4639-ad19-2ccf0fa25dee' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[ADB][39m com.verticalapps.KonyMobileBanking was successfully uninstalled
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration

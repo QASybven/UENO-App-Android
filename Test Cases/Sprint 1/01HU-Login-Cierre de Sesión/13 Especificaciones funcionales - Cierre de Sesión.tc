@@ -41,4 +41,17 @@ Mensaje con el texto “¿Estás seguro de querer salir de la aplicación?”.
    <tag>TET-900</tag>
    <comment></comment>
    <testCaseGuid>80c8687a-d3aa-47fa-b4ae-0295cf5e9638</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ce7138a-fea6-4abe-a9a9-d88a2d6132df</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Cierre de Sesion</description>
+      <id>2ce7138a-fea6-4abe-a9a9-d88a2d6132df</id>
+      <masked>false</masked>
+      <name>MensajeCierreSesion</name>
+   </variable>
 </TestCaseEntity>
