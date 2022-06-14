@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="02 HU- Soporte" time="407.976" tests="7" failures="0" errors="0">
+   <testsuite name="02 HU- Soporte" tests="7" failures="0" errors="0" time="407.976" skipped="0" timestamp="2022-05-27 12:07:34" hostname="Jose_Arrieta - Jose-Arrieta" id="Test Suites/Sprint 1/02 HU- Soporte">
+      <properties>
+         <property name="deviceName" value="HUAWEI MRD-LX3 (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\UENO-App-Android\\Reports\\20220527_120728\\Sprint 1\\02 HU- Soporte\\20220527_120728"/>
+         <property name="logFiles" value="C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\UENO-App-Android\\Reports\\20220527_120728\\Sprint 1\\02 HU- Soporte\\20220527_120728\\appium.log, C:\\Users\\Jose_Arrieta\\git\\UENO-App-Android\\UENO-App-Android\\Reports\\20220527_120728\\Sprint 1\\02 HU- Soporte\\20220527_120728\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jose_Arrieta - Jose-Arrieta"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="MRD-LX3"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="deviceManufacturer" value="HUAWEI"/>
+         <property name="deviceId" value="ASJNW19409003146"/>
+         <property name="deviceName" value="HUAWEI MRD-LX3 (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 1/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte" time="46.636" classname="Test Cases/Sprint 1/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte" status="PASSED">
+         <system-out><![CDATA[2022-05-27 12:07:34 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte: Test Cases/Sprint 1/02HU-Soporte/20 Estructura de la pantalla - Pantalla de Soporte
+
+2022-05-27 12:07:36 - [TEST_STEP][PASSED] - startApplication(URL, false): Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:07:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/cierre de sesion/android.widget.TextView - Sesin cerrada por inactividad. Ingres de nuevo' does not exist
+
+2022-05-27 12:07:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/falla de conexion dashboard/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo' does not exist
+
+2022-05-27 12:07:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/dasboard/android.widget.TextView - Te gustara activar tu huella digital como mtodo de acceso predeterminado' does not exist
+
+2022-05-27 12:07:37 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-05-27 12:07:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-05-27 12:07:39 - [MESSAGE][INFO] - Appium server started on port 57.816
+
+2022-05-27 12:07:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:07:58 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-05-27 12:08:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-05-27 12:08:08 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Login/android.widget.Button - Soporte"), 0): Tapped on element 'Object Repository/Sprint 1/Login/android.widget.Button - Soporte'
+
+2022-05-27 12:08:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Login/android.widget.Button - Soporte'
+
+2022-05-27 12:08:11 - [TEST_STEP][PASSED] - SoporteTitulo = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Soporte Titulo"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Soporte Titulo' is: 'Soporte'
+
+2022-05-27 12:08:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:12 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Soporte Titulo' is: 'Soporte'
+
+2022-05-27 12:08:12 - [TEST_STEP][PASSED] - verifyEqual(SoporteTitulo, "Soporte"): Actual object 'Soporte' and expected object 'Soporte' are equal
+
+2022-05-27 12:08:12 - [MESSAGE][PASSED] - Actual object 'Soporte' and expected object 'Soporte' are equal
+
+2022-05-27 12:08:12 - [TEST_STEP][PASSED] - PreguntasFrecuentes = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes' is: 'Preguntas frecuentes'
+
+2022-05-27 12:08:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:13 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes' is: 'Preguntas frecuentes'
+
+2022-05-27 12:08:13 - [TEST_STEP][PASSED] - verifyEqual(PreguntasFrecuentes, "Preguntas frecuentes"): Actual object 'Preguntas frecuentes' and expected object 'Preguntas frecuentes' are equal
+
+2022-05-27 12:08:13 - [MESSAGE][PASSED] - Actual object 'Preguntas frecuentes' and expected object 'Preguntas frecuentes' are equal
+
+2022-05-27 12:08:13 - [TEST_STEP][PASSED] - Basesycondiciones = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)' is: 'Bases y condiciones'
+
+2022-05-27 12:08:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)' is: 'Bases y condiciones'
+
+2022-05-27 12:08:14 - [TEST_STEP][PASSED] - verifyEqual(Basesycondiciones, "Bases y condiciones"): Actual object 'Bases y condiciones' and expected object 'Bases y condiciones' are equal
+
+2022-05-27 12:08:14 - [MESSAGE][PASSED] - Actual object 'Bases y condiciones' and expected object 'Bases y condiciones' are equal
+
+2022-05-27 12:08:14 - [TEST_STEP][PASSED] - Seguridad = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Seguridad"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad' is: 'Seguridad'
+
+2022-05-27 12:08:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad' is: 'Seguridad'
+
+2022-05-27 12:08:14 - [TEST_STEP][PASSED] - verifyEqual(Seguridad, "Seguridad"): Actual object 'Seguridad' and expected object 'Seguridad' are equal
+
+2022-05-27 12:08:14 - [MESSAGE][PASSED] - Actual object 'Seguridad' and expected object 'Seguridad' are equal
+
+2022-05-27 12:08:14 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView Boton Back"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Boton Back'
+
+2022-05-27 12:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Boton Back'
+
+2022-05-27 12:08:16 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:08:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:08:19 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView boton compartir"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView boton compartir'
+
+2022-05-27 12:08:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView boton compartir'
+
+2022-05-27 12:08:21 - [TEST_STEP][PASSED] - Textocompartir = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo' is: 'Se copió la información de esta versión en tu dispositivo.'
+
+2022-05-27 12:08:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:21 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo' is: 'Se copió la información de esta versión en tu dispositivo.'
+
+2022-05-27 12:08:21 - [TEST_STEP][PASSED] - verifyEqual(Textocompartir, "Se copió la información de esta versión en tu dispositivo."): Actual object 'Se copió la información de esta versión en tu dispositivo.' and expected object 'Se copió la información de esta versión en tu dispositivo.' are equal
+
+2022-05-27 12:08:21 - [MESSAGE][PASSED] - Actual object 'Se copió la información de esta versión en tu dispositivo.' and expected object 'Se copió la información de esta versión en tu dispositivo.' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/02HU-Soporte/21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App" time="26.108" classname="Test Cases/Sprint 1/02HU-Soporte/21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App" status="PASSED">
+         <system-out><![CDATA[2022-05-27 12:08:21 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/02HU-Soporte/21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App: Test Cases/Sprint 1/02HU-Soporte/21 Especificaciones Funcionales - Pantalla Soporte desde la opción Soporte del menú principal de la App
+
+2022-05-27 12:08:21 - [TEST_STEP][PASSED] - startApplication(URL, false): Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:08:21 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-05-27 12:08:34 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:08:34 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2022-05-27 12:08:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-05-27 12:08:44 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:08:46 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView Boton Back"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Boton Back'
+
+2022-05-27 12:08:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:08:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Boton Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/02HU-Soporte/22 Especificaciones Funcionales - Validar las opciones en la pantalla de soporte" time="80.789" classname="Test Cases/Sprint 1/02HU-Soporte/22 Especificaciones Funcionales - Validar las opciones en la pantalla de soporte" status="PASSED">
+         <system-out><![CDATA[2022-05-27 12:08:47 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/02HU-Soporte/22 Especificaciones Funcionales - Validar las opciones en la pantalla de soporte: Test Cases/Sprint 1/02HU-Soporte/22 Especificaciones Funcionales - Validar las opciones en la pantalla de soporte
+
+2022-05-27 12:08:48 - [TEST_STEP][PASSED] - startApplication(URL, true): Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:08:48 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-05-27 12:09:36 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:09:36 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2022-05-27 12:09:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-05-27 12:09:46 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Login/android.widget.Button - Soporte"), 0): Tapped on element 'Object Repository/Sprint 1/Login/android.widget.Button - Soporte'
+
+2022-05-27 12:09:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:09:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Login/android.widget.Button - Soporte'
+
+2022-05-27 12:09:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes (1)"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes (1)'
+
+2022-05-27 12:09:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:09:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes (1)'
+
+2022-05-27 12:09:50 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView Back Preguntas Frecuentes"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Back Preguntas Frecuentes'
+
+2022-05-27 12:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:09:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Back Preguntas Frecuentes'
+
+2022-05-27 12:09:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)'
+
+2022-05-27 12:09:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:09:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Bases y condiciones (1)'
+
+2022-05-27 12:09:59 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView Back Bases y Condiciones"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Back Bases y Condiciones'
+
+2022-05-27 12:09:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:10:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Back Bases y Condiciones'
+
+2022-05-27 12:10:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad'
+
+2022-05-27 12:10:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:10:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad'
+
+2022-05-27 12:10:05 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView Back Seguridad"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Back Seguridad'
+
+2022-05-27 12:10:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:10:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Back Seguridad']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/02HU-Soporte/23 Especificaciones Funcionales - Compartir" time="92.938" classname="Test Cases/Sprint 1/02HU-Soporte/23 Especificaciones Funcionales - Compartir" status="PASSED">
+         <system-out><![CDATA[2022-05-27 12:10:08 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/02HU-Soporte/23 Especificaciones Funcionales - Compartir: Test Cases/Sprint 1/02HU-Soporte/23 Especificaciones Funcionales - Compartir
+
+2022-05-27 12:10:08 - [TEST_STEP][PASSED] - startApplication(URL, true): Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:10:08 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-05-27 12:11:26 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:11:26 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2022-05-27 12:11:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-05-27 12:11:36 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:11:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:11:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:11:38 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView boton compartir"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView boton compartir'
+
+2022-05-27 12:11:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:11:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView boton compartir'
+
+2022-05-27 12:11:40 - [TEST_STEP][PASSED] - Textocompartir = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo' is: 'Se copió la información de esta versión en tu dispositivo.'
+
+2022-05-27 12:11:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:11:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Se copi la informacin de esta versin en tu dispositivo' is: 'Se copió la información de esta versión en tu dispositivo.'
+
+2022-05-27 12:11:41 - [TEST_STEP][PASSED] - verifyEqual(Textocompartir, "Se copió la información de esta versión en tu dispositivo."): Actual object 'Se copió la información de esta versión en tu dispositivo.' and expected object 'Se copió la información de esta versión en tu dispositivo.' are equal
+
+2022-05-27 12:11:41 - [MESSAGE][PASSED] - Actual object 'Se copió la información de esta versión en tu dispositivo.' and expected object 'Se copió la información de esta versión en tu dispositivo.' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/02HU-Soporte/24 - Especificaciones Funcionales - Opción Llamanos" time="83.772" classname="Test Cases/Sprint 1/02HU-Soporte/24 - Especificaciones Funcionales - Opción Llamanos" status="PASSED">
+         <system-out><![CDATA[2022-05-27 12:11:41 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/02HU-Soporte/24 - Especificaciones Funcionales - Opción Llamanos: Test Cases/Sprint 1/02HU-Soporte/24 - Especificaciones Funcionales - Opción Llamanos
+
+2022-05-27 12:11:41 - [TEST_STEP][PASSED] - startApplication(URL, true): Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:11:41 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-05-27 12:12:50 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:12:50 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2022-05-27 12:13:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-05-27 12:13:00 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Login/android.widget.Button - Soporte"), 0): Tapped on element 'Object Repository/Sprint 1/Login/android.widget.Button - Soporte'
+
+2022-05-27 12:13:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:13:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Login/android.widget.Button - Soporte'
+
+2022-05-27 12:13:02 - [TEST_STEP][PASSED] - takeScreenshot("", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2022-05-27 12:13:04 - [MESSAGE][WARNING] -  (Result too large)
+
+2022-05-27 12:13:04 - [MESSAGE][PASSED] - Screenshot is taken
+
+2022-05-27 12:13:04 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.ImageView Boton Back"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Boton Back'
+
+2022-05-27 12:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:13:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.ImageView Boton Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones" time="37.212" classname="Test Cases/Sprint 1/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones" status="PASSED">
+         <system-out><![CDATA[2022-05-27 12:13:05 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones: Test Cases/Sprint 1/02HU-Soporte/25 Especificaciones funcionales - Falla de conexión en Preguntas Frecuentes y Pantalla Bases y condiciones
+
+2022-05-27 12:13:05 - [TEST_STEP][PASSED] - startApplication(URL, false): Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:13:05 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-05-27 12:13:20 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:13:20 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2022-05-27 12:13:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-05-27 12:13:30 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:13:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:13:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:13:33 - [TEST_STEP][PASSED] - toggleAirplaneMode("yes", CONTINUE_ON_FAILURE): Toggled airplane mode: 'yes'
+
+2022-05-27 12:13:38 - [MESSAGE][PASSED] - Toggled airplane mode: 'yes'
+
+2022-05-27 12:13:38 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes'
+
+2022-05-27 12:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:13:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Preguntas frecuentes'
+
+2022-05-27 12:13:38 - [TEST_STEP][PASSED] - Falladeconexion = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo' is: 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.'
+
+2022-05-27 12:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:13:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo' is: 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.'
+
+2022-05-27 12:13:40 - [TEST_STEP][PASSED] - verifyEqual(Falladeconexion, "Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo."): Actual object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' and expected object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' are equal
+
+2022-05-27 12:13:40 - [MESSAGE][PASSED] - Actual object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' and expected object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' are equal
+
+2022-05-27 12:13:40 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion'
+
+2022-05-27 12:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:13:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion'
+
+2022-05-27 12:13:40 - [TEST_STEP][PASSED] - toggleAirplaneMode("no", CONTINUE_ON_FAILURE): Toggled airplane mode: 'no'
+
+2022-05-27 12:13:42 - [MESSAGE][PASSED] - Toggled airplane mode: 'no']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad" time="40.104" classname="Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad" status="PASSED">
+         <system-out><![CDATA[2022-05-27 12:13:42 - [TEST_CASE][PASSED] - Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad: Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad
+
+2022-05-27 12:13:42 - [TEST_STEP][PASSED] - startApplication(URL, false): Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:13:42 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-05-27 12:13:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Jose_Arrieta\Desktop\JA\Proyectos\Automatizacion de pruebas\APK para inicio\crtopyinfinitymobilebanking-release (8).apk'
+
+2022-05-27 12:13:59 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2022-05-27 12:14:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-05-27 12:14:09 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:14:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - Soporte pantalla de inicio'
+
+2022-05-27 12:14:11 - [TEST_STEP][PASSED] - toggleAirplaneMode("yes", CONTINUE_ON_FAILURE): Toggled airplane mode: 'yes'
+
+2022-05-27 12:14:17 - [MESSAGE][PASSED] - Toggled airplane mode: 'yes'
+
+2022-05-27 12:14:17 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.TextView - Seguridad"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad'
+
+2022-05-27 12:14:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:14:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Seguridad'
+
+2022-05-27 12:14:18 - [TEST_STEP][PASSED] - Falladeconexion = getText(findTestObject("Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo"), 0): Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo' is: 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.'
+
+2022-05-27 12:14:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:14:19 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sprint 1/Soporte/android.widget.TextView - Ups Hubo una falla en la conexin. Por favor, verific y prob de nuevo' is: 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.'
+
+2022-05-27 12:14:19 - [TEST_STEP][PASSED] - verifyEqual(Falladeconexion, "Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo."): Actual object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' and expected object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' are equal
+
+2022-05-27 12:14:19 - [MESSAGE][PASSED] - Actual object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' and expected object 'Ups! Hubo una falla en la conexión. Por favor, verificá y probá de nuevo.' are equal
+
+2022-05-27 12:14:19 - [TEST_STEP][PASSED] - tap(findTestObject("Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion"), 0): Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion'
+
+2022-05-27 12:14:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-27 12:14:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sprint 1/Soporte/android.widget.Button - ACEPTAR falla de conexion'
+
+2022-05-27 12:14:20 - [TEST_STEP][PASSED] - toggleAirplaneMode("no", CONTINUE_ON_FAILURE): Toggled airplane mode: 'no'
+
+2022-05-27 12:14:22 - [MESSAGE][PASSED] - Toggled airplane mode: 'no']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-27 12:07:34 - [TEST_SUITE][PASSED] - 02 HU- Soporte: Test Cases/Sprint 1/02HU-Soporte/26 Falla de Conexión en la pantalla de Seguridad]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
